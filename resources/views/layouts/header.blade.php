@@ -102,7 +102,8 @@
                                                 <li><a href="/lichen-planus">Lichen Planus</a></li>
                                                 <li><a href="/autoimmune-diseases">Autoimmune Diseases</a></li>
                                                 <li><a href="/melasma">Melasma</a></li>
-                                                <li><a href="/bacterial-viral-fungal-infections">Bacterial, Viral, Fungal Infections</a></li>
+                                                <li><a href="/bacterial-viral-fungal-infections">Bacterial, Viral,
+                                                        Fungal Infections</a></li>
                                                 <li><a href="/allergy">Allergy</a></li>
                                             </ul>
                                         </li>
@@ -112,7 +113,8 @@
                                             <ul class="sub-menu">
                                                 <li><a href="/medical-management">Medical Management</a></li>
                                                 <li><a href="/narrowband-UVB-therapy">Narrowband UVB Therapy</a></li>
-                                                <li><a href="/whole-body-photo-therapy-unit">Whole Body Photo Therapy Unit</a></li>
+                                                <li><a href="/whole-body-photo-therapy-unit">Whole Body Photo Therapy
+                                                        Unit</a></li>
                                                 <li><a href="/excimer-laser">Excimer Laser</a></li>
                                                 <li><a href="/vitiligo-surgery">Vitiligo Surgery</a></li>
                                             </ul>
@@ -134,15 +136,17 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Dermatosurgery</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Scar Revision</a></li>
-                                                <li><a href="#">Wart / Mole / Skin Tag Removal</a></li>
-                                                <li><a href="#">Biopsy</a></li>
-                                                <li><a href="#">Vitiligo Surgery</a></li>
-                                                <li><a href="#">Acne Scar Surgery</a></li>
-                                                <li><a href="#">Keloid/Hypertrophic Scar Treatment</a></li>
-                                                <li><a href="#">Earlobe Repair</a></li>
-                                                <li><a href="#">Cyst Removal</a></li>
-                                                <li><a href="#">Plastic Surgery</a></li>
+                                                <li><a href="/scar-revision">Scar Revision</a></li>
+                                                <li><a href="/wart-mole-skin-tag-removal">Wart / Mole / Skin Tag
+                                                        Removal</a></li>
+                                                <li><a href="/biopsy">Biopsy</a></li>
+                                                <li><a href="/vitiligo-surgery">Vitiligo Surgery</a></li>
+                                                <li><a href="/acne-scar-surgery">Acne Scar Surgery</a></li>
+                                                <li><a href="/keloid-hypertrophic-scar-treatment">Keloid/Hypertrophic
+                                                        Scar Treatment</a></li>
+                                                <li><a href="/earlobe-repair">Earlobe Repair</a></li>
+                                                <li><a href="/cyst-removal">Cyst Removal</a></li>
+                                                <li><a href="/plastic-surgery">Plastic Surgery</a></li>
 
                                             </ul>
                                         </li>
