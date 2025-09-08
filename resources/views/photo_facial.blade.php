@@ -146,7 +146,7 @@
             </div>
         </div>
     </div>
-    <section class="photofacial-section py-5">
+    <section class="photofacial-section py-5 skin-section-bg">
         <div class="container">
             <div class="row align-items-center">
 
@@ -159,7 +159,7 @@
                                 class="main-img rounded-4 shadow"
                                 style="width: 550px; height: 300px; margin-bottom: 50px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                                 Photo Facial
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                 class="overlay-img rounded-4 shadow"
                                 style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                                 Photo Facial
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                 <!-- Right Side: Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#e67e22; font-size:1rem; letter-spacing:2px;">
+                        style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                         Advanced Skin Brightening
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -191,7 +191,7 @@
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        Discover the power of <strong style="color:#e67e22;">PhotoFacial</strong> — a light-based
+                        Discover the power of <strong style="color:#c28565;">PhotoFacial</strong> — a light-based
                         therapy
                         that reduces pigmentation, minimizes sun damage, and improves overall skin tone while giving
                         your face a youthful glow.
@@ -202,8 +202,8 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-sun me-2" style="color:#e67e22;"></i> Pigmentation Control
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-sun me-2" style="color:#c28565;"></i> Pigmentation Control
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
                                         Reduces dark spots, sun damage, and uneven pigmentation effectively.
@@ -216,8 +216,8 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-lightbulb me-2" style="color:#e67e22;"></i> Skin Rejuvenation
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-lightbulb me-2" style="color:#c28565;"></i> Skin Rejuvenation
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
                                         Stimulates collagen production, tightening skin and reducing fine lines.
@@ -230,18 +230,18 @@
                         <div class="col-md-12">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-star me-2" style="color:#e67e22;"></i>Benefits of PhotoFacial
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of PhotoFacial
                                     </h5>
                                     <ul class="list-unstyled mb-0"
                                         style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Reduces sun damage &
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces sun damage &
                                             pigmentation</li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Evens out skin tone
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Evens out skin tone
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Boosts collagen for
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen for
                                             youthful skin</li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Safe & non-invasive
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & non-invasive
                                         </li>
                                     </ul>
                                 </div>
@@ -252,7 +252,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#e67e22; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Your PhotoFacial Now
                         </a>
                     </div>

@@ -149,7 +149,7 @@
     <!--==============================
 Skin Rejuvenation Section
 ==============================-->
-<section class="skinrejuvenation-section py-5">
+<section class="skinrejuvenation-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Skin Rejuvenation Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#e83e8c; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Skin Rejuvenation
                         </div>
                     </div>
@@ -174,7 +174,7 @@ Skin Rejuvenation Section
                         <img src="{{ asset('purnam/skin_rejuvenation.jpg') }}" alt="Skin Rejuvenation Glow"
                             class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#e83e8c; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Skin Rejuvenation
                         </div>
                     </div>
@@ -184,7 +184,7 @@ Skin Rejuvenation Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#e83e8c; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Youthful Radiance
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -193,7 +193,7 @@ Skin Rejuvenation Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Our advanced <strong style="color:#e83e8c;">Skin Rejuvenation</strong> therapy helps to renew your skin, 
+                    Our advanced <strong style="color:#c28565;">Skin Rejuvenation</strong> therapy helps to renew your skin, 
                     reduce fine lines, even out skin tone, and restore a youthful glow — making you look fresher and more radiant.
                 </p>
 
@@ -202,8 +202,8 @@ Skin Rejuvenation Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#e83e8c; font-size:1.4rem;">
-                                    <i class="fas fa-sun me-2" style="color:#e83e8c;"></i>Brightening Effect
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-sun me-2" style="color:#c28565;"></i>Brightening Effect
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Reduces dullness and pigmentation for an even-toned, glowing complexion.
@@ -216,8 +216,8 @@ Skin Rejuvenation Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#e83e8c; font-size:1.4rem;">
-                                    <i class="fas fa-leaf me-2" style="color:#e83e8c;"></i>Anti-Aging Boost
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-leaf me-2" style="color:#c28565;"></i>Anti-Aging Boost
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Minimizes fine lines and restores skin elasticity for a youthful appearance.
@@ -230,16 +230,16 @@ Skin Rejuvenation Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#e83e8c; font-size:1.4rem;">
-                                    <i class="fas fa-heart me-2" style="color:#e83e8c;"></i>Benefits of Skin Rejuvenation
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-heart me-2" style="color:#c28565;"></i>Benefits of Skin Rejuvenation
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#e83e8c;"></i>Improves skin tone & texture</li>
-                                    <li><i class="fas fa-check me-2" style="color:#e83e8c;"></i>Boosts natural radiance</li>
-                                    <li><i class="fas fa-check me-2" style="color:#e83e8c;"></i>Reduces wrinkles & fine lines</li>
-                                    <li><i class="fas fa-check me-2" style="color:#e83e8c;"></i>Hydrates & revitalizes skin</li>
-                                    <li><i class="fas fa-check me-2" style="color:#e83e8c;"></i>Safe & effective for all skin types</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin tone & texture</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts natural radiance</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces wrinkles & fine lines</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Hydrates & revitalizes skin</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & effective for all skin types</li>
                                 </ul>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ Skin Rejuvenation Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#e83e8c; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Skin Rejuvenation Now
                     </a>
                 </div>

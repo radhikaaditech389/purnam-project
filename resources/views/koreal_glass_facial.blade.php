@@ -149,7 +149,7 @@
     <!--==============================
 Korial Glass Facial Section
 ==============================-->
-<section class="korialglassfacial-section py-5">
+<section class="korialglassfacial-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Korial Glass Facial Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#0d6efd; color:#fff; border-radius:20px; width:165px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:165px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Korial Glass Facial
                         </div>
                     </div>
@@ -174,7 +174,7 @@ Korial Glass Facial Section
                         <img src="{{ asset('purnam/koreal_glass_facial1.jpg') }}" alt="Korial Glass Glow"
                             class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#0d6efd; color:#fff; border-radius:20px; width:165px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:165px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Korial Glass Facial
                         </div>
                     </div>
@@ -184,7 +184,7 @@ Korial Glass Facial Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#0d6efd; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Flawless Skin Glow
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -193,7 +193,7 @@ Korial Glass Facial Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Experience the <strong style="color:#0d6efd;">Korial Glass Facial</strong> — a luxurious treatment inspired by Korean beauty secrets that leaves your skin hydrated, smooth, and glowing like glass.
+                    Experience the <strong style="color:#c28565;">Korial Glass Facial</strong> — a luxurious treatment inspired by Korean beauty secrets that leaves your skin hydrated, smooth, and glowing like glass.
                 </p>
 
                 <div class="row g-4">
@@ -201,8 +201,8 @@ Korial Glass Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#0d6efd; font-size:1.4rem;">
-                                    <i class="fas fa-water me-2" style="color:#0d6efd;"></i>Deep Hydration
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-water me-2" style="color:#c28565;"></i>Deep Hydration
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Infuses the skin with intense hydration for long-lasting plumpness and glow.
@@ -215,8 +215,8 @@ Korial Glass Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#0d6efd; font-size:1.4rem;">
-                                    <i class="fas fa-gem me-2" style="color:#0d6efd;"></i>Glass Skin Finish
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-gem me-2" style="color:#c28565;"></i>Glass Skin Finish
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Refines pores and smooths skin texture for a radiant glass-like appearance.
@@ -229,15 +229,15 @@ Korial Glass Facial Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#0d6efd; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#0d6efd;"></i>Benefits of Korial Glass Facial
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Korial Glass Facial
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#0d6efd;"></i>Instant glass-like glow</li>
-                                    <li><i class="fas fa-check me-2" style="color:#0d6efd;"></i>Deep skin hydration</li>
-                                    <li><i class="fas fa-check me-2" style="color:#0d6efd;"></i>Minimizes pores & imperfections</li>
-                                    <li><i class="fas fa-check me-2" style="color:#0d6efd;"></i>Boosts skin elasticity & smoothness</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Instant glass-like glow</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Deep skin hydration</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Minimizes pores & imperfections</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts skin elasticity & smoothness</li>
                                 </ul>
                             </div>
                         </div>
@@ -247,7 +247,7 @@ Korial Glass Facial Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#0d6efd; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Korial Glass Facial Now
                     </a>
                 </div>

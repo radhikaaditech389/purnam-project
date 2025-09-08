@@ -150,7 +150,7 @@
     <!--==============================
 Laser Facial Section
 ==============================-->
-<section class="lasercacial-section py-5">
+<section class="lasercacial-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -163,7 +163,7 @@ Laser Facial Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#d63384; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Laser Facial
                         </div>
                     </div>
@@ -175,8 +175,8 @@ Laser Facial Section
                         <img src="{{ asset('purnam/laser_facial2.jpg') }}" alt="Laser Facial Glow"
                             class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#d63384; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            Laser Facial Before & After
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            Laser Facial 
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ Laser Facial Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#d63384; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Advanced Skin Renewal
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Laser Facial Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Transform your skin with the <strong style="color:#d63384;">Laser Facial</strong> — a powerful treatment that targets pigmentation, acne scars, fine lines, and dullness for a flawless complexion.
+                    Transform your skin with the <strong style="color:#c28565;">Laser Facial</strong> — a powerful treatment that targets pigmentation, acne scars, fine lines, and dullness for a flawless complexion.
                 </p>
 
                 <div class="row g-4">
@@ -202,8 +202,8 @@ Laser Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#d63384; font-size:1.4rem;">
-                                    <i class="fas fa-sun me-2" style="color:#d63384;"></i>Skin Brightening
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-sun me-2" style="color:#c28565;"></i>Skin Brightening
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Laser energy reduces dark spots and pigmentation, revealing brighter skin.
@@ -216,8 +216,8 @@ Laser Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#d63384; font-size:1.4rem;">
-                                    <i class="fas fa-magic me-2" style="color:#d63384;"></i>Collagen Boost
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-magic me-2" style="color:#c28565;"></i>Collagen Boost
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Stimulates collagen production to improve skin texture & reduce wrinkles.
@@ -230,15 +230,15 @@ Laser Facial Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#d63384; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#d63384;"></i>Benefits of Laser Facial
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Laser Facial
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#d63384;"></i>Reduces pigmentation & scars</li>
-                                    <li><i class="fas fa-check me-2" style="color:#d63384;"></i>Boosts collagen for youthful skin</li>
-                                    <li><i class="fas fa-check me-2" style="color:#d63384;"></i>Shrinks pores & evens skin tone</li>
-                                    <li><i class="fas fa-check me-2" style="color:#d63384;"></i>Gives instant radiance & glow</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces pigmentation & scars</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen for youthful skin</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Shrinks pores & evens skin tone</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Gives instant radiance & glow</li>
                                 </ul>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ Laser Facial Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#d63384; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Laser Facial Now
                     </a>
                 </div>

@@ -150,7 +150,7 @@
    <!--==============================
 Carbon Facial Section
 ==============================-->
-<section class="carbonfacial-section py-5">
+<section class="carbonfacial-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -163,7 +163,7 @@ Carbon Facial Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#222; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Carbon Facial
                         </div>
                     </div>
@@ -175,7 +175,7 @@ Carbon Facial Section
                         <img src="{{ asset('purnam/carbon_facial1.jpg') }}" alt="Carbon Facial Glow"
                             class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#222; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Carbon Facial
                         </div>
                     </div>
@@ -185,7 +185,7 @@ Carbon Facial Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#222; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Advanced Skin Purification
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Carbon Facial Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Discover the power of the <strong style="color:#222;">Carbon Facial</strong> — a safe, painless laser treatment
+                    Discover the power of the <strong style="color:#c28565;">Carbon Facial</strong> — a safe, painless laser treatment
                     that removes impurities, reduces acne, and restores a natural glow with instant results.
                 </p>
 
@@ -203,8 +203,8 @@ Carbon Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
-                                    <i class="fas fa-burn me-2" style="color:#222;"></i>Detoxifying Cleanse
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-burn me-2" style="color:#c28565;"></i>Detoxifying Cleanse
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Activated carbon absorbs dirt, oil & toxins for refreshed, purified skin.
@@ -217,8 +217,8 @@ Carbon Facial Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
-                                    <i class="fas fa-lightbulb me-2" style="color:#222;"></i>Instant Brightening
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-lightbulb me-2" style="color:#c28565;"></i>Instant Brightening
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Laser energy stimulates collagen and removes dead cells for a brighter complexion.
@@ -231,15 +231,15 @@ Carbon Facial Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#222;"></i>Benefits of Carbon Facial
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Carbon Facial
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Removes dirt, oil & impurities</li>
-                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Controls acne & tightens pores</li>
-                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Brightens dull skin instantly</li>
-                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Boosts collagen & smooths texture</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Removes dirt, oil & impurities</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Controls acne & tightens pores</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Brightens dull skin instantly</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen & smooths texture</li>
                                 </ul>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ Carbon Facial Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#222; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Carbon Facial Now
                     </a>
                 </div>

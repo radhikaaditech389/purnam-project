@@ -150,7 +150,7 @@
 <!--==============================
 Anti-Ageing Section
 ==============================-->
-<section class="antiageing-section py-5">
+<section class="antiageing-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -163,7 +163,7 @@ Anti-Ageing Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6f42c1; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Anti-Ageing
                         </div>
                     </div>
@@ -176,7 +176,7 @@ Anti-Ageing Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6f42c1; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Anti-Ageing
                         </div>
                     </div>
@@ -186,7 +186,7 @@ Anti-Ageing Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#6f42c1; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Age Gracefully
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -195,7 +195,7 @@ Anti-Ageing Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Our <strong style="color:#6f42c1;">Anti-Ageing Therapy</strong> is designed to smooth fine lines, 
+                    Our <strong style="color:#c28565;">Anti-Ageing Therapy</strong> is designed to smooth fine lines, 
                     reduce wrinkles, restore skin firmness, and bring back your natural youthful glow. 
                     Say goodbye to tired-looking skin and hello to radiance!
                 </p>
@@ -205,8 +205,8 @@ Anti-Ageing Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6f42c1; font-size:1.4rem;">
-                                    <i class="fas fa-magic me-2" style="color:#6f42c1;"></i>Wrinkle Reduction
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-magic me-2" style="color:#c28565;"></i>Wrinkle Reduction
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Targets fine lines and wrinkles for smoother, younger-looking skin.
@@ -219,8 +219,8 @@ Anti-Ageing Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6f42c1; font-size:1.4rem;">
-                                    <i class="fas fa-spa me-2" style="color:#6f42c1;"></i>Skin Tightening
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-spa me-2" style="color:#c28565;"></i>Skin Tightening
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Improves elasticity and firmness to restore youthful contours.
@@ -233,16 +233,16 @@ Anti-Ageing Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6f42c1; font-size:1.4rem;">
-                                    <i class="fas fa-heart me-2" style="color:#6f42c1;"></i>Benefits of Anti-Ageing
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-heart me-2" style="color:#c28565;"></i>Benefits of Anti-Ageing
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#6f42c1;"></i>Smoothens fine lines & wrinkles</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6f42c1;"></i>Boosts collagen & elasticity</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6f42c1;"></i>Improves skin tone & texture</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6f42c1;"></i>Restores youthful glow</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6f42c1;"></i>Safe & effective solutions</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Smoothens fine lines & wrinkles</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen & elasticity</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin tone & texture</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Restores youthful glow</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & effective solutions</li>
                                 </ul>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ Anti-Ageing Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#6f42c1; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Anti-Ageing Session
                     </a>
                 </div>
