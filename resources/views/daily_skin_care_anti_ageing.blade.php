@@ -136,135 +136,133 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h2 class="breadcumb-title">About Clinic</h2>
+                <h2 class="breadcumb-title">About Daily Skin Care Anti Ageing</h2>
                 <div class="breadcumb-menu-wrapper">
                     <ul class="breadcumb-menu">
                         <li><a href="/">Home</a></li>
-                        <li>About Clinic</li>
+                        <li>About Daily Skin Care Anti Ageing</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!--==============================
-About Area  
+
+
+<!--==============================
+Daily Skin Care Anti-Ageing Procedure Section
 ==============================-->
-    <section class="hydrafacial-section py-5">
-        <div class="container">
-            <div class="row align-items-center">
+<section class="daily-antiage-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
 
-                <!-- Left Side: Images -->
-                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
-                    <!-- First Image -->
-                    <div class="col-lg-12 position-relative">
-                        <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial.jpg') }}" alt="HydraFacial Treatment"
-                                class="main-img rounded-4 shadow"
-                                style="width: 550px; height: 300px; margin-bottom: 50px;">
-                            <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Second Image -->
-                    <div class="col-lg-12 position-relative">
-                        <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial3.jpg') }}" alt="HydraFacial Skin Glow"
-                                class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
-                            <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
-                            </div>
+            <!-- Left Side: Images -->
+            <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                <!-- First Image -->
+                <div class="col-lg-12 position-relative mb-4">
+                    <div class="image-wrapper position-relative">
+                        <img src="{{ asset('purnam/daily_skin_care_anti_ageing.jpg') }}" alt="Daily Anti Ageing Routine"
+                            class="main-img rounded-4 shadow"
+                            style="width: 550px; height: 300px; object-fit: cover;">
+                        <div class="circle-badge"
+                            style="position:absolute; top:15px; left:15px; background:#8e44ad; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            Daily Skin Care Anti-Ageing Procedure
                         </div>
                     </div>
                 </div>
 
-
-
-                <!-- Right Side: Content -->
-                <div class="col-lg-6">
-                    <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#3a91b8; font-size:1rem; letter-spacing:2px;">
-                        Advanced Skin Rejuvenation
-                    </span>
-                    <h2 class="fw-bold mb-4"
-                        style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
-                        HydraFacial: Instant Glow & Hydration
-                    </h2>
-
-                    <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        Experience the revolutionary <strong style="color:#3a91b8;">HydraFacial</strong> — a painless,
-                        non-invasive treatment that deeply cleanses, exfoliates, hydrates, and nourishes your skin for
-                        an instantly radiant look.
-                    </p>
-
-                    <div class="row g-4">
-                        <!-- Step 1 -->
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-water me-2" style="color:#3a91b8;"></i>Deep Cleansing
-                                    </h5>
-                                    <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Gentle exfoliation to remove dead skin cells and impurities, leaving your skin
-                                        fresh
-                                        and clear.
-                                    </p>
-                                </div>
-                            </div>
+                <!-- Second Image -->
+                <div class="col-lg-12 position-relative">
+                    <div class="image-wrapper position-relative">
+                        <img src="{{ asset('purnam/daily_skin_care2.jpg') }}" alt="Anti Ageing Daily Care"
+                            class="overlay-img rounded-4 shadow"
+                            style="width: 550px; height: 300px; object-fit: cover;">
+                        <div class="circle-badge"
+                            style="position:absolute; top:15px; left:15px; background:#8e44ad; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            Daily Skin Care Anti-Ageing Procedure
                         </div>
-
-                        <!-- Step 2 -->
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-vial me-2" style="color:#3a91b8;"></i>Hydration Boost
-                                    </h5>
-                                    <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Infusion of antioxidants, peptides, and hyaluronic acid for intense hydration.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Benefits -->
-                        <div class="col-md-12">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-award me-2" style="color:#3a91b8;"></i>Benefits of HydraFacial
-                                    </h5>
-                                    <ul class="list-unstyled mb-0"
-                                        style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Instant glow & even
-                                            tone</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Deep hydration &
-                                            nourishment</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Reduces fine lines &
-                                            wrinkles</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Safe for all skin
-                                            types</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CTA -->
-                    <div class="mt-4">
-                        <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#3a91b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
-                            Book Your HydraFacial Now
-                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Right Side: Content -->
+            <div class="col-lg-6">
+                <span class="text-uppercase fw-semibold mb-2 d-block"
+                    style="color:#8e44ad; font-size:1rem; letter-spacing:2px;">
+                    Slow Down Ageing, Every Day
+                </span>
+                <h2 class="fw-bold mb-4"
+                    style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
+                    Daily Anti-Ageing Skin Care Routine
+                </h2>
+
+                <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
+                    Incorporating <strong style="color:#8e44ad;">Anti-Ageing Care</strong> into your daily routine 
+                    helps reduce fine lines, boost collagen, and protect your skin from damage caused by pollution 
+                    and UV rays. Consistency is the secret to youthful, glowing skin.
+                </p>
+
+                <div class="row g-4">
+                    <!-- Step 1 -->
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
+                                    <i class="fas fa-sun me-2" style="color:#8e44ad;"></i>Morning Defence
+                                </h5>
+                                <p class="card-text" style="color:#666; line-height:1.7;">
+                                    Cleanse, hydrate, and apply SPF with antioxidants to protect against sun and ageing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
+                                    <i class="fas fa-moon me-2" style="color:#8e44ad;"></i>Night Repair
+                                </h5>
+                                <p class="card-text" style="color:#666; line-height:1.7;">
+                                    Use retinol, peptides, and nourishing moisturisers to stimulate collagen overnight.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefits -->
+                    <div class="col-md-12">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
+                                    <i class="fas fa-heart me-2" style="color:#8e44ad;"></i>Benefits of Daily Anti-Ageing Routine
+                                </h5>
+                                <ul class="list-unstyled mb-0"
+                                    style="font-size:0.95rem; color:#444; line-height:2;">
+                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Reduces fine lines & wrinkles</li>
+                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Boosts collagen & skin elasticity</li>
+                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Protects from sun & pollution damage</li>
+                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Delays premature ageing</li>
+                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Maintains a youthful glow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="mt-4">
+                    <a href="/appointment" class="btn px-4 py-3"
+                        style="background:#8e44ad; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        Start Anti-Ageing Routine Today
+                    </a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
 
 

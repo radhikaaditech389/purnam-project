@@ -146,125 +146,118 @@
             </div>
         </div>
     </div>
-    <!--==============================
-About Area  
+
+   <!--==============================
+Carbon Facial Section
 ==============================-->
-    <section class="hydrafacial-section py-5">
-        <div class="container">
-            <div class="row align-items-center">
+<section class="carbonfacial-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
 
-                <!-- Left Side: Images -->
-                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
-                    <!-- First Image -->
-                    <div class="col-lg-12 position-relative">
-                        <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial.jpg') }}" alt="HydraFacial Treatment"
-                                class="main-img rounded-4 shadow"
-                                style="width: 550px; height: 300px; margin-bottom: 50px;">
-                            <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Second Image -->
-                    <div class="col-lg-12 position-relative">
-                        <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial3.jpg') }}" alt="HydraFacial Skin Glow"
-                                class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
-                            <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
-                            </div>
+            <!-- Left Side: Images -->
+            <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                <!-- First Image -->
+                <div class="col-lg-12 position-relative">
+                    <div class="image-wrapper position-relative">
+                        <img src="{{ asset('purnam/carbon_facial.jpg') }}" alt="Carbon Facial Treatment"
+                            class="main-img rounded-4 shadow"
+                            style="width: 550px; height: 300px; margin-bottom: 50px;">
+                        <div class="circle-badge"
+                            style="position:absolute; top:15px; left:15px; background:#222; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            Carbon Facial
                         </div>
                     </div>
                 </div>
 
-
-
-                <!-- Right Side: Content -->
-                <div class="col-lg-6">
-                    <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#3a91b8; font-size:1rem; letter-spacing:2px;">
-                        Advanced Skin Rejuvenation
-                    </span>
-                    <h2 class="fw-bold mb-4"
-                        style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
-                        HydraFacial: Instant Glow & Hydration
-                    </h2>
-
-                    <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        Experience the revolutionary <strong style="color:#3a91b8;">HydraFacial</strong> — a painless,
-                        non-invasive treatment that deeply cleanses, exfoliates, hydrates, and nourishes your skin for
-                        an instantly radiant look.
-                    </p>
-
-                    <div class="row g-4">
-                        <!-- Step 1 -->
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-water me-2" style="color:#3a91b8;"></i>Deep Cleansing
-                                    </h5>
-                                    <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Gentle exfoliation to remove dead skin cells and impurities, leaving your skin
-                                        fresh
-                                        and clear.
-                                    </p>
-                                </div>
-                            </div>
+                <!-- Second Image -->
+                <div class="col-lg-12 position-relative">
+                    <div class="image-wrapper position-relative">
+                        <img src="{{ asset('purnam/carbon_facial1.jpg') }}" alt="Carbon Facial Glow"
+                            class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
+                        <div class="circle-badge"
+                            style="position:absolute; top:15px; left:15px; background:#222; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            Carbon Facial
                         </div>
-
-                        <!-- Step 2 -->
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-vial me-2" style="color:#3a91b8;"></i>Hydration Boost
-                                    </h5>
-                                    <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Infusion of antioxidants, peptides, and hyaluronic acid for intense hydration.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Benefits -->
-                        <div class="col-md-12">
-                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
-                                <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-award me-2" style="color:#3a91b8;"></i>Benefits of HydraFacial
-                                    </h5>
-                                    <ul class="list-unstyled mb-0"
-                                        style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Instant glow & even
-                                            tone</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Deep hydration &
-                                            nourishment</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Reduces fine lines &
-                                            wrinkles</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Safe for all skin
-                                            types</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CTA -->
-                    <div class="mt-4">
-                        <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#3a91b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
-                            Book Your HydraFacial Now
-                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Right Side: Content -->
+            <div class="col-lg-6">
+                <span class="text-uppercase fw-semibold mb-2 d-block"
+                    style="color:#222; font-size:1rem; letter-spacing:2px;">
+                    Advanced Skin Purification
+                </span>
+                <h2 class="fw-bold mb-4"
+                    style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
+                    Carbon Facial: Deep Cleanse & Bright Glow
+                </h2>
+
+                <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
+                    Discover the power of the <strong style="color:#222;">Carbon Facial</strong> — a safe, painless laser treatment
+                    that removes impurities, reduces acne, and restores a natural glow with instant results.
+                </p>
+
+                <div class="row g-4">
+                    <!-- Step 1 -->
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
+                                    <i class="fas fa-burn me-2" style="color:#222;"></i>Detoxifying Cleanse
+                                </h5>
+                                <p class="card-text" style="color:#666; line-height:1.7;">
+                                    Activated carbon absorbs dirt, oil & toxins for refreshed, purified skin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
+                                    <i class="fas fa-lightbulb me-2" style="color:#222;"></i>Instant Brightening
+                                </h5>
+                                <p class="card-text" style="color:#666; line-height:1.7;">
+                                    Laser energy stimulates collagen and removes dead cells for a brighter complexion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefits -->
+                    <div class="col-md-12">
+                        <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-3" style="color:#222; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#222;"></i>Benefits of Carbon Facial
+                                </h5>
+                                <ul class="list-unstyled mb-0"
+                                    style="font-size:0.95rem; color:#444; line-height:2;">
+                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Removes dirt, oil & impurities</li>
+                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Controls acne & tightens pores</li>
+                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Brightens dull skin instantly</li>
+                                    <li><i class="fas fa-check me-2" style="color:#222;"></i>Boosts collagen & smooths texture</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="mt-4">
+                    <a href="/appointment" class="btn px-4 py-3"
+                        style="background:#222; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        Book Your Carbon Facial Now
+                    </a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
 

@@ -161,58 +161,57 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Acne & Acne Scar Treatment</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Medical Treatment</a></li>
-                                                <li><a href="#">Chemical Peeling</a></li>
-                                                <li><a href="#">Microdermabrasion</a></li>
-                                                <li><a href="#">Microneedling / MNRF</a></li>
-                                                <li><a href="#">PRP</a></li>
-                                                <li><a href="#">CO₂ Fractional Laser Resurfacing</a></li>
+                                                <li><a href="/medical_treatment">Medical Treatment</a></li>
+                                                <li><a href="/chemical_peer_scar_treatment">Chemical Peeling</a></li>
+                                                <li><a href="/microdermabrasion">Microdermabrasion</a></li>
+                                                <li><a href="/microneedling">Microneedling / MNRF</a></li>
+                                                <li><a href="/prp">PRP</a></li>
+                                                <li><a href="/laser_resurfacing">CO₂ Fractional Laser Resurfacing</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="menu-item-has-children">
                                             <a href="#">Pigmentation Treatments</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Pigmentation / Glow Treatment</a></li>
-                                                <li><a href="#">Dark Circle Clearance / Melasma</a></li>
-                                                <li><a href="#">Chemical Peeling (Face, Neck, Body)</a></li>
-                                                <li><a href="#">Carbon Peeling (Hollywood / Black Peel)</a></li>
-                                                <li><a href="#">Laser Toning / Q-Switch / Tattoo Removal</a></li>
+                                                <li><a href="/glow_treatment">Pigmentation / Glow Treatment</a></li>
+                                                <li><a href="/dark_circle_clear">Dark Circle Clearance / Melasma</a></li>
+                                                <li><a href="/chemical_peeling">Chemical Peeling (Face, Neck, Body)</a></li>
+                                                <li><a href="/carbon_peeling">Carbon Peeling (Hollywood / Black Peel)</a></li>
+                                                <li><a href="/laser_toning">Laser Toning / Q-Switch / Tattoo Removal</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="menu-item-has-children">
                                             <a href="#">Anti Ageing Treatments</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Daily Skin Care</a></li>
-                                                <li><a href="#">Wrinkle Treatments / Botox</a></li>
-                                                <li><a href="#">Dermal Filler</a></li>
-                                                <li><a href="#">Threadlift</a></li>
-                                                <li><a href="#">Skin Booster / Hydration Injection</a></li>
+                                                <li><a href="/daily_skin_care_anti_ageing">Daily Skin Care</a></li>
+                                                <li><a href="/wrinkle_treatments">Wrinkle Treatments / Botox</a></li>
+                                                <li><a href="/dermal_filler">Dermal Filler</a></li>
+                                                <li><a href="/threadlift">Threadlift</a></li>
+                                                <li><a href="/skin_booster">Skin Booster / Hydration Injection</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="menu-item-has-children">
                                             <a href="#">Non Ablative Laser Therapy (Derma Lift)</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">HIFU (High Intensity Focused Ultrasound)</a></li>
-                                                <li><a href="#">Skin Rejuvenation</a></li>
-                                                <li><a href="#">Anti Ageing</a></li>
-                                                <li><a href="#">Stimulate Collagen</a></li>
-                                                <li><a href="#">Lift & Tighten Skin</a></li>
-                                                <li><a href="#">Once-a-year Procedure</a></li>
+                                                <li><a href="/hifu">HIFU (High Intensity Focused Ultrasound)</a></li>
+                                                <li><a href="/skin_rejuvenation">Skin Rejuvenation</a></li>
+                                                <li><a href="/anti_ageing">Anti Ageing</a></li>
+                                                <li><a href="/stimulate_collegen">Stimulate Collagen</a></li>
+                                                <li><a href="/lift_tighten_skin">Lift & Tighten Skin</a></li>
+                                                <li><a href="/once_year_procedure">Once-a-year Procedure</a></li>
                                             </ul>
                                         </li>
-
                                         <li class="menu-item-has-children">
                                             <a href="#">Medifacials (Facial Glow & Rejuvenation)</a>
                                             <ul class="sub-menu">
                                                 <li><a  href="/hydra_facial">Hydra Facial</a></li>
-                                                <li><a href="#">Photo Facial</a></li>
-                                                <li><a href="#">Carbon Facial (Hollywood Facial)</a></li>
-                                                <li><a href="#">Laser Facial</a></li>
-                                                <li><a href="#">Vampire Facial</a></li>
-                                                <li><a href="#">Korean Glass Facial </a></li>
+                                                <li><a href="/photo_facial">Photo Facial</a></li>
+                                                <li><a href="/carbon_facial">Carbon Facial (Hollywood Facial)</a></li>
+                                                <li><a href="/laser_facial">Laser Facial</a></li>
+                                                <li><a href="/vampire_facial">Vampire Facial</a></li>
+                                                <li><a href="/koreal_glass_facial">Korean Glass Facial </a></li>
                                             </ul>
                                         </li>
                                     </ul>

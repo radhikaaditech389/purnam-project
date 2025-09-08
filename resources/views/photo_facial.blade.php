@@ -146,10 +146,7 @@
             </div>
         </div>
     </div>
-    <!--==============================
-About Area  
-==============================-->
-    <section class="hydrafacial-section py-5">
+    <section class="photofacial-section py-5">
         <div class="container">
             <div class="row align-items-center">
 
@@ -158,12 +155,12 @@ About Area
                     <!-- First Image -->
                     <div class="col-lg-12 position-relative">
                         <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial.jpg') }}" alt="HydraFacial Treatment"
+                            <img src="{{ asset('purnam/photo_facial2.jpg') }}" alt="PhotoFacial Treatment"
                                 class="main-img rounded-4 shadow"
-                                style="width: 550px; height: 300px; margin-bottom: 50px;">
+                                style="width: 550px; height: 300px; margin-bottom: 50px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
+                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Photo Facial
                             </div>
                         </div>
                     </div>
@@ -171,33 +168,33 @@ About Area
                     <!-- Second Image -->
                     <div class="col-lg-12 position-relative">
                         <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial3.jpg') }}" alt="HydraFacial Skin Glow"
-                                class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
+                            <img src="{{ asset('purnam/photo_facial.jpg') }}" alt="PhotoFacial Skin Glow"
+                                class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
+                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Photo Facial
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
                 <!-- Right Side: Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#3a91b8; font-size:1rem; letter-spacing:2px;">
-                        Advanced Skin Rejuvenation
+                        style="color:#e67e22; font-size:1rem; letter-spacing:2px;">
+                        Advanced Skin Brightening
                     </span>
                     <h2 class="fw-bold mb-4"
                         style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
-                        HydraFacial: Instant Glow & Hydration
+                        PhotoFacial: Restore Radiance & Clarity
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        Experience the revolutionary <strong style="color:#3a91b8;">HydraFacial</strong> — a painless,
-                        non-invasive treatment that deeply cleanses, exfoliates, hydrates, and nourishes your skin for
-                        an instantly radiant look.
+                        Discover the power of <strong style="color:#e67e22;">PhotoFacial</strong> — a light-based
+                        therapy
+                        that reduces pigmentation, minimizes sun damage, and improves overall skin tone while giving
+                        your face a youthful glow.
                     </p>
 
                     <div class="row g-4">
@@ -205,13 +202,11 @@ About Area
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-water me-2" style="color:#3a91b8;"></i>Deep Cleansing
+                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
+                                        <i class="fas fa-sun me-2" style="color:#e67e22;"></i> Pigmentation Control
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Gentle exfoliation to remove dead skin cells and impurities, leaving your skin
-                                        fresh
-                                        and clear.
+                                        Reduces dark spots, sun damage, and uneven pigmentation effectively.
                                     </p>
                                 </div>
                             </div>
@@ -221,11 +216,11 @@ About Area
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-vial me-2" style="color:#3a91b8;"></i>Hydration Boost
+                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
+                                        <i class="fas fa-lightbulb me-2" style="color:#e67e22;"></i> Skin Rejuvenation
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Infusion of antioxidants, peptides, and hyaluronic acid for intense hydration.
+                                        Stimulates collagen production, tightening skin and reducing fine lines.
                                     </p>
                                 </div>
                             </div>
@@ -235,19 +230,19 @@ About Area
                         <div class="col-md-12">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-award me-2" style="color:#3a91b8;"></i>Benefits of HydraFacial
+                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
+                                        <i class="fas fa-star me-2" style="color:#e67e22;"></i>Benefits of PhotoFacial
                                     </h5>
                                     <ul class="list-unstyled mb-0"
                                         style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Instant glow & even
-                                            tone</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Deep hydration &
-                                            nourishment</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Reduces fine lines &
-                                            wrinkles</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Safe for all skin
-                                            types</li>
+                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Reduces sun damage &
+                                            pigmentation</li>
+                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Evens out skin tone
+                                        </li>
+                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Boosts collagen for
+                                            youthful skin</li>
+                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Safe & non-invasive
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -257,16 +252,14 @@ About Area
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#3a91b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
-                            Book Your HydraFacial Now
+                            style="background:#e67e22; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            Book Your PhotoFacial Now
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
 
     <!--==============================
 			Footer Area

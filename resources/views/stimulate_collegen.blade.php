@@ -136,20 +136,20 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h2 class="breadcumb-title">About Clinic</h2>
+                <h2 class="breadcumb-title">About Stimulate Collegen</h2>
                 <div class="breadcumb-menu-wrapper">
                     <ul class="breadcumb-menu">
                         <li><a href="/">Home</a></li>
-                        <li>About Clinic</li>
+                        <li>About Stimulate Collegen</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <!--==============================
-About Area  
+Stimulate Collagen Section
 ==============================-->
-    <section class="hydrafacial-section py-5">
+    <section class="collagen-section py-5">
         <div class="container">
             <div class="row align-items-center">
 
@@ -158,12 +158,12 @@ About Area
                     <!-- First Image -->
                     <div class="col-lg-12 position-relative">
                         <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial.jpg') }}" alt="HydraFacial Treatment"
+                            <img src="{{ asset('purnam/stimulate_collegen.jpg') }}" alt="Stimulate Collagen Treatment"
                                 class="main-img rounded-4 shadow"
-                                style="width: 550px; height: 300px; margin-bottom: 50px;">
+                                style="width: 550px; height: 300px; margin-bottom: 50px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
+                                style="position:absolute; top:15px; left:15px; background:#17a2b8; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Stimulate Collagen
                             </div>
                         </div>
                     </div>
@@ -171,33 +171,33 @@ About Area
                     <!-- Second Image -->
                     <div class="col-lg-12 position-relative">
                         <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/hydra_facial3.jpg') }}" alt="HydraFacial Skin Glow"
-                                class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
+                            <img src="{{ asset('purnam/stimulate_collegen2.jpg') }}" alt="Collagen Boosted Skin"
+                                class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                                Hydra Facial
+                                style="position:absolute; top:15px; left:15px; background:#17a2b8; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Stimulate Collagen
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
                 <!-- Right Side: Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#3a91b8; font-size:1rem; letter-spacing:2px;">
-                        Advanced Skin Rejuvenation
+                        style="color:#17a2b8; font-size:1rem; letter-spacing:2px;">
+                        Natural Skin Renewal
                     </span>
                     <h2 class="fw-bold mb-4"
                         style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
-                        HydraFacial: Instant Glow & Hydration
+                        Stimulate Collagen: Firm, Plump & Revitalize Your Skin
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        Experience the revolutionary <strong style="color:#3a91b8;">HydraFacial</strong> — a painless,
-                        non-invasive treatment that deeply cleanses, exfoliates, hydrates, and nourishes your skin for
-                        an instantly radiant look.
+                        Our <strong style="color:#17a2b8;">Collagen Stimulation Therapy</strong> enhances your skin’s
+                        natural
+                        ability to repair itself, improves elasticity, reduces sagging, and helps achieve
+                        a youthful, plump, and radiant complexion.
                     </p>
 
                     <div class="row g-4">
@@ -205,13 +205,11 @@ About Area
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-water me-2" style="color:#3a91b8;"></i>Deep Cleansing
+                                    <h5 class="fw-bold mb-3" style="color:#17a2b8; font-size:1.4rem;">
+                                        <i class="fas fa-seedling me-2" style="color:#17a2b8;"></i>Boost Elasticity
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Gentle exfoliation to remove dead skin cells and impurities, leaving your skin
-                                        fresh
-                                        and clear.
+                                        Strengthens skin structure for a firmer, lifted, and more youthful look.
                                     </p>
                                 </div>
                             </div>
@@ -221,11 +219,11 @@ About Area
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-vial me-2" style="color:#3a91b8;"></i>Hydration Boost
+                                    <h5 class="fw-bold mb-3" style="color:#17a2b8; font-size:1.4rem;">
+                                        <i class="fas fa-gem me-2" style="color:#17a2b8;"></i>Plump & Smooth
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
-                                        Infusion of antioxidants, peptides, and hyaluronic acid for intense hydration.
+                                        Restores volume, reduces fine lines, and smoothens skin texture naturally.
                                     </p>
                                 </div>
                             </div>
@@ -235,19 +233,22 @@ About Area
                         <div class="col-md-12">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
-                                        <i class="fas fa-award me-2" style="color:#3a91b8;"></i>Benefits of HydraFacial
+                                    <h5 class="fw-bold mb-3" style="color:#17a2b8; font-size:1.4rem;">
+                                        <i class="fas fa-heart me-2" style="color:#17a2b8;"></i>Benefits of Collagen
+                                        Stimulation
                                     </h5>
                                     <ul class="list-unstyled mb-0"
                                         style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Instant glow & even
-                                            tone</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Deep hydration &
-                                            nourishment</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Reduces fine lines &
+                                        <li><i class="fas fa-check me-2" style="color:#17a2b8;"></i>Improves skin
+                                            elasticity & firmness</li>
+                                        <li><i class="fas fa-check me-2" style="color:#17a2b8;"></i>Reduces fine lines &
                                             wrinkles</li>
-                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Safe for all skin
-                                            types</li>
+                                        <li><i class="fas fa-check me-2" style="color:#17a2b8;"></i>Restores youthful
+                                            plumpness</li>
+                                        <li><i class="fas fa-check me-2" style="color:#17a2b8;"></i>Boosts natural
+                                            collagen production</li>
+                                        <li><i class="fas fa-check me-2" style="color:#17a2b8;"></i>Safe & effective for
+                                            all skin types</li>
                                     </ul>
                                 </div>
                             </div>
@@ -257,8 +258,8 @@ About Area
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#3a91b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
-                            Book Your HydraFacial Now
+                            style="background:#17a2b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            Book Your Collagen Boost Session
                         </a>
                     </div>
                 </div>

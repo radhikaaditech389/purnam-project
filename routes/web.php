@@ -144,3 +144,112 @@ Route::get('/skin-care-treatments', function () {
 Route::get('/hydra_facial', function () {
     return view('hydra_facial');
 });
+Route::get('/photo_facial', function () {
+    return view('photo_facial');
+});
+Route::get('/carbon_facial', function () {
+    return view('carbon_facial');
+});
+Route::get('/laser_facial', function () {
+    return view('laser_facial');
+});
+Route::get('/vampire_facial', function () {
+    return view('vampire_facial');
+});
+Route::get('/koreal_glass_facial', function () {
+    return view('koreal_glass_facial');
+});
+Route::get('/hifu', function () {
+    return view('hifu');
+});
+
+Route::get('/skin_rejuvenation', function () {
+    return view('skin_rejuvenation');
+});
+
+Route::get('/anti_ageing', function () {
+    return view('anti_ageing');
+});
+
+Route::get('/stimulate_collegen', function () {
+    return view('stimulate_collegen');
+});
+
+Route::get('/lift_tighten_skin', function () {
+    return view('lift_tighten_skin');
+});
+
+Route::get('/once_year_procedure', function () {
+    return view('once_year_procedure');
+});
+
+Route::get('/daily_skin_care_anti_ageing', function () {
+    return view('daily_skin_care_anti_ageing');
+});
+
+Route::get('/wrinkle_treatments', function () {
+    return view('wrinkle_treatments');
+});
+Route::get('/dermal_filler', function () {
+    return view('dermal_filler');
+});
+
+Route::get('/threadlift', function () {
+    return view('threadlift');
+});
+
+Route::get('/threadlift', function () {
+    return view('threadlift');
+});
+
+Route::get('/skin_booster', function () {
+    return view('skin_booster');
+});
+
+Route::get('/glow_treatment', function () {
+    return view('glow_treatment');
+});
+
+Route::get('/dark_circle_clear', function () {
+    return view('dark_circle_clearance');
+});
+
+Route::get('/chemical_peeling', function () {
+    return view('chemical_peeling');
+});
+
+Route::get('/carbon_peeling', function () {
+    return view('carbon_peel');
+});
+
+Route::get('/laser_toning', function () {
+    return view('laser_toning');
+});
+
+Route::get('/medical_treatment', function () {
+    return view('medical_treatment');
+});
+
+Route::get('/chemical_peer_scar_treatment', function () {
+    return view('chemical_peer_scar_treatment');
+});
+
+Route::get('/microdermabrasion', function () {
+    return view('microdermabrasion');
+});
+
+Route::get('/microneedling', function () {
+    return view('microneedling');
+});
+
+Route::get('/prp', function () {
+    return view('prp');
+});
+
+Route::get('/laser_resurfacing', function () {
+    return view('laser_resurfacing');
+});
+
+
+
+
