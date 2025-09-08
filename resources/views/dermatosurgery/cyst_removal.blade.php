@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform:rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/cyst_removal.jpg') }}"
+                                alt="Dandruff Treatment" class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Cyst Removal Surgery"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #8c4c3f; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Sebaceous Cyst Excision"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-5deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#8c4c3f; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            DERMATOSURGERY
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/cyst_removal2.jpg') }}"
+                                alt="Alopecia Treatment" class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#8c4c3f; font-size:1rem; letter-spacing:2px;">
+                        style="color:#a07855; font-size:1rem; letter-spacing:2px;">
                         Minor Surgical Care
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -173,17 +182,17 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#8c4c3f;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-tools me-2"></i>Procedure
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Performed under
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Performed under
                                             local anesthesia</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Small incision
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Small incision
                                             over the cyst</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Complete removal
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Complete removal
                                             of cyst sac</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Minimal scarring
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Minimal scarring
                                             with fine sutures</li>
                                     </ul>
                                 </div>
@@ -194,17 +203,17 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#8c4c3f;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-heart me-2"></i>Benefits
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Eliminates pain,
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Eliminates pain,
                                             swelling, or discharge</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Improves cosmetic
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Improves cosmetic
                                             appearance</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Prevents infection
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Prevents infection
                                             and recurrence</li>
-                                        <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Quick recovery
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Quick recovery
                                             with minimal downtime</li>
                                     </ul>
                                 </div>
@@ -216,19 +225,19 @@
                     <div class="mt-4">
                         <div class="card border-0 shadow-sm" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#8c4c3f;">
+                                <h5 class="fw-bold mb-3" style="color:#a07855;">
                                     <i class="fas fa-notes-medical me-2"></i>Aftercare Tips
                                 </h5>
                                 <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                    <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Keep the area clean
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Keep the area clean
                                         and covered initially</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Apply prescribed
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Apply prescribed
                                         ointments regularly</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Avoid scratching or
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Avoid scratching or
                                         pressing the site</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Follow-up for stitch
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Follow-up for stitch
                                         removal if advised</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8c4c3f;"></i>Report redness, pus,
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Report redness, pus,
                                         or swelling promptly</li>
                                 </ul>
                             </div>
@@ -238,7 +247,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#8c4c3f; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#a07855; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Appointment
                         </a>
                     </div>

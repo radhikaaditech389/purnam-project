@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform:rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/plastic_surgery.jpg') }}"
+                                alt="Dandruff Treatment" class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Plastic Surgery"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #1d4e6f; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Cosmetic and Reconstructive Surgery"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-5deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#1d4e6f; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            SURGERY & AESTHETICS
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/plastic_surgery2.jpg') }}"
+                                alt="Alopecia Treatment" class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#1d4e6f; font-size:1rem; letter-spacing:2px;">
+                        style="color:#a07855; font-size:1rem; letter-spacing:2px;">
                         Reconstructive & Cosmetic Solutions
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -174,19 +183,19 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#1d4e6f;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-user-md me-2"></i>Procedures Offered
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Scar revision
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Scar revision
                                             surgery</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Burn
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Burn
                                             reconstruction</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Facial
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Facial
                                             rejuvenation & cosmetic surgery</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Breast & body
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Breast & body
                                             contouring procedures</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Earlobe, lip, &
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Earlobe, lip, &
                                             eyelid corrections</li>
                                     </ul>
                                 </div>
@@ -197,17 +206,17 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#1d4e6f;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-heart me-2"></i>Benefits
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Restores function
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Restores function
                                             & natural appearance</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Improves
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Improves
                                             self-confidence & quality of life</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Corrects birth
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Corrects birth
                                             defects, trauma, or aging signs</li>
-                                        <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Delivers
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Delivers
                                             long-lasting, natural results</li>
                                     </ul>
                                 </div>
@@ -219,19 +228,19 @@
                     <div class="mt-4">
                         <div class="card border-0 shadow-sm" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#1d4e6f;">
+                                <h5 class="fw-bold mb-3" style="color:#a07855;">
                                     <i class="fas fa-notes-medical me-2"></i>Aftercare Guidance
                                 </h5>
                                 <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                    <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Follow wound care and
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Follow wound care and
                                         dressing instructions</li>
-                                    <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Take prescribed
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Take prescribed
                                         medications on time</li>
-                                    <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Avoid strenuous
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Avoid strenuous
                                         activity until cleared by surgeon</li>
-                                    <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Attend scheduled
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Attend scheduled
                                         follow-up visits</li>
-                                    <li><i class="fas fa-check me-2" style="color:#1d4e6f;"></i>Maintain healthy skin
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Maintain healthy skin
                                         & lifestyle for better outcomes</li>
                                 </ul>
                             </div>
@@ -241,7 +250,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#1d4e6f; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#a07855; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Appointment
                         </a>
                     </div>

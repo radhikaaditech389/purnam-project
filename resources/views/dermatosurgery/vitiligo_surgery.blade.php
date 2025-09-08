@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform:rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/vitiligo_surgery.jpg') }}"
+                                alt="Dandruff Treatment" class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Vitiligo Surgery"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #4a7db4; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Vitiligo Treatment"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-5deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#4a7db4; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            DERMATOSURGERY
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/vitiligo_surgery2.jpg') }}"
+                                alt="Alopecia Treatment" class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#4a7db4; font-size:1rem; letter-spacing:2px;">
+                        style="color:#a07855; font-size:1rem; letter-spacing:2px;">
                         Advanced Treatment
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -162,7 +171,7 @@
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.1rem; line-height:1.8;">
-                        <strong style="color:#4a7db4;">Vitiligo surgery</strong> is a specialized treatment offered to
+                        <strong style="color:#a07855;">Vitiligo surgery</strong> is a specialized treatment offered to
                         patients
                         with stable vitiligo who have not responded to medical therapies. These procedures help restore
                         natural
@@ -177,23 +186,23 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#4a7db4;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-syringe me-2"></i>Surgical Techniques
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Suction Blister Grafting</strong> – healthy skin blisters
                                             transplanted to vitiligo patches
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Mini Punch Grafting</strong> – small pigmented skin punches
                                             implanted into white patches
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Split-Thickness Skin Grafting</strong> – thin skin grafts placed on
                                             depigmented areas
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Melanocyte Transplantation</strong> – lab-prepared pigment cells
                                             applied to affected skin
                                         </li>
@@ -206,19 +215,19 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#4a7db4;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-heart me-2"></i>Benefits
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Restores natural
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Restores natural
                                             skin color & tone</li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Improves
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Improves
                                             appearance in visible areas</li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Boosts confidence
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Boosts confidence
                                             & quality of life</li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Safe and effective
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Safe and effective
                                             in stable vitiligo</li>
-                                        <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Long-lasting,
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Long-lasting,
                                             predictable outcomes</li>
                                     </ul>
                                 </div>
@@ -230,19 +239,19 @@
                     <div class="mt-4">
                         <div class="card border-0 shadow-sm" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#4a7db4;">
+                                <h5 class="fw-bold mb-3" style="color:#a07855;">
                                     <i class="fas fa-notes-medical me-2"></i>Aftercare Tips
                                 </h5>
                                 <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                    <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Keep grafted area
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Keep grafted area
                                         protected & covered</li>
-                                    <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Avoid friction,
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Avoid friction,
                                         scratching, or direct trauma</li>
-                                    <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Use prescribed
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Use prescribed
                                         ointments & medications regularly</li>
-                                    <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Follow phototherapy
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Follow phototherapy
                                         sessions if advised</li>
-                                    <li><i class="fas fa-check me-2" style="color:#4a7db4;"></i>Attend follow-up
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Attend follow-up
                                         visits for monitoring & support</li>
                                 </ul>
                             </div>
@@ -252,7 +261,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#4a7db4; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#a07855; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Appointment
                         </a>
                     </div>

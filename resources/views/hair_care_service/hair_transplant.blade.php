@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image Section -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform: rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/hair_transplant.jpg') }}"
+                                alt="Dandruff Treatment" class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Hair Transplant"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #8b5e3c; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Hair Transplant Results"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-6deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#a07855; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            PERMANENT SOLUTION
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/hair_transplant_2.jpg') }}"
+                                alt="Alopecia Treatment" class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>

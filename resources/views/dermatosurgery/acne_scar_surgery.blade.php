@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform:rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/acne_scar_surgery.png') }}" alt="Dandruff Treatment"
+                                class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Acne Scar Surgery"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #c96a6a; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Skin Scar Treatment"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-5deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#c96a6a; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            DERMATOSURGERY
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/acne_scar_surgery2.jpg') }}" alt="Alopecia Treatment"
+                                class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#c96a6a; font-size:1rem; letter-spacing:2px;">
+                        style="color:#a07855; font-size:1rem; letter-spacing:2px;">
                         Advanced Skin Repair
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -162,7 +171,7 @@
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.1rem; line-height:1.8;">
-                        <strong style="color:#c96a6a;">Acne scars</strong> can leave deep marks and uneven texture on
+                        <strong style="color:#a07855;">Acne scars</strong> can leave deep marks and uneven texture on
                         the skin,
                         affecting both appearance and confidence. <strong>Acne Scar Surgery</strong> is a specialized
                         set of
@@ -176,26 +185,26 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#c96a6a;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-syringe me-2"></i>Techniques
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Subcision</strong> – releasing fibrous scar bands under the skin
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Punch Excision</strong> – removing deep pitted scars & closing with
                                             fine sutures
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Microneedling with PRP</strong> – collagen stimulation for smoother
                                             texture
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Laser Resurfacing</strong> – fractional CO₂ or erbium laser for scar
                                             softening
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Dermal Fillers</strong> – instant correction for depressed scars
                                         </li>
                                     </ul>
@@ -207,19 +216,19 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#c96a6a;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-heart me-2"></i>Benefits
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Reduces depth of
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Reduces depth of
                                             pitted scars</li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Improves skin
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Improves skin
                                             texture & smoothness</li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Boosts collagen
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Boosts collagen
                                             production naturally</li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Safe, minimally
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Safe, minimally
                                             invasive options</li>
-                                        <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Long-term
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Long-term
                                             improvement in appearance</li>
                                     </ul>
                                 </div>
@@ -231,19 +240,19 @@
                     <div class="mt-4">
                         <div class="card border-0 shadow-sm" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#c96a6a;">
+                                <h5 class="fw-bold mb-3" style="color:#a07855;">
                                     <i class="fas fa-notes-medical me-2"></i>Aftercare Tips
                                 </h5>
                                 <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                    <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Avoid direct sun
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Avoid direct sun
                                         exposure post-surgery</li>
-                                    <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Use gentle cleansers &
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Use gentle cleansers &
                                         soothing moisturizers</li>
-                                    <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Apply prescribed
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Apply prescribed
                                         ointments to support healing</li>
-                                    <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Follow doctor’s advice
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Follow doctor’s advice
                                         on makeup & activity restrictions</li>
-                                    <li><i class="fas fa-check me-2" style="color:#c96a6a;"></i>Attend follow-up
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Attend follow-up
                                         sessions for best results</li>
                                 </ul>
                             </div>
@@ -253,7 +262,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#c96a6a; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#a07855; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Appointment
                         </a>
                     </div>

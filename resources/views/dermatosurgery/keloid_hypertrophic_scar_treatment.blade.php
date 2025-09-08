@@ -130,22 +130,31 @@
         <div class="container">
             <div class="row align-items-center gy-5">
 
-                <!-- Left Image -->
-                <div class="col-lg-6 text-center position-relative">
-                    <div class="image-stack position-relative d-inline-block p-3"
-                        style="background:#fff; border-radius:15px; box-shadow:0 15px 30px rgba(0,0,0,0.1); transform:rotate(-2deg);">
+                <!-- Left Side: Images -->
+                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/scar_treatments.png') }}"
+                                alt="Dandruff Treatment" class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; margin-bottom: 50px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Problems
+                            </div> --}}
+                        </div>
+                    </div>
 
-                        <img src="{{ asset('purnam/hair-treatment1.jpg') }}" alt="Keloid Treatment"
-                            class="main-img rounded-4 shadow-lg"
-                            style="width:320px; height:320px; object-fit:cover; border:4px solid #2f6d82; transform:rotate(2deg) scale(1.05); transition:all 0.4s ease-in-out;">
-
-                        <img src="{{ asset('purnam/hair-treatment2.jpg') }}" alt="Hypertrophic Scar Removal"
-                            class="overlay-img rounded-4 shadow-lg position-absolute"
-                            style="width:240px; height:240px; object-fit:cover; bottom:-50px; right:-80px; border:4px solid #fff; transform:rotate(-5deg) scale(1.1); transition:all 0.4s ease-in-out;">
-
-                        <div class="position-absolute top-0 start-0 translate-middle badge rounded-pill px-4 py-3"
-                            style="background:#2f6d82; color:#fff; font-size:1rem; font-weight:600; letter-spacing:1.5px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
-                            DERMATOSURGERY
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/treatment-images/scar_treatments2.png') }}"
+                                alt="Alopecia Treatment" class="overlay-img rounded-4 shadow"
+                                style="width: 550px; height: 400px; object-fit: cover;">
+                            {{-- <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#a07855; color:#fff; border-radius:20px; width:155px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hair Care
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -153,7 +162,7 @@
                 <!-- Right Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#2f6d82; font-size:1rem; letter-spacing:2px;">
+                        style="color:#a07855; font-size:1rem; letter-spacing:2px;">
                         Scar Management
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -162,7 +171,7 @@
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.1rem; line-height:1.8;">
-                        <strong style="color:#2f6d82;">Keloids</strong> and <strong>hypertrophic scars</strong> are
+                        <strong style="color:#a07855;">Keloids</strong> and <strong>hypertrophic scars</strong> are
                         overgrowths of scar tissue that can be itchy, painful, or cosmetically concerning.
                         At our clinic, we use advanced <strong>scar management therapies</strong> to flatten, soften,
                         and
@@ -175,25 +184,25 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#2f6d82;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-syringe me-2"></i>Treatment Options
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Intralesional Steroid Injections</strong> – reduces thickness &
                                             discomfort
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Cryotherapy</strong> – freezing keloids to flatten & shrink them
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Surgical Excision</strong> – careful removal of scar tissue with
                                             recurrence control
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Laser Therapy</strong> – smoothens surface & reduces redness
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>
                                             <strong>Silicone Gel/Sheets</strong> – non-invasive scar softening approach
                                         </li>
                                     </ul>
@@ -205,19 +214,19 @@
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#2f6d82;">
+                                    <h5 class="fw-bold mb-3" style="color:#a07855;">
                                         <i class="fas fa-heart me-2"></i>Benefits
                                     </h5>
                                     <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Flattens raised
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Flattens raised
                                             scars effectively</li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Relieves itching &
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Relieves itching &
                                             tenderness</li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Improves cosmetic
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Improves cosmetic
                                             appearance</li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Minimizes chance
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Minimizes chance
                                             of recurrence</li>
-                                        <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Boosts
+                                        <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Boosts
                                             self-confidence & comfort</li>
                                     </ul>
                                 </div>
@@ -229,19 +238,19 @@
                     <div class="mt-4">
                         <div class="card border-0 shadow-sm" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#2f6d82;">
+                                <h5 class="fw-bold mb-3" style="color:#a07855;">
                                     <i class="fas fa-notes-medical me-2"></i>Aftercare Tips
                                 </h5>
                                 <ul class="list-unstyled mb-0" style="color:#444; line-height:1.8;">
-                                    <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Protect treated area
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Protect treated area
                                         from friction & trauma</li>
-                                    <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Apply silicone
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Apply silicone
                                         gels/sheets as recommended</li>
-                                    <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Follow medication
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Follow medication
                                         schedule strictly</li>
-                                    <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Avoid unnecessary sun
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Avoid unnecessary sun
                                         exposure</li>
-                                    <li><i class="fas fa-check me-2" style="color:#2f6d82;"></i>Attend regular
+                                    <li><i class="fas fa-check me-2" style="color:#a07855;"></i>Attend regular
                                         follow-ups to prevent recurrence</li>
                                 </ul>
                             </div>
@@ -251,7 +260,7 @@
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#2f6d82; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#a07855; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Appointment
                         </a>
                     </div>
