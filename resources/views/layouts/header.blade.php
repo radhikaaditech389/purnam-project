@@ -207,7 +207,7 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Medifacials (Facial Glow & Rejuvenation)</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Hydra Facial</a></li>
+                                                <li><a  href="/hydra_facial">Hydra Facial</a></li>
                                                 <li><a href="#">Photo Facial</a></li>
                                                 <li><a href="#">Carbon Facial (Hollywood Facial)</a></li>
                                                 <li><a href="#">Laser Facial</a></li>

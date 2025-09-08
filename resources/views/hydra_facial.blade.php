@@ -155,59 +155,112 @@ About Area
 
                 <!-- Left Side: Images -->
                 <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
-                    <div class="col-lg-12">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/hydra_facial.jpg') }}" alt="Hair Treatment"
-                                class="main-img rounded-4 shadow" style="width: 550px; height: 300px;margin-bottom: 50px;
-                            
-}">
+                    <!-- First Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/hydra_facial.jpg') }}" alt="HydraFacial Treatment"
+                                class="main-img rounded-4 shadow"
+                                style="width: 550px; height: 300px; margin-bottom: 50px;">
+                            <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hydra Facial
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/hydra_facial2.jpg') }}" alt="Hair Care"
+
+                    <!-- Second Image -->
+                    <div class="col-lg-12 position-relative">
+                        <div class="image-wrapper position-relative">
+                            <img src="{{ asset('purnam/hydra_facial2.jpg') }}" alt="HydraFacial Skin Glow"
                                 class="overlay-img rounded-4 shadow" style="width: 550px; height: 300px;">
+                            <div class="circle-badge"
+                                style="position:absolute; top:15px; left:15px; background:#3a91b8; color:#fff; border-radius:20px; width:135px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                Hydra Facial
+                            </div>
                         </div>
                     </div>
-                    <div class="circle-badge">
-                        <span>Hair Care</span>
-                    </div>
-                    <!-- </div> -->
                 </div>
+
+
 
                 <!-- Right Side: Content -->
                 <div class="col-lg-6">
-                    <h6 class="text-uppercase text-brown mb-2">Skin Rejuvenation</h6>
-                    <h2 class="fw-bold mb-3">HydraFacial – Advanced Skin Care Solution</h2>
-                    <p>
-                        HydraFacial is a revolutionary non-invasive treatment that combines
-                        cleansing, exfoliation, extraction, hydration, and antioxidant protection.
-                        It delivers instant results with no downtime and is suitable for all
-                        skin types, making it one of the most effective solutions for glowing,
-                        youthful, and healthy-looking skin.
+                    <span class="text-uppercase fw-semibold mb-2 d-block"
+                        style="color:#3a91b8; font-size:1rem; letter-spacing:2px;">
+                        Advanced Skin Rejuvenation
+                    </span>
+                    <h2 class="fw-bold mb-4"
+                        style="font-size:3rem; color:#333; letter-spacing:-1.5px; line-height:1.2;">
+                        HydraFacial: Instant Glow & Hydration
+                    </h2>
+
+                    <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
+                        Experience the revolutionary <strong style="color:#3a91b8;">HydraFacial</strong> — a painless,
+                        non-invasive treatment that deeply cleanses, exfoliates, hydrates, and nourishes your skin for
+                        an instantly radiant look.
                     </p>
-                    <h5 class="fw-semibold mt-3">✔ Common Skin Problems Treated:</h5>
-                    <ul class="list-unstyled mb-3">
-                        <li>✔ Oily & Congested Skin</li>
-                        <li>✔ Fine Lines & Wrinkles</li>
-                        <li>✔ Uneven Skin Tone & Texture</li>
-                        <li>✔ Dry & Dehydrated Skin</li>
-                        <li>✔ Enlarged Pores & Blackheads</li>
-                        <li>✔ Sun Damage & Pigmentation</li>
-                        <li>✔ Dull & Tired-Looking Skin</li>
-                    </ul>
 
-                    <h5 class="fw-semibold mt-3">✨ Benefits of HydraFacial:</h5>
-                    <ul class="list-unstyled mb-3">
-                        <li>✔ Deeply cleanses & detoxifies skin</li>
-                        <li>✔ Provides intense hydration</li>
-                        <li>✔ Improves elasticity & firmness</li>
-                        <li>✔ Boosts skin radiance & glow</li>
-                        <li>✔ Painless and relaxing treatment</li>
-                        <li>✔ No irritation or downtime</li>
-                    </ul>
+                    <div class="row g-4">
+                        <!-- Step 1 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
+                                        <i class="fas fa-water me-2" style="color:#3a91b8;"></i>Deep Cleansing
+                                    </h5>
+                                    <p class="card-text" style="color:#666; line-height:1.7;">
+                                        Gentle exfoliation to remove dead skin cells and impurities, leaving your skin
+                                        fresh
+                                        and clear.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-                    <a href="{{ url('hydrafacial') }}" class="btn btn-brown px-4 py-2 mt-3">BOOK NOW →</a>
+                        <!-- Step 2 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
+                                        <i class="fas fa-vial me-2" style="color:#3a91b8;"></i>Hydration Boost
+                                    </h5>
+                                    <p class="card-text" style="color:#666; line-height:1.7;">
+                                        Infusion of antioxidants, peptides, and hyaluronic acid for intense hydration.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Benefits -->
+                        <div class="col-md-12">
+                            <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3" style="color:#3a91b8; font-size:1.4rem;">
+                                        <i class="fas fa-award me-2" style="color:#3a91b8;"></i>Benefits of HydraFacial
+                                    </h5>
+                                    <ul class="list-unstyled mb-0"
+                                        style="font-size:0.95rem; color:#444; line-height:2;">
+                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Instant glow & even
+                                            tone</li>
+                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Deep hydration &
+                                            nourishment</li>
+                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Reduces fine lines &
+                                            wrinkles</li>
+                                        <li><i class="fas fa-check me-2" style="color:#3a91b8;"></i>Safe for all skin
+                                            types</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="mt-4">
+                        <a href="/appointment" class="btn px-4 py-3"
+                            style="background:#3a91b8; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            Book Your HydraFacial Now
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
