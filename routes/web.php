@@ -140,3 +140,7 @@ Route::get('/age-reversal', function () {
 Route::get('/skin-care-treatments', function () {
     return view('daily_skin_care.skin_care_treatments');
 });
+
+Route::get('/hydra_facial', function () {
+    return view('hydra_facial');
+});
