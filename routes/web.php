@@ -253,3 +253,43 @@ Route::get('/laser_resurfacing', function () {
 
 
 
+
+Route::get('/scar-revision', function () {
+    return view('dermatosurgery.scar_revision');
+});
+
+Route::get('/wart-mole-skin-tag-removal', function () {
+    return view('dermatosurgery.wart_mole_skin_tag_removal');
+});
+
+Route::get('/biopsy', function () {
+    return view('dermatosurgery.biopsy');
+});
+
+Route::get('/vitiligo-surgery', function () {
+    return view('dermatosurgery.vitiligo_surgery');
+});
+
+Route::get('/acne-scar-surgery', function () {
+    return view('dermatosurgery.acne_scar_surgery');
+});
+
+Route::get('/keloid-hypertrophic-scar-treatment', function () {
+    return view('dermatosurgery.keloid_hypertrophic_scar_treatment');
+});
+
+Route::get('/keloid-hypertrophic-scar-treatment', function () {
+    return view('dermatosurgery.keloid_hypertrophic_scar_treatment');
+});
+
+Route::get('/earlobe-repair', function () {
+    return view('dermatosurgery.earlobe_repair');
+});
+
+Route::get('/cyst-removal', function () {
+    return view('dermatosurgery.cyst_removal');
+});
+
+Route::get('/plastic-surgery', function () {
+    return view('dermatosurgery.plastic_surgery');
+});
