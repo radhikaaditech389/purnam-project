@@ -250,10 +250,6 @@ Route::get('/laser_resurfacing', function () {
     return view('laser_resurfacing');
 });
 
-
-
-
-
 Route::get('/scar-revision', function () {
     return view('dermatosurgery.scar_revision');
 });
