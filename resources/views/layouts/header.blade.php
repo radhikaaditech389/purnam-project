@@ -70,8 +70,10 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">About us</a>
                                     <ul class="sub-menu">
-                                        <li><a href="/about_clinic">About Clinic</a></li>
-                                        <li><a href="/team">Our Team</a></li>
+                                        <!-- <li><a href="/about_clinic">About Clinic</a></li>
+                                        <li><a href="/team">Our Team</a></li> -->
+                                        <li><a href="#">About Clinic</a></li>
+                                        <li><a href="#">Our Team</a></li>
                                         <li><a href="#">Awards and Achievements</a></li>
                                     </ul>
                                 </li>
