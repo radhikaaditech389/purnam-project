@@ -163,13 +163,14 @@ About Area
     </section><!--==============================
 About Area  
 ==============================-->
-    <div class="about-sec bg-smoke overflow-hidden space" id="about-sec" data-bg-src="{{ asset('purnam/img/update_2/bg/about_bg_1.jpg') }}">
+    <div class="about-sec bg-smoke overflow-hidden space" id="about-sec" data-bg-src="{{ asset('purnam/about-bg-image.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5">
                     <div class="img-box6">
                         <div class="img1 wow fadeInLeft">
-                            <img class="tilt-active" src="{{ asset('purnam/img/update_2/normal/about_1_1.jpg') }}" alt="About">
+                            <!-- <img class="tilt-active" src="{{ asset('purnam/img/update_2/normal/about_1_1.jpg') }}" alt="About"> -->
+                             <img class="tilt-active" src="{{ asset('purnam/woman-with-jade-roller.jpg') }}" alt="About">
                         </div>
                         <div class="counter-content style3">
                             <div class="th-counterup wow fadeInUp">
@@ -221,7 +222,7 @@ About Area
                                 </ul>
                             </div>
                             <div class="journey-image style2">
-                                <img src="{{ asset('purnam/img/update_2/normal/video-img.jpg') }}" alt="">
+                                <img src="{{ asset('purnam/skin-care-small.jpg') }}" alt="">
                                 <a href="https://www.youtube.com/watch?v=ADmQTw4qqTY" class="play-btn popup-video">
                                     <i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
