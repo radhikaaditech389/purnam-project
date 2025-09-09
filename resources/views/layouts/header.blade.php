@@ -154,10 +154,12 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Laser Hair Reduction (LHR)</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Virtually Pain-Free, Smooth and Gentle</a></li>
-                                                <li><a href="#">Suitable for All Skin Types (FDA Cleared)</a>
+                                                <li><a href="/virtually-pain-free-smooth-and-gentle">Virtually
+                                                        Pain-Free, Smooth and Gentle</a></li>
+                                                <li><a href="/suitable-for-all-skin-types">Suitable for All Skin Types
+                                                        (FDA Cleared)</a>
                                                 </li>
-                                                <li><a href="#">Upper Lip, Chin, Neck, Underarms, Arms,
+                                                <li><a href="/full-body">Upper Lip, Chin, Neck, Underarms, Arms,
                                                         Shoulders, Chest, Back, Bikini, Legs, Full Body</a></li>
                                             </ul>
                                         </li>
@@ -211,7 +213,7 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Medifacials (Facial Glow & Rejuvenation)</a>
                                             <ul class="sub-menu">
-                                                <li><a  href="/hydra_facial">Hydra Facial</a></li>
+                                                <li><a href="/hydra_facial">Hydra Facial</a></li>
                                                 <li><a href="#">Photo Facial</a></li>
                                                 <li><a href="#">Carbon Facial (Hollywood Facial)</a></li>
                                                 <li><a href="#">Laser Facial</a></li>
