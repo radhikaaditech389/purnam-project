@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/wrinkle_treatments_bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About wrinkle_treatments</h2>
@@ -149,7 +149,7 @@
 <!--==============================
 Wrinkle Treatments Procedure Section
 ==============================-->
-<section class="wrinkle-treatments-section py-5">
+<section class="wrinkle-treatments-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Wrinkle Treatments Procedure Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6a1b9a; color:#fff; border-radius:20px; width:220px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:220px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Wrinkle Treatments
                         </div>
                     </div>
@@ -175,7 +175,7 @@ Wrinkle Treatments Procedure Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6a1b9a; color:#fff; border-radius:20px; width:220px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:220px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Wrinkle Treatments
                         </div>
                     </div>
@@ -185,7 +185,7 @@ Wrinkle Treatments Procedure Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#6a1b9a; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Restore Youthful Radiance
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Wrinkle Treatments Procedure Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Our <strong style="color:#6a1b9a;">Wrinkle Treatments</strong> are designed to target fine lines and
+                    Our <strong style="color:#c28565;">Wrinkle Treatments</strong> are designed to target fine lines and
                     deeper wrinkles, restoring a smoother, younger look with safe and effective techniques.
                 </p>
 
@@ -203,8 +203,8 @@ Wrinkle Treatments Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-magic me-2" style="color:#6a1b9a;"></i>Line Smoothing
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-magic me-2" style="color:#c28565;"></i>Line Smoothing
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Targeted treatments to smooth fine lines and expression wrinkles for natural results.
@@ -217,8 +217,8 @@ Wrinkle Treatments Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-clock me-2" style="color:#6a1b9a;"></i>Quick & Lasting
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-clock me-2" style="color:#c28565;"></i>Quick & Lasting
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Non-invasive methods that deliver fast improvements with results lasting for months.
@@ -231,16 +231,16 @@ Wrinkle Treatments Procedure Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#6a1b9a;"></i>Benefits of Wrinkle Treatments
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Wrinkle Treatments
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Reduces fine lines & deep wrinkles</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Improves skin elasticity</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Quick, safe & non-invasive</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Restores youthful glow</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Minimal downtime</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces fine lines & deep wrinkles</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin elasticity</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Quick, safe & non-invasive</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Restores youthful glow</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Minimal downtime</li>
                                 </ul>
                             </div>
                         </div>
@@ -250,7 +250,7 @@ Wrinkle Treatments Procedure Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#6a1b9a; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Wrinkle Treatment
                     </a>
                 </div>

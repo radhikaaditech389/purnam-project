@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/daily_skin_care_bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About Daily Skin Care Anti Ageing</h2>
@@ -151,7 +151,7 @@
 <!--==============================
 Daily Skin Care Anti-Ageing Procedure Section
 ==============================-->
-<section class="daily-antiage-section py-5">
+<section class="daily-antiage-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -164,7 +164,7 @@ Daily Skin Care Anti-Ageing Procedure Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#8e44ad; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Daily Skin Care Anti-Ageing Procedure
                         </div>
                     </div>
@@ -177,7 +177,7 @@ Daily Skin Care Anti-Ageing Procedure Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#8e44ad; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:260px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Daily Skin Care Anti-Ageing Procedure
                         </div>
                     </div>
@@ -187,7 +187,7 @@ Daily Skin Care Anti-Ageing Procedure Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#8e44ad; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Slow Down Ageing, Every Day
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -196,7 +196,7 @@ Daily Skin Care Anti-Ageing Procedure Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Incorporating <strong style="color:#8e44ad;">Anti-Ageing Care</strong> into your daily routine 
+                    Incorporating <strong style="color:#c28565;">Anti-Ageing Care</strong> into your daily routine 
                     helps reduce fine lines, boost collagen, and protect your skin from damage caused by pollution 
                     and UV rays. Consistency is the secret to youthful, glowing skin.
                 </p>
@@ -206,8 +206,8 @@ Daily Skin Care Anti-Ageing Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
-                                    <i class="fas fa-sun me-2" style="color:#8e44ad;"></i>Morning Defence
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-sun me-2" style="color:#c28565;"></i>Morning Defence
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Cleanse, hydrate, and apply SPF with antioxidants to protect against sun and ageing.
@@ -220,8 +220,8 @@ Daily Skin Care Anti-Ageing Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
-                                    <i class="fas fa-moon me-2" style="color:#8e44ad;"></i>Night Repair
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-moon me-2" style="color:#c28565;"></i>Night Repair
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Use retinol, peptides, and nourishing moisturisers to stimulate collagen overnight.
@@ -234,16 +234,16 @@ Daily Skin Care Anti-Ageing Procedure Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#8e44ad; font-size:1.4rem;">
-                                    <i class="fas fa-heart me-2" style="color:#8e44ad;"></i>Benefits of Daily Anti-Ageing Routine
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-heart me-2" style="color:#c28565;"></i>Benefits of Daily Anti-Ageing Routine
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Reduces fine lines & wrinkles</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Boosts collagen & skin elasticity</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Protects from sun & pollution damage</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Delays premature ageing</li>
-                                    <li><i class="fas fa-check me-2" style="color:#8e44ad;"></i>Maintains a youthful glow</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces fine lines & wrinkles</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen & skin elasticity</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Protects from sun & pollution damage</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Delays premature ageing</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Maintains a youthful glow</li>
                                 </ul>
                             </div>
                         </div>
@@ -253,7 +253,7 @@ Daily Skin Care Anti-Ageing Procedure Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#8e44ad; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Start Anti-Ageing Routine Today
                     </a>
                 </div>

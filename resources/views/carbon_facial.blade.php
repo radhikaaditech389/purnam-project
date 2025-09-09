@@ -133,14 +133,14 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/carban_facial_bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h2 class="breadcumb-title">About Clinic</h2>
+                <h2 class="breadcumb-title">About Carbon Facial</h2>
                 <div class="breadcumb-menu-wrapper">
                     <ul class="breadcumb-menu">
                         <li><a href="/">Home</a></li>
-                        <li>About Clinic</li>
+                        <li>About Carbon Facial</li>
                     </ul>
                 </div>
             </div>

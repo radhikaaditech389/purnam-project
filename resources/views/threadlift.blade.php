@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/threadlift-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About Thread lift</h2>
@@ -149,7 +149,7 @@
 <!--==============================
 Thread Lift Procedure Section
 ==============================-->
-<section class="threadlift-section py-5">
+<section class="threadlift-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Thread Lift Procedure Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6a1b9a; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Thread Lift
                         </div>
                     </div>
@@ -175,7 +175,7 @@ Thread Lift Procedure Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#6a1b9a; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Thread Lift
                         </div>
                     </div>
@@ -185,7 +185,7 @@ Thread Lift Procedure Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#6a1b9a; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Non-Surgical Face Lift
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Thread Lift Procedure Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    A <strong style="color:#6a1b9a;">Thread Lift</strong> is a minimally invasive procedure that uses
+                    A <strong style="color:#c28565;">Thread Lift</strong> is a minimally invasive procedure that uses
                     dissolvable sutures to lift and tighten sagging skin, stimulate collagen, and rejuvenate facial
                     contours instantly — without surgery.
                 </p>
@@ -204,8 +204,8 @@ Thread Lift Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-arrow-up me-2" style="color:#6a1b9a;"></i>Instant Lift
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-arrow-up me-2" style="color:#c28565;"></i>Instant Lift
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Lifts sagging cheeks, jawline, and brows for a youthful, firmer appearance.
@@ -218,8 +218,8 @@ Thread Lift Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-seedling me-2" style="color:#6a1b9a;"></i>Collagen Boost
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-seedling me-2" style="color:#c28565;"></i>Collagen Boost
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Stimulates natural collagen production, improving skin elasticity over time.
@@ -232,16 +232,16 @@ Thread Lift Procedure Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#6a1b9a; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#6a1b9a;"></i>Benefits of Thread Lift
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Thread Lift
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Non-surgical facelift with minimal downtime</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Instant lifting and tightening effect</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Boosts collagen for long-lasting results</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Natural, refreshed appearance</li>
-                                    <li><i class="fas fa-check me-2" style="color:#6a1b9a;"></i>Safe, quick & effective procedure</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Non-surgical facelift with minimal downtime</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Instant lifting and tightening effect</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen for long-lasting results</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Natural, refreshed appearance</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe, quick & effective procedure</li>
                                 </ul>
                             </div>
                         </div>
@@ -251,7 +251,7 @@ Thread Lift Procedure Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#6a1b9a; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Thread Lift Appointment
                     </a>
                 </div>

@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/once_year_treat_bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About Once-a-year Procedure</h2>
@@ -149,7 +149,7 @@
  <!--==============================
 Once-a-year Procedure Section
 ==============================-->
-<section class="once-year-section py-5">
+<section class="once-year-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Once-a-year Procedure Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; margin-bottom: 50px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#16a085; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Once-a-year Procedure
                         </div>
                     </div>
@@ -175,7 +175,7 @@ Once-a-year Procedure Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#16a085; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:200px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Once-a-year Procedure
                         </div>
                     </div>
@@ -185,7 +185,7 @@ Once-a-year Procedure Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#16a085; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Long-lasting Skin Transformation
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Once-a-year Procedure Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    Our <strong style="color:#16a085;">Once-a-year Procedure</strong> is designed for those who want 
+                    Our <strong style="color:#c28565;">Once-a-year Procedure</strong> is designed for those who want 
                     long-lasting skin rejuvenation with minimal visits. Just one session a year helps restore skin 
                     health, firmness, and glow — without the need for constant maintenance.
                 </p>
@@ -204,8 +204,8 @@ Once-a-year Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#16a085; font-size:1.4rem;">
-                                    <i class="fas fa-clock me-2" style="color:#16a085;"></i>One Session a Year
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-clock me-2" style="color:#c28565;"></i>One Session a Year
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Effective treatment designed to give year-long results with just a single session.
@@ -218,8 +218,8 @@ Once-a-year Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#16a085; font-size:1.4rem;">
-                                    <i class="fas fa-shield-alt me-2" style="color:#16a085;"></i>Safe & Effective
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-shield-alt me-2" style="color:#c28565;"></i>Safe & Effective
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Non-invasive, clinically tested, and designed for sustainable, natural-looking results.
@@ -232,16 +232,16 @@ Once-a-year Procedure Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#16a085; font-size:1.4rem;">
-                                    <i class="fas fa-award me-2" style="color:#16a085;"></i>Benefits of Once-a-year Procedure
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-award me-2" style="color:#c28565;"></i>Benefits of Once-a-year Procedure
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#16a085;"></i>Year-long rejuvenation</li>
-                                    <li><i class="fas fa-check me-2" style="color:#16a085;"></i>Minimal clinic visits</li>
-                                    <li><i class="fas fa-check me-2" style="color:#16a085;"></i>Boosts collagen & elasticity</li>
-                                    <li><i class="fas fa-check me-2" style="color:#16a085;"></i>Reduces fine lines & wrinkles</li>
-                                    <li><i class="fas fa-check me-2" style="color:#16a085;"></i>Safe & non-surgical</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Year-long rejuvenation</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Minimal clinic visits</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen & elasticity</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces fine lines & wrinkles</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & non-surgical</li>
                                 </ul>
                             </div>
                         </div>
@@ -251,7 +251,7 @@ Once-a-year Procedure Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#16a085; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Once-a-year Procedure
                     </a>
                 </div>

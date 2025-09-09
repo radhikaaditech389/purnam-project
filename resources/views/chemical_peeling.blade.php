@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/chemical_peering-test-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About Chemical Peeling</h2>
@@ -162,7 +162,7 @@ Chemical Peeling Procedure Section
                                 class="main-img rounded-4 shadow"
                                 style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                                 Chemical Peeling
                             </div>
                         </div>
@@ -175,7 +175,7 @@ Chemical Peeling Procedure Section
                                 class="overlay-img rounded-4 shadow"
                                 style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
-                                style="position:absolute; top:15px; left:15px; background:#e67e22; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                                style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                                 Chemical Peeling
                             </div>
                         </div>
@@ -185,7 +185,7 @@ Chemical Peeling Procedure Section
                 <!-- Right Side: Content -->
                 <div class="col-lg-6">
                     <span class="text-uppercase fw-semibold mb-2 d-block"
-                        style="color:#e67e22; font-size:1rem; letter-spacing:2px;">
+                        style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                         Skin Resurfacing
                     </span>
                     <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Chemical Peeling Procedure Section
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        <strong style="color:#e67e22;">Chemical Peeling</strong> is a safe, non-surgical procedure that
+                        <strong style="color:#c28565;">Chemical Peeling</strong> is a safe, non-surgical procedure that
                         uses
                         specialized solutions to gently exfoliate and remove the top layer of dead skin cells,
                         revealing fresh, smooth, and youthful-looking skin underneath.
@@ -205,8 +205,8 @@ Chemical Peeling Procedure Section
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-flask me-2" style="color:#e67e22;"></i>Exfoliation
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-flask me-2" style="color:#c28565;"></i>Exfoliation
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
                                         Removes dead skin cells and unclogs pores for smoother and clearer skin.
@@ -219,8 +219,8 @@ Chemical Peeling Procedure Section
                         <div class="col-md-6">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-magic me-2" style="color:#e67e22;"></i>Skin Renewal
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-magic me-2" style="color:#c28565;"></i>Skin Renewal
                                     </h5>
                                     <p class="card-text" style="color:#666; line-height:1.7;">
                                         Stimulates new cell growth, improving texture, tone, and radiance.
@@ -233,21 +233,21 @@ Chemical Peeling Procedure Section
                         <div class="col-md-12">
                             <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                                 <div class="card-body">
-                                    <h5 class="fw-bold mb-3" style="color:#e67e22; font-size:1.4rem;">
-                                        <i class="fas fa-star me-2" style="color:#e67e22;"></i>Benefits of Chemical
+                                    <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                        <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Chemical
                                         Peeling
                                     </h5>
                                     <ul class="list-unstyled mb-0"
                                         style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Brightens dull skin
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Brightens dull skin
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Reduces acne & scars
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces acne & scars
                                         </li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Evens skin tone &
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Evens skin tone &
                                             texture</li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Minimizes fine lines
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Minimizes fine lines
                                             & wrinkles</li>
-                                        <li><i class="fas fa-check me-2" style="color:#e67e22;"></i>Safe for most skin
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe for most skin
                                             types</li>
                                     </ul>
                                 </div>
@@ -258,7 +258,7 @@ Chemical Peeling Procedure Section
                     <!-- CTA -->
                     <div class="mt-4">
                         <a href="/appointment" class="btn px-4 py-3"
-                            style="background:#e67e22; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                            style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                             Book Your Chemical Peel Now
                         </a>
                     </div>

@@ -133,7 +133,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/glow-treatment_bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">About Glow Treatment</h2>
@@ -149,7 +149,7 @@
   <!--==============================
 Glow Treatment Procedure Section
 ==============================-->
-<section class="glow-treatment-section py-5">
+<section class="glow-treatment-section py-5 skin-section-bg">
     <div class="container">
         <div class="row align-items-center">
 
@@ -162,7 +162,7 @@ Glow Treatment Procedure Section
                             class="main-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#f39c12; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Glow Treatment
                         </div>
                     </div>
@@ -175,7 +175,7 @@ Glow Treatment Procedure Section
                             class="overlay-img rounded-4 shadow"
                             style="width: 550px; height: 300px; object-fit: cover;">
                         <div class="circle-badge"
-                            style="position:absolute; top:15px; left:15px; background:#f39c12; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+                            style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
                             Glow Treatment
                         </div>
                     </div>
@@ -185,7 +185,7 @@ Glow Treatment Procedure Section
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <span class="text-uppercase fw-semibold mb-2 d-block"
-                    style="color:#f39c12; font-size:1rem; letter-spacing:2px;">
+                    style="color:#c28565; font-size:1rem; letter-spacing:2px;">
                     Brightness & Radiance
                 </span>
                 <h2 class="fw-bold mb-4"
@@ -194,7 +194,7 @@ Glow Treatment Procedure Section
                 </h2>
 
                 <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                    <strong style="color:#f39c12;">Glow Treatments</strong> are designed to restore skin’s natural radiance by removing dullness, deeply nourishing, and rejuvenating the skin to give a brighter, even-toned, and refreshed look.
+                    <strong style="color:#c28565;">Glow Treatments</strong> are designed to restore skin’s natural radiance by removing dullness, deeply nourishing, and rejuvenating the skin to give a brighter, even-toned, and refreshed look.
                 </p>
 
                 <div class="row g-4">
@@ -202,8 +202,8 @@ Glow Treatment Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#f39c12; font-size:1.4rem;">
-                                    <i class="fas fa-sun me-2" style="color:#f39c12;"></i>Brightening
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-sun me-2" style="color:#c28565;"></i>Brightening
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Reduces dullness and pigmentation for a naturally brighter skin tone.
@@ -216,8 +216,8 @@ Glow Treatment Procedure Section
                     <div class="col-md-6">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#f39c12; font-size:1.4rem;">
-                                    <i class="fas fa-leaf me-2" style="color:#f39c12;"></i>Rejuvenation
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-leaf me-2" style="color:#c28565;"></i>Rejuvenation
                                 </h5>
                                 <p class="card-text" style="color:#666; line-height:1.7;">
                                     Nourishes the skin with essential vitamins and hydration for a fresh, youthful glow.
@@ -230,16 +230,16 @@ Glow Treatment Procedure Section
                     <div class="col-md-12">
                         <div class="card border-0 shadow-sm h-100" style="background:#fff; border-radius:10px;">
                             <div class="card-body">
-                                <h5 class="fw-bold mb-3" style="color:#f39c12; font-size:1.4rem;">
-                                    <i class="fas fa-star me-2" style="color:#f39c12;"></i>Benefits of Glow Treatment
+                                <h5 class="fw-bold mb-3" style="color:#c28565; font-size:1.4rem;">
+                                    <i class="fas fa-star me-2" style="color:#c28565;"></i>Benefits of Glow Treatment
                                 </h5>
                                 <ul class="list-unstyled mb-0"
                                     style="font-size:0.95rem; color:#444; line-height:2;">
-                                    <li><i class="fas fa-check me-2" style="color:#f39c12;"></i>Brightens skin tone instantly</li>
-                                    <li><i class="fas fa-check me-2" style="color:#f39c12;"></i>Reduces dullness & tired look</li>
-                                    <li><i class="fas fa-check me-2" style="color:#f39c12;"></i>Hydrates & nourishes deeply</li>
-                                    <li><i class="fas fa-check me-2" style="color:#f39c12;"></i>Improves skin texture & softness</li>
-                                    <li><i class="fas fa-check me-2" style="color:#f39c12;"></i>Safe for all skin types</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Brightens skin tone instantly</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces dullness & tired look</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Hydrates & nourishes deeply</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin texture & softness</li>
+                                    <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe for all skin types</li>
                                 </ul>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ Glow Treatment Procedure Section
                 <!-- CTA -->
                 <div class="mt-4">
                     <a href="/appointment" class="btn px-4 py-3"
-                        style="background:#f39c12; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
+                        style="background:#c28565; color:#fff; border-radius:8px; font-weight:600; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:0.3s;">
                         Book Your Glow Treatment Appointment
                     </a>
                 </div>
