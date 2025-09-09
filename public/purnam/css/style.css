@@ -6928,7 +6928,7 @@ ol.wp-block-rss {
 }
 
 .header-layout3 .sticky-wrapper {
-  background-color: var(--title-color);
+  background-color: #030303;
   position: relative;
   z-index: 3;
   /* Medium devices */
@@ -6941,7 +6941,7 @@ ol.wp-block-rss {
 }
 
 .header-layout3 .sticky-wrapper.sticky {
-  background-color: var(--title-color);
+  background-color: #030303;
   padding: 5px 0;
   /* Medium devices */
 }
@@ -7844,7 +7844,7 @@ ol.wp-block-rss {
 
 /* footer 3 ---------------------------------- */
 .footer-layout3 {
-  background-color: #727376;
+  background-color: #030303;
   background-size: cover;
   padding-top: 100px;
 }

@@ -4,20 +4,6 @@
 @include('layouts.head')
 
 <body class="bg-smoke">
-
-
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-   Code Start From Here
- ******************************** -->
-
-
-
     <!--==============================
      Preloader
   ==============================-->
@@ -722,7 +708,7 @@ Brand Area
 Team Area
 ==============================-->
     <section class="team-area-two overflow-hidden space">
-        <div class="container">
+        {{-- <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title style2">Expert Team</span>
                 <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
@@ -832,7 +818,7 @@ Team Area
                 </div>
 
             </div>
-        </div>
+        </div> --}}
         <div class="shape-mockup jump d-none d-lg-block" data-top="0%" data-left="0%"><img
                 src="{{ asset('purnam/img/shape/flower_1_10.png') }}" alt="shape">
         </div>
@@ -845,14 +831,14 @@ Video Area
     <div class="video-area-2 overflow-hidden " data-pos-for=".card-area" data-sec-pos="bottom-half">
         <div class="container">
             <div class="video-content-box text-center wow fadeInUp"
-                data-bg-src="{{ asset('purnam/img/normal/video_2.jpg') }}">
+                data-bg-src="{{ asset('purnam/img/bg/bg-1.jpg') }}">
                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-play-btn play-btn popup-video"><i
                         class="fa-sharp fa-solid fa-play"></i></a>
             </div>
         </div>
     </div>
     <div class="card-area bg-top-center overflow-hidden space"
-        data-bg-src="{{ asset('purnam/img/bg/card_bg_1.jpg') }}">
+        data-bg-src="{{ asset('purnam/img/bg/bg-2.jpg') }}">
         <div class="container">
             <!-- <div class="title-area text-center wow fadeInUp">
                 <span class="sub-title">Gift & Cards</span>
@@ -911,7 +897,7 @@ Video Area
                 src="{{ asset('purnam/img/shape/leaves_13.png') }}" alt="shape">
         </div>
     </div>
-    <section class="price-area overflow-hidden space">
+    {{-- <section class="price-area overflow-hidden space">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 wow fadeInLeft">
@@ -1152,7 +1138,7 @@ Video Area
         <div class="shape-mockup jump" data-top="0%" data-right="0%"><img
                 src="{{ asset('purnam/img/shape/flower_1_11.png') }}" alt="shape">
         </div>
-    </section>
+    </section> --}}
 
     <!--==============================
 Testimonial Area
