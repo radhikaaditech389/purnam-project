@@ -289,3 +289,15 @@ Route::get('/cyst-removal', function () {
 Route::get('/plastic-surgery', function () {
     return view('dermatosurgery.plastic_surgery');
 });
+
+Route::get('/virtually-pain-free-smooth-and-gentle', function () {
+    return view('LHR.virtually_pain_free_smooth_gentle');
+});
+
+Route::get('/suitable-for-all-skin-types', function () {
+    return view('LHR.suitable_for_all_skin_types');
+});
+
+Route::get('/full-body', function () {
+    return view('LHR.full_body');
+});
