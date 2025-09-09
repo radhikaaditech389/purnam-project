@@ -112,7 +112,7 @@
     @include('layouts.header')
 
     {{-- Breadcumb --}}
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/treatment-images/laser_hair_removal_poster1.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Virtually Pain-Free, Smooth and Gentle</h2>

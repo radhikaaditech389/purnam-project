@@ -112,7 +112,7 @@
     @include('layouts.header')
 
     {{-- Breadcumb --}}
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/treatment-images/plastic_surgery_poster1.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Plastic Surgery</h2>

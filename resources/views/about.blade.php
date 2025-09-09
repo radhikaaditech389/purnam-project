@@ -25,7 +25,6 @@
     <!-- <div class="preloader ">
         <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="{{ asset('purnam/img/logo.svg" alt="Rasm') }}">
             <span class="loader"></span>
         </div>
     </div>============================== 
