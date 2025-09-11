@@ -4,9 +4,6 @@
 @include('layouts.head')
 
 <body class="bg-smoke">
-    <!--==============================
-     Preloader
-  ==============================-->
     <div class="preloader">
         <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
@@ -15,30 +12,12 @@
         </div>
     </div>
 
-
-    <!-- <div class="preloader ">
-        <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <img src="{{ asset('purnam/img/logo.svg') }}" alt="Rasm">
-            <span class="loader"></span>
-        </div>
-    </div> -->
-    <!--==============================
-    Mobile Menu
-  ============================== -->
     @include('layouts.mobile_menu')
-    <!--==============================
 
-    Sidemenu
-============================== -->
     @include('layouts.sidebar')
-    <!--==============================
- Header Area
-==============================-->
-    <!--==============================
-Hero Area
-==============================-->
+
     @include('layouts.header')
+
     <section class="th-hero-wrapper hero-3" id="hero">
         <div class="hero-slider-3 th-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1"
             data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true">
@@ -126,9 +105,7 @@ Hero Area
 
         </div>
     </section>
-    <!--======== / Hero Section ========--><!--==============================
-About Area
-==============================-->
+
     <div class="about-sec overflow-hidden space" id="about-sec">
         <div class="container align-item-center">
             <div class="row">
@@ -215,9 +192,7 @@ About Area
                         </div>
                     </div>
                 </div>
-                <!--==============================
-Counter Area
-==============================-->
+
                 <div class="overflow-hidden">
                     <div class="container">
                         <div class="counter-sec space-top">
@@ -284,9 +259,6 @@ Counter Area
             </div>
         </div>
     </div>
-    <!--==============================
-Service Area
-==============================-->
 
     <div class="overflow-hidden">
         <div class="service-area space" id="service-sec">
@@ -611,13 +583,7 @@ Service Area
                 src="{{ asset('purnam/img/shape/leaves_7.png') }}" alt="shape">
         </div>
     </div>
-    <!--==============================
-service Area
-==============================-->
 
-    <!--==============================
-Brand Area
-==============================-->
     <div class="brand-area overflow-hidden">
         <div class="container th-container">
             <div class="row th-carousel" id="brandSlide1" data-slide-show="7" data-lg-slide-show="4"
@@ -704,9 +670,8 @@ Brand Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
-Team Area
-==============================-->
+    </div>
+
     <section class="team-area-two overflow-hidden space">
         {{-- <div class="container">
             <div class="title-area text-center">
@@ -825,9 +790,8 @@ Team Area
         <div class="shape-mockup movingX d-none d-lg-block" data-top="20%" data-right="0%"><img
                 src="{{ asset('purnam/img/shape/flower_1_12.png') }}" alt="shape">
         </div>
-    </section> <!--==============================
-Video Area
-==============================-->
+    </section>
+
     <div class="video-area-2 overflow-hidden " data-pos-for=".card-area" data-sec-pos="bottom-half">
         <div class="container">
             <div class="video-content-box text-center wow fadeInUp"
@@ -837,8 +801,7 @@ Video Area
             </div>
         </div>
     </div>
-    <div class="card-area bg-top-center overflow-hidden space"
-        data-bg-src="{{ asset('purnam/img/bg/bg-2.jpg') }}">
+    <div class="card-area bg-top-center overflow-hidden space" data-bg-src="{{ asset('purnam/img/bg/bg-2.jpg') }}">
         <div class="container">
             <!-- <div class="title-area text-center wow fadeInUp">
                 <span class="sub-title">Gift & Cards</span>
@@ -1140,9 +1103,6 @@ Video Area
         </div>
     </section> --}}
 
-    <!--==============================
-Testimonial Area
-==============================-->
     <section class="testimonial-sec overflow-hidden ">
         <div class="container th-container">
             <div class="testi-area">
@@ -1304,22 +1264,11 @@ Testimonial Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
- Footer Area
-==============================-->
+    </section>
+
     @include('layouts.footer_link')
+
     @include('layouts.footer')
-
-    <!--********************************
-   Code End  Here
- ******************************** -->
-
-
-    <!--==============================
-    All Js File
-============================== -->
-
-
 </body>
 
 </html>

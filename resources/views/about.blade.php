@@ -5,127 +5,20 @@
 
 
 <body>
-
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-
-
-    <!--==============================
-     Preloader
-  ==============================-->
-    <!-- <div class="preloader ">
+    <div class="preloader ">
         <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
+            <img src="{{ asset('purnam/img/Punam_ben Logo.png') }}" alt="purnam">
             <span class="loader"></span>
         </div>
-    </div>============================== 
-    Mobile Menu
-  ============================== -->
+    </div>
 
     @include('layouts.mobile_menu')
 
-
-    </div>
-    </div><!--==============================
-    Sidemenu
-============================== -->
     @include('layouts.sidebar')
-    <!--==============================
-    Sidemenu
-============================== -->
-    <div class="sidemenu-wrapper d-none d-lg-block ">
-        <div class="sidemenu-content bg-black2">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget footer-widget">
-                <div class="th-widget-about">
-                    <div class="about-logo">
-                        <a href="index.html"><img src="{{ asset('purnam/img/logo-white.svg') }}" alt="Rasm"></a>
-                    </div>
-                    <p class="about-text">Centric applications productize front end portals visualize front end is
-                        results and value added</p>
-                    <div class="working-time">
-                        <span class="title">We Are Available:</span>
-                        <p class="desc">Mon-Sat: 08.00 am to 5.00 pm</p>
-                    </div>
-                    <div class="th-social  footer-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="widget footer-widget">
-                <h3 class="widget_title">Recent Posts</h3>
-                <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('purnam/img/blog/recent-post-2-1.jpg') }}"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Local residents and
-                                    a few celebrities, too</a></h4>
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>19 June, 2024</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('purnam/img/blog/recent-post-2-2.jpg') }}"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Local residents and
-                                    a few celebrities, too</a></h4>
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2024</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="widget footer-widget">
-                <h4 class="widget_title">Newsletter</h4>
-                <div class="newsletter-widget">
-                    <p class="md-10">Sign Up to get updates & news about us . Get Latest Deals from Walker's Inbox to
-                        our mail address.</p>
-                    <div class="footer-search-contact mt-25">
-                        <form>
-                            <input class="form-control" type="email" placeholder="Enter your email">
-                        </form>
-                        <div class="footer-btn mt-10">
-                            <button type="submit" class="th-btn style3 fw-btn">Subscribe Now <i
-                                    class="fa-regular fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
-	Header Area
-==============================-->
+
     @include('layouts.header')
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
@@ -367,9 +260,8 @@
                 </div>
             </div>
         </div>
-    </section> <!--==============================
-Product Area
-==============================-->
+    </section>
+
     <section class="overflow-hidden space" id="shop-sec">
         <div class="container">
             <div class="title-area text-center">
@@ -377,29 +269,36 @@ Product Area
                 <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
                 <h2 class="sec-title">Our Latest Nail Products</h2>
             </div>
-            <div class="row th-carousel" id="productCarousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
+            <div class="row th-carousel" id="productCarousel" data-slide-show="3" data-lg-slide-show="2"
+                data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="th-product product-grid">
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_1.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span
+                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
+                                        class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span
+                                        class="action-text">Compare</span><span class="icon"><i
+                                            class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
                             <div class="product-content">
-                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">OPI Nail Polish</a>
+                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">OPI Nail
+                                        Polish</a>
                                 </h3>
                                 <div class="product-category"><a href="shop.html">Popular</a></div>
                             </div>
                             <div class="product-grid_content">
                                 <span class="price">$99</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
+                                            class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -413,22 +312,28 @@ Product Area
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_2.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span
+                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
+                                        class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span
+                                        class="action-text">Compare</span><span class="icon"><i
+                                            class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
                             <div class="product-content">
-                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Sunscreen Lotion</a>
+                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Sunscreen
+                                        Lotion</a>
                                 </h3>
                                 <div class="product-category"><a href="shop.html">Brand</a></div>
                             </div>
                             <div class="product-grid_content">
                                 <span class="price">$98</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
+                                            class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -442,22 +347,28 @@ Product Area
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_3.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span
+                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
+                                        class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span
+                                        class="action-text">Compare</span><span class="icon"><i
+                                            class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
                             <div class="product-content">
-                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Wholesale Liquid</a>
+                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Wholesale
+                                        Liquid</a>
                                 </h3>
                                 <div class="product-category"><a href="shop.html">Classic</a></div>
                             </div>
                             <div class="product-grid_content">
                                 <span class="price">$96</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
+                                            class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -471,37 +382,43 @@ Product Area
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_4.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span
+                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
+                                        class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span
+                                        class="action-text">Compare</span><span class="icon"><i
+                                            class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
                             <div class="product-content">
-                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Hair Dryers</a>
+                                <h3 class="box-title"><a class="text-inherit" href="shop-details.html">Hair
+                                        Dryers</a>
                                 </h3>
                                 <div class="product-category"><a href="shop.html">Cosmetic</a></div>
                             </div>
                             <div class="product-grid_content">
                                 <span class="price">$85<del>$98</del></span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
+                                            class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-        <div class="shape-mockup jump d-none d-xl-block" data-top="0%" data-left="0%"><img src="{{ asset('purnam/img/shape/leaves_3.png') }}" alt="shape"></div>
-        <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img src="{{ asset('purnam/img/shape/flower_1_6.png') }}" alt="shape"></div>
+        <div class="shape-mockup jump d-none d-xl-block" data-top="0%" data-left="0%"><img
+                src="{{ asset('purnam/img/shape/leaves_3.png') }}" alt="shape"></div>
+        <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img
+                src="{{ asset('purnam/img/shape/flower_1_6.png') }}" alt="shape"></div>
     </section>
 
-     <div class="overflow-hidden space">
+    <div class="overflow-hidden space">
         <div class="container">
             <div class="row">
                 <div class="title-area text-center mb-25">
@@ -510,82 +427,93 @@ Product Area
                     <h2 class="sec-title">Our Customer Feedback</h2>
                 </div>
             </div>
-            <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1">
+            <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2"
+                data-sm-slide-show="1" data-xs-slide-show="1">
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_1.jpg') }}" alt=""></div>
-                        <h3 class="box-title">Whether youre preparing for a special occasion or simply want to pamper yourself our talented stylists will work closely with you to create.</h3>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_1.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">Whether youre preparing for a special occasion or simply want to pamper
+                            yourself our talented stylists will work closely with you to create.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
                                 <h5 class="testi-grid_name">Angelina Margret</h5>
                                 <p class="testi-grid_desig">Customer</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
+                                alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
+                                alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
+                                alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_2.jpg') }}" alt=""></div>
-                        <h3 class="box-title">Parallel task user friendly through supply are chains. Dynamically simplify reliable meta service visionary sources unleash tactical.</h3>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_2.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">Parallel task user friendly through supply are chains. Dynamically
+                            simplify reliable meta service visionary sources unleash tactical.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
                                 <h5 class="testi-grid_name">Senjuti das</h5>
                                 <p class="testi-grid_desig">Customer</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
+                                alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
+                                alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
+                                alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_3.jpg') }}" alt=""></div>
-                        <h3 class="box-title">Continually utilize 24/365 bandwidth before real-time interfaces. Proin mollis, ipsum vel ultrices dictum. Credibly grow users deliver.</h3>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_3.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">Continually utilize 24/365 bandwidth before real-time interfaces. Proin
+                            mollis, ipsum vel ultrices dictum. Credibly grow users deliver.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
                                 <h5 class="testi-grid_name">Jenifer Lopez</h5>
                                 <p class="testi-grid_desig">Customer</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
+                                alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
+                                alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
+                                alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_4.jpg') }}" alt=""></div>
-                        <h3 class="box-title">Intrinsicly pontifice pandemic ships growth strategies and partner convergence lives multidi sciplinar business Proin mollis ultrices</h3>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_4.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">Intrinsicly pontifice pandemic ships growth strategies and partner
+                            convergence lives multidi sciplinar business Proin mollis ultrices</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
                                 <h5 class="testi-grid_name">Dianne Russell</h5>
                                 <p class="testi-grid_desig">Customer</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
+                                alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
+                                alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
+                                alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--==============================
-			Footer Area
-==============================-->
     @include('layouts.footer_link')
-
-
-
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
@@ -596,15 +524,8 @@ Product Area
         </svg>
     </div>
 
-
-
-    <!--==============================
-    All Js File
-============================== -->
     <!-- Jquery -->
     @include('layouts.footer')
-
-
 </body>
 
 </html>

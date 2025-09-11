@@ -2,20 +2,21 @@
 <html class="no-js" lang="zxx">
 
 @include('layouts.head')
+
 <body>
-    <!-- <div class="preloader ">
-        <button class="th-btn style3 preloaderCls">Cancel Preloader</button>
+    <div class="preloader ">
+        <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="{{ asset('purnam/img/logo.svg') }}" alt="Rasm">
+            <img src="{{ asset('purnam/img/Punam_ben Logo.png') }}" alt="purnam">
             <span class="loader"></span>
         </div>
-    </div> 
-   -->
-  @include('layouts.mobile_menu')
-  
-@include('layouts.sidebar')
+    </div>
 
-@include('layouts.header')
+    @include('layouts.mobile_menu')
+
+    @include('layouts.sidebar')
+
+    @include('layouts.header')
 
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/img/breadcumb/Contact_Page_BG.jpg') }}">
         <div class="container">
@@ -29,15 +30,11 @@
                 </div>
             </div>
         </div>
-    </div><!--==============================
-Contact Area  
-==============================-->
-    <!--==============================
-Gallery Area  
-==============================-->
+    </div>
+
     <div class="overflow-hidden space" id="gallery-sec">
         <div class="container">
-            <div class="filter-menu style2 indicator-active filter-menu-active">
+            {{-- <div class="filter-menu style2 indicator-active filter-menu-active">
                 <button data-filter="*" class="tab-btn active" type="button">ALL</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Massage</button>
                 <button data-filter=".cat2" class="tab-btn" type="button">Waxing</button>
@@ -49,7 +46,7 @@ Gallery Area
                 <button data-filter=".cat8" class="tab-btn" type="button">Nail Manicure</button>
                 <button data-filter=".cat9" class="tab-btn" type="button">Nail Art</button>
                 <button data-filter=".cat10" class="tab-btn" type="button">Nail Cut</button>
-            </div>
+            </div> --}}
             <div class="row gallery-row filter-active">
                 <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
                     <div class="gallery-card wow fadeInUp">
@@ -154,26 +151,23 @@ Gallery Area
                     </div>
                 </div>
             </div>
-            
+
         </div>
-    </div> <!--==============================
-			Footer Area
-==============================-->
-@include('layouts.footer_link')
-    <!--********************************
-			Code End  Here 
-	******************************** -->
+    </div>
+
+    @include('layouts.footer_link')
+
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
     </div>
-    <!--==============================
-    All Js File
-============================== -->
+
     <!-- Jquery -->
     @include('layouts.footer')
 </body>
+
 </html>

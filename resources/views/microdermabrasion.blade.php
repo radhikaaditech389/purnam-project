@@ -2,7 +2,7 @@
 <html class="no-js" lang="zxx">
 @include('layouts.head')
 <style>
-/* .overlay-img {
+    /* .overlay-img {
     position: absolute;
     bottom: -20px;
     right: -20px;
@@ -10,129 +10,51 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 } */
 
-.circle-badge {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #f8e1d9;
-    border-radius: 50%;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #6b3a2d;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
+    .circle-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: #f8e1d9;
+        border-radius: 50%;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: #6b3a2d;
+        font-size: 14px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
 
-.text-brown {
-    color: #a25b42;
-}
+    .text-brown {
+        color: #a25b42;
+    }
 
-.btn-brown {
-    background-color: #a25b42;
-    color: #fff;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
+    .btn-brown {
+        background-color: #a25b42;
+        color: #fff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
 
-.btn-brown:hover {
-    background-color: #7c3f2a;
-}
+    .btn-brown:hover {
+        background-color: #7c3f2a;
+    }
 </style>
 
 <body>
-    @include('layouts.mobile_menu')
-
-
-    </div>
-    </div>
-    @include('layouts.sidebar')
-
-    <div class="sidemenu-wrapper d-none d-lg-block ">
-        <div class="sidemenu-content bg-black2">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget footer-widget">
-                <div class="th-widget-about">
-                    <div class="about-logo">
-                        <a href="index.html"><img src="{{ asset('purnam/img/logo-white.svg') }}" alt="Rasm"></a>
-                    </div>
-                    <p class="about-text">Centric applications productize front end portals visualize front end is
-                        results and value added</p>
-                    <div class="working-time">
-                        <span class="title">We Are Available:</span>
-                        <p class="desc">Mon-Sat: 08.00 am to 5.00 pm</p>
-                    </div>
-                    <div class="th-social  footer-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="widget footer-widget">
-                <h3 class="widget_title">Recent Posts</h3>
-                <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('purnam/img/blog/recent-post-2-1.jpg') }}"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Local residents and
-                                    a few celebrities, too</a></h4>
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>19 June, 2024</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('purnam/img/blog/recent-post-2-2.jpg') }}"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Local residents and
-                                    a few celebrities, too</a></h4>
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2024</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="widget footer-widget">
-                <h4 class="widget_title">Newsletter</h4>
-                <div class="newsletter-widget">
-                    <p class="md-10">Sign Up to get updates & news about us . Get Latest Deals from Walker's Inbox to
-                        our mail address.</p>
-                    <div class="footer-search-contact mt-25">
-                        <form>
-                            <input class="form-control" type="email" placeholder="Enter your email">
-                        </form>
-                        <div class="footer-btn mt-10">
-                            <button type="submit" class="th-btn style3 fw-btn">Subscribe Now <i
-                                    class="fa-regular fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="preloader ">
+        <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+            <img src="{{ asset('purnam/img/Punam_ben Logo.png') }}" alt="purnam">
+            <span class="loader"></span>
         </div>
     </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div>
-    <!--==============================
-	Header Area
-==============================-->
+
+    @include('layouts.mobile_menu')
+
+    @include('layouts.sidebar')
+
     @include('layouts.header')
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('purnam/microdermation-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
@@ -146,9 +68,7 @@
             </div>
         </div>
     </div>
-    <!--==============================
-Microdermabrasion Procedure Section
-==============================-->
+
     <section class="microdermabrasion-section py-5 skin-section-bg">
         <div class="container">
             <div class="row align-items-center">
@@ -158,8 +78,8 @@ Microdermabrasion Procedure Section
                     <!-- First Image -->
                     <div class="col-lg-12 position-relative mb-4">
                         <div class="image-wrapper position-relative">
-                            <img src="{{ asset('purnam/microderma.jpg') }}"
-                                alt="Microdermabrasion Treatment Before" class="main-img rounded-4 shadow"
+                            <img src="{{ asset('purnam/microderma.jpg') }}" alt="Microdermabrasion Treatment Before"
+                                class="main-img rounded-4 shadow"
                                 style="width: 550px; height: 300px; object-fit: cover;">
                             <div class="circle-badge"
                                 style="position:absolute; top:15px; left:15px; background:#c28565; color:#fff; border-radius:20px; width:180px; height:42px; display:flex; align-items:center; justify-content:center; font-weight:600; font-size:14px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
@@ -194,7 +114,8 @@ Microdermabrasion Procedure Section
                     </h2>
 
                     <p class="mb-4 lead" style="color:#555; font-size:1.15rem; line-height:1.8;">
-                        <strong style="color:#c28565;">Microdermabrasion</strong> is a safe, non-invasive procedure that
+                        <strong style="color:#c28565;">Microdermabrasion</strong> is a safe, non-invasive procedure
+                        that
                         gently
                         exfoliates the outer layer of dead skin cells using fine crystals or a diamond tip device. It
                         helps improve
@@ -241,7 +162,8 @@ Microdermabrasion Procedure Section
                                     </h5>
                                     <ul class="list-unstyled mb-0"
                                         style="font-size:0.95rem; color:#444; line-height:2;">
-                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin tone &
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Improves skin tone
+                                            &
                                             texture</li>
                                         <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Reduces mild acne
                                             scars & blemishes</li>
@@ -249,7 +171,8 @@ Microdermabrasion Procedure Section
                                             reduces blackheads</li>
                                         <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Boosts collagen
                                             production</li>
-                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & quick with no
+                                        <li><i class="fas fa-check me-2" style="color:#c28565;"></i>Safe & quick with
+                                            no
                                             downtime</li>
                                     </ul>
                                 </div>
@@ -269,21 +192,7 @@ Microdermabrasion Procedure Section
         </div>
     </section>
 
-
-
-
-
-    <!--==============================
-			Footer Area
-==============================-->
     @include('layouts.footer_link')
-
-
-
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
@@ -294,15 +203,8 @@ Microdermabrasion Procedure Section
         </svg>
     </div>
 
-
-
-    <!--==============================
-    All Js File
-============================== -->
     <!-- Jquery -->
     @include('layouts.footer')
-
-
 </body>
 
 </html>

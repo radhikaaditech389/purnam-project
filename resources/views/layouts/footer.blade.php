@@ -76,33 +76,33 @@
                         <h3 class="widget_title">Photos Gallery</h3>
                         <div class="sidebar-gallery">
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_1.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_1.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-1.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-1.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_2.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_2.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-2.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-2.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_3.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_3.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-3.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-3.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_4.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_4.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-4.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-4.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_5.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_5.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-5.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-5.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/widget/gallery_2_6.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/widget/gallery_2_6.jpg') }}"
+                                <img src="{{ asset('purnam/img/bg/gallery-6.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/bg/gallery-6.jpg') }}"
                                     class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
