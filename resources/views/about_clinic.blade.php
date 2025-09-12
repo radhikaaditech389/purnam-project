@@ -125,6 +125,21 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="th-counterup wow fadeInUp">
+                                <div class="inner">
+                                    <div class="th-icon">
+                                        <img src="{{ asset('purnam/img/icon/counter_2_2.svg') }}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="counter"><span class="odometer" data-count="100">00</span>
+                                            <span class="counter-number">%</span>
+                                        </h3>
+                                        <p class="counter-card_text">Natural Products</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                             {{-- <div class="th-counterup wow fadeInUp">
                                 <div class="inner">
                                     <div class="th-icon">

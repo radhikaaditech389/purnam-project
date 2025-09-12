@@ -39,7 +39,7 @@
                             Specialized in PRP, GFC, QR678, Hair Transplant, and Laser Therapy for Hair Loss.
                         </p>
                         <div class="btn-group style-1" data-ani="slideinup" data-ani-delay="0.8s">
-                            <a href="#" class="th-btn">Our Services<i
+                            <a href="/about_clinic" class="th-btn">About Clinic<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
                             <a href="/contact" class="th-btn style5">Contact Us<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -65,7 +65,7 @@
                             Expert treatment for Acne, Eczema, Psoriasis, Vitiligo & Autoimmune Disorders.
                         </p>
                         <div class="btn-group style-1" data-ani="slideinup" data-ani-delay="0.8s">
-                            <a href="#" class="th-btn">Our Services<i
+                            <a href="/about_clinic" class="th-btn">About Clinic<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
                             <a href="/contact" class="th-btn style5">Contact Us<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -91,7 +91,7 @@
                             Experience Anti-Aging, Medifacials, Pigmentation & Laser Hair Reduction.
                         </p>
                         <div class="btn-group style-1" data-ani="slideinup" data-ani-delay="0.8s">
-                            <a href="#" class="th-btn">Our Services<i
+                            <a href="/about_clinic" class="th-btn">About Clinic<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
                             <a href="/contact" class="th-btn style5">Contact Us<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -291,7 +291,6 @@
 
                     <div class="row slider-shadow th-carousel" id="serviceSlide7" data-slide-show="3"
                         data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-
                         <div class="col-md-6 col-lg-4">
                             <div class="service-item style3 wow fadeInUp">
                                 <div class="service-item_img global-img">
@@ -305,7 +304,7 @@
                                     <h3 class="box-title">Hair Care</h3><br>
                                     <p class="service-item_text">Combat hair fall, dandruff, and thinning with PRP,
                                         GFC, QR678, and advanced laser therapies tailored for healthy, fuller hair.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/hair-problems" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -316,7 +315,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="col-md-6 col-lg-4">
                             <div class="service-item style3 wow fadeInUp">
@@ -332,7 +330,7 @@
                                     <p class="service-item_text">Comprehensive medical care for eczema, psoriasis,
                                         infections, allergies, melasma, and autoimmune skin conditions — all under
                                         expert guidance.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/eczema" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -343,7 +341,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="col-md-6 col-lg-4">
                             <div class="service-item style3 wow fadeInUp">
@@ -359,7 +356,7 @@
                                     <p class="service-item_text">From UVB therapy to excimer lasers and surgery — we
                                         offer holistic solutions to manage and improve vitiligo with proven protocols.
                                     </p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/vitiligo-surgery" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -385,7 +382,7 @@
                                     <p class="service-item_text">Boost hydration, repair damage, and protect your skin
                                         daily with science-backed treatments and maintenance therapies for radiant skin.
                                     </p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/hydration" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -411,7 +408,7 @@
                                     <p class="service-item_text">Safe and precise surgical treatments for scars, moles,
                                         cysts, vitiligo, keloids, and more — performed by qualified dermatologic
                                         surgeons.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/scar-revision" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -436,7 +433,7 @@
                                     <h3 class="box-title">Laser Hair Reduction</h3><br>
                                     <p class="service-item_text">FDA-cleared, virtually painless laser treatment
                                         suitable for all skin types — targeting face, body, and sensitive zones.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/virtually-pain-free-smooth-and-gentle" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -460,7 +457,7 @@
                                     <h3 class="box-title">Acne Scar Treatment</h3><br>
                                     <p class="service-item_text">Medical, chemical, and laser-based approaches to clear
                                         active acne and fade stubborn scars for smoother, clearer skin.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/medical_treatment" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -485,7 +482,7 @@
                                     <h3 class="box-title">Pigmentation</h3><br>
                                     <p class="service-item_text">Treat dark spots, melasma, and uneven skin tone with
                                         chemical peels, carbon facials, and laser toning for a luminous glow.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/glow_treatment" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -510,7 +507,7 @@
                                     <h3 class="box-title">Anti Ageing Treatments</h3><br>
                                     <p class="service-item_text">Look younger with wrinkle reduction, Botox, fillers,
                                         thread lifts, and hydration boosters that restore youthful skin texture.</p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/wrinkle_treatments" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -535,7 +532,7 @@
                                     <h3 class="box-title">Derma Lift Therapy</h3><br>
                                     <p class="service-item_text">Non-surgical HIFU therapy that lifts, tightens, and
                                         rejuvenates stimulating collagen for long-term age reversal.</p>
-                                    <br><a href="service-details.html" class="line-btn">See more<i
+                                    <br><a href="/hifu" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img
@@ -560,7 +557,7 @@
                                     <p class="service-item_text">Luxury meets dermatology with HydraFacial, Carbon
                                         Peel, Vampire Facial, and Korean Glass Facial — all tailored to your skin needs.
                                     </p>
-                                    <a href="service-details.html" class="line-btn">See more<i
+                                    <a href="/koreal_glass_facial" class="line-btn">See more<i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                                 <div class="service-shape style1"><img

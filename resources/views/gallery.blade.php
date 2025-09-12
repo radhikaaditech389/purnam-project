@@ -53,12 +53,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/1--491_755.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_1.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Body Massage</h2>
                             <p class="gallery-text">Massage</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat5 cat9 cat8 cat10">
@@ -66,12 +66,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/2--699_400.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_2.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Relaxing </h2>
                             <p class="gallery-text">Relaxing </p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat7 cat6">
@@ -79,12 +79,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/3--387_325.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_3.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Skin Care</h2>
                             <p class="gallery-text">Skin Care</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat9 cat7 cat4">
@@ -92,12 +92,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/4--282_325.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_4.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Beauty Spa</h2>
                             <p class="gallery-text">Beauty Spa</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat1 cat3 cat4 cat5">
@@ -105,12 +105,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/8--491_755.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_5.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Hair Cut</h2>
                             <p class="gallery-text">Hair Cut</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat6 cat8 cat10">
@@ -118,12 +118,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/6--282_325.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_6.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Nail Art</h2>
                             <p class="gallery-text">Nail Art</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat2 cat10">
@@ -131,12 +131,12 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/7--387_325.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <!-- <a href="{{ asset('purnam/img/gallery/gallery_1_7.jpg') }}" class="icon-btn popup-image">
                                 <i class="fa-solid fa-arrow-up-right"></i></a> -->
                             <h2 class="gallery-title box-title">Hair Color</h2>
                             <p class="gallery-text">Hair Color</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-auto filter-item cat10 cat5">
@@ -144,10 +144,10 @@
                         <div class="gallery-img">
                             <img src="{{ asset('purnam/img/bg/5--699_400.jpg') }}" alt="gallery image">
                         </div>
-                        <div class="gallery-content">
+                        {{-- <div class="gallery-content">
                             <h2 class="gallery-title box-title">Waxing</h2>
                             <p class="gallery-text">Waxing</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

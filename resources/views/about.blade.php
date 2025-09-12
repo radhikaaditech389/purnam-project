@@ -38,23 +38,23 @@
                 <div class="title-area text-center mb-40">
                     <span class="sub-title style2">About Us</span>
                     <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
-                    <h2 class="sec-title">Step Into The World of Nail Styling Perfection</h2>
-                    <p class="sec-text">At our Nail Style Salon, we understand that each client is unique, and their
-                        nail preferences vary.
-                        That's why we offer customized nail services tailored to your specific needs. Whether you're
-                        looking for
-                        a classic French manicure, a chic and sophisticated look for a special event.</p>
+                    <h2 class="sec-title">Purnam - The Complete Skin Care Clinic</h2>
+                    <p class="sec-text">At Purnam, we are dedicated to providing comprehensive and advanced treatments
+                        for all your hair and skin concerns. Under the expert care of <strong>Dr. Kirti Shah (M.D.,
+                            D.V.D.),</strong> we
+                        offer a wide range of services to help you achieve healthy, glowing skin and hair.</p>
                 </div>
             </div>
             <div class="video-group text-center">
-                <a href="about.html" class="th-btn">More About Us<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                <a href="tel:+256214203215" class="th-btn style2">Make A Call<i
-                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                {{-- <a href="about.html" class="th-btn">More About Us<i class="fa-regular fa-arrow-right ms-2"></i></a> --}}
+                <a href="tel:+917405121122" class="th-btn">
+                    Make A Call <i class="fas fa-arrow-right ms-2"></i>
+                </a>
             </div>
             <div class="row gy-4 align-items-center">
                 <div class="col-xl-6 col-xxl-8">
                     <div class="video-box1 wow fadeInDown" data-bg-src="{{ asset('purnam/img/normal/video_1.jpg') }}">
-                        <img src="{{ asset('purnam/img/normal/video_1.jpg') }}" alt="video">
+                        <img src="{{ asset('purnam/img/bg/803 _ 412.jpg') }}" alt="video">
                         <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
                             class="video-play-btn play-btn popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i></a>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="th-counterup style2 wow fadeInUp">
+                        {{-- <div class="th-counterup style2 wow fadeInUp">
                             <div class="inner">
                                 <div class="icon">
                                     <img src="{{ asset('purnam/img/icon/counter_2_3.svg') }}" alt="">
@@ -113,7 +113,7 @@
                                     <p class="counter-card_text">Specialists Team</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -136,40 +136,49 @@
                 <div class="col-lg-7">
                     <div class="pe-xl-5 me-xl-3">
                         <div class="title-area mt-60 mb-25 wow fadeInLeft">
-                            <span class="sub-title">Why Choose Us<img
+                            <span class="sub-title">Why Choose Purnam Clinic?<img
                                     src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
-                            <h2 class="sec-title">We Have 25 Years Of Experience With Nail Style.</h2>
-                            <p class="mt-n2 mb-35">We prioritize the cleanliness and comfort of our clients, ensuring a
-                                hygienic
-                                and
-                                relaxing environment throughout your visit. Our salon adheres to strict sanitization
-                                protocols,
-                                and
-                                all our tools.</p>
+                            <h2 class="sec-title">We Have 26 Years Of Experience.</h2>
+                            <p class="mt-n2 mb-35">At Purnam, we are dedicated to providing comprehensive and
+                                professional care for all your skin and hair needs. We prioritize the cleanliness and
+                                comfort of our clients, ensuring a hygienic and relaxing environment throughout your
+                                visit. Our clinic adheres to strict sanitization protocols and uses the latest, most
+                                effective equipment for all our treatments.</p>
                         </div>
                         <div class="choose-about-wrap">
                             <div class="choose-about wow fadeInUp">
                                 <div class="choose-about_icon">
-                                    <img src="{{ asset('purnam/img/icon/choose_1.svg') }}" alt="image">
+                                    <img src="{{ asset('purnam/img/icon/counter_1_4.svg') }}" alt="image">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title">Brand Nail Art Equipment</h3>
-                                    <p class="choose-about_text">From classic manicures and pedicures to intricate nail
-                                        art
-                                        and
-                                        personalized nail extensions</p>
+                                    <h3 class="box-title">Expert Medical Team</h3>
+                                    <p class="choose-about_text">Under the care of <strong>Dr. Kirti Shah (M.D.,
+                                            D.V.D.),</strong> our
+                                        clinic offers specialized medical and surgical treatments, from skin disease
+                                        management to advanced dermatosurgery.</p>
                                 </div>
                             </div>
                             <div class="choose-about wow fadeInUp">
                                 <div class="choose-about_icon">
-                                    <img src="{{ asset('purnam/img/icon/choose_2.svg') }}" alt="image">
+                                    <img src="{{ asset('purnam/img/icon/logo-icon.svg') }}" alt="image">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title">Best Place</h3>
-                                    <p class="choose-about_text">That's why we only use premium quality nail polishes,
-                                        gel,
-                                        and
-                                        other nail products from trusted brands.</p>
+                                    <h3 class="box-title">Comprehensive Services</h3>
+                                    <p class="choose-about_text">We provide a wide range of services, from solutions
+                                        for common hair problems and daily skin care to specialized procedures for
+                                        conditions like Vitiligo, Psoriasis, and Eczema.</p>
+                                </div>
+                            </div>
+                            <div class="choose-about wow fadeInUp">
+                                <div class="choose-about_icon">
+                                    <img src="{{ asset('purnam/img/icon/service_1_3.svg') }}" alt="image">
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="box-title">Quality and Trust</h3>
+                                    <p class="choose-about_text">We use only premium-quality products and
+                                        state-of-the-art equipment for all our procedures, including various laser
+                                        therapies and surgical tools. Our commitment is to use trusted brands and
+                                        methods that provide the best results for our clients.</p>
                                 </div>
                             </div>
                             <div class="choose-about wow fadeInUp">
@@ -177,11 +186,10 @@
                                     <img src="{{ asset('purnam/img/icon/choose_3.svg') }}" alt="image">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title">Special Support</h3>
-                                    <p class="choose-about_text">That's why we only use premium quality nail polishes,
-                                        gel,
-                                        and
-                                        other nail products from trusted brands.</p>
+                                    <h3 class="box-title">Specialized Care</h3>
+                                    <p class="choose-about_text">Whether you need a simple skin tag removal, a hair
+                                        transplant, or complex plastic surgery, our team offers personalized and
+                                        supportive care tailored to your specific needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +197,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="choose-image">
-                        <div class="img1  wow fadeInRight">
-                            <img src="{{ asset('purnam/img/normal/choose_1.png') }}" alt="Choose">
+                        <div class="img1  wow fadeInRight" style="margin-bottom: 200px;">
+                            <img src="{{ asset('purnam/img/bg/524 _ 620.jpg') }}" alt="Choose">
                         </div>
                         <div class="img2 movingX">
                             <img src="{{ asset('purnam/img/shape/flower_1_3.png') }}" alt="image">
@@ -201,7 +209,7 @@
         </div>
     </div>
 
-    <section class="space" data-bg-src="{{ asset('purnam/img/bg/price_bg_1.jpg') }}">
+    {{-- <section class="space" data-bg-src="{{ asset('purnam/img/bg/price_bg_1.jpg') }}">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="price-box_area">
@@ -416,7 +424,7 @@
                 src="{{ asset('purnam/img/shape/leaves_3.png') }}" alt="shape"></div>
         <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img
                 src="{{ asset('purnam/img/shape/flower_1_6.png') }}" alt="shape"></div>
-    </section>
+    </section> --}}
 
     <div class="overflow-hidden space">
         <div class="container">
@@ -431,14 +439,15 @@
                 data-sm-slide-show="1" data-xs-slide-show="1">
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_1.jpg') }}"
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Whether youre preparing for a special occasion or simply want to pamper
-                            yourself our talented stylists will work closely with you to create.</h3>
+                        <h3 class="box-title">My skin would always feel dry and itchy and flaky from the psoriasis. Now
+                            doctor prescribed right medicine and cream for me. My skin is smooth now, and I feel so much
+                            better. Thank you, doctor your premises of skin clinic is very beautiful.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Angelina Margret</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name">Kamlesh Fotariya</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -451,14 +460,15 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_2.jpg') }}"
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Parallel task user friendly through supply are chains. Dynamically
-                            simplify reliable meta service visionary sources unleash tactical.</h3>
+                        <h3 class="box-title">I had many pimples on my face, used many creams but no help. Doctor
+                            prescribed medicines and treatment for Lesar for Acne & follow up acne scar treatment is
+                            good & nature of satff is fully co operative and now my face is clean.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Senjuti das</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name">Divya Shrimali</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -471,14 +481,14 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_3.jpg') }}"
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Continually utilize 24/365 bandwidth before real-time interfaces. Proin
-                            mollis, ipsum vel ultrices dictum. Credibly grow users deliver.</h3>
+                        <h3 class="box-title">The treatment is really good and doctor is also fantastic provide good
+                            medicine without steroines and result are just seen in one and half month.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Jenifer Lopez</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name" style="margin-top: 57px;">Rudra Tushar Patel</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -491,14 +501,14 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_4.jpg') }}"
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Intrinsicly pontifice pandemic ships growth strategies and partner
-                            convergence lives multidi sciplinar business Proin mollis ultrices</h3>
+                        <h3 class="box-title">Doctor is very good and treatment for hair fall really helped me. My hair
+                            is stronger, and I see less hair on my pillow now.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Dianne Russell</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name" style="margin-top: 83px;">Dipak Rajput</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
