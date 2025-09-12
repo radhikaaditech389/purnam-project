@@ -34,7 +34,7 @@
 
     <div class="position-relative space">
         <div class="container">
-            <form action="booking.php" method="POST" class="booking-form-area ajax-booking">
+            <form action="#" method="POST" class="booking-form-area ajax-booking">
                 <div class="booking-title-area">
                     <div class="title-area mb-40 text-center wow fadeInUp">
                         <span class="sub-title style2">Make An Appointment</span>
@@ -101,15 +101,16 @@
             <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1"
                 data-xs-slide-show="1">
                 <div class="col-md-6 col-lg-4">
-                    <div class="testi-grid style3 wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_1.jpg') }}"
+                    <div class="testi-grid wow fadeInUp">
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Whether youre preparing for a special occasion or simply want to pamper
-                            yourself our talented stylists will work closely with you to create.</h3>
+                        <h3 class="box-title">My skin would always feel dry and itchy and flaky from the psoriasis. Now
+                            doctor prescribed right medicine and cream for me. My skin is smooth now, and I feel so much
+                            better. Thank you, doctor your premises of skin clinic is very beautiful.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Angelina Margret</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name">Kamlesh Fotariya</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -121,15 +122,16 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="testi-grid style3 wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/testi_2_2.jpg') }}"
+                    <div class="testi-grid wow fadeInDown">
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
                                 alt=""></div>
-                        <h3 class="box-title">Parallel task user friendly through supply are chains. Dynamically
-                            simplify reliable meta service visionary sources unleash tactical.</h3>
+                        <h3 class="box-title">I had many pimples on my face, used many creams but no help. Doctor
+                            prescribed medicines and treatment for Lesar for Acne & follow up acne scar treatment is
+                            good & nature of satff is fully co operative and now my face is clean.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Senjuti das</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name">Divya Shrimali</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -141,15 +143,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="testi-grid style3 wow fadeInUp">
-                        <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_3.jpg" alt="">
-                        </div>
-                        <h3 class="box-title">Continually utilize 24/365 bandwidth before real-time interfaces. Proin
-                            mollis, ipsum vel ultrices dictum. Credibly grow users deliver.</h3>
+                    <div class="testi-grid wow fadeInUp">
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">The treatment is really good and doctor is also fantastic provide good
+                            medicine without steroines and result are just seen in one and half month.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Jenifer Lopez</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name" style="margin-top: 57px;">Rudra Tushar Patel</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -161,15 +163,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="testi-grid style3 wow fadeInDown">
-                        <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_4.jpg" alt="">
-                        </div>
-                        <h3 class="box-title">Intrinsicly pontifice pandemic ships growth strategies and partner
-                            convergence lives multidi sciplinar business Proin mollis ultrices</h3>
+                    <div class="testi-grid wow fadeInDown">
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
+                                alt=""></div>
+                        <h3 class="box-title">Doctor is very good and treatment for hair fall really helped me. My hair
+                            is stronger, and I see less hair on my pillow now.</h3>
                         <div class="testi-grid_profile">
                             <div class="media-body">
-                                <h5 class="testi-grid_name">Dianne Russell</h5>
-                                <p class="testi-grid_desig">Customer</p>
+                                <h5 class="testi-grid_name" style="margin-top: 83px;">Dipak Rajput</h5>
+                                <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
                         <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
@@ -183,10 +185,10 @@
             </div>
         </div>
         <div class="shape-mockup jump  d-none d-lg-block" data-bottom="15%" data-left="0%"><img
-                src="assets/img/shape/leaves_1.png" alt="shape">
+                src="purnam/img/shape/leaves_1.png" alt="shape">
         </div>
         <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img
-                src="assets/img/shape/leaves_7.png" alt="shape">
+                src="purnam/img/shape/leaves_7.png" alt="shape">
         </div>
     </div>
 

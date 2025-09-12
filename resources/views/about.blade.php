@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="th-counterup style2 wow fadeInUp">
+                        <div class="th-counterup style2 wow fadeInUp">
                             <div class="inner">
                                 <div class="icon">
                                     <img src="{{ asset('purnam/img/icon/counter_2_3.svg') }}" alt="">
@@ -113,7 +113,7 @@
                                     <p class="counter-card_text">Specialists Team</p>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>

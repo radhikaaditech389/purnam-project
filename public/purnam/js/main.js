@@ -40,12 +40,12 @@
         $(".preloader").fadeOut();
     });
 
-    $(window).on('resize', function () {
+    $(window).on("resize", function () {
         $(".slick-slider").slick("refresh");
     });
     // $('select').niceSelect();
-    if ($('.nice-select').length) {
-        $('.nice-select').niceSelect();
+    if ($(".nice-select").length) {
+        $(".nice-select").niceSelect();
     }
 
     /*---------- 02. Preloader ----------*/
@@ -58,8 +58,8 @@
         });
     }
 
-       /*---------- 03. Mobile Menu ----------*/
-       $.fn.thmobilemenu = function (options) {
+    /*---------- 03. Mobile Menu ----------*/
+    $.fn.thmobilemenu = function (options) {
         var opt = $.extend(
             {
                 menuToggleBtn: ".th-menu-toggle",
@@ -142,87 +142,96 @@
         });
     };
 
-
     $(".th-menu-wrapper").thmobilemenu();
 
     /*---------- 04. Sticky fix ----------*/
     $(window).on("scroll", function () {
         var topPos = $(this).scrollTop();
-        sticky()
+        sticky();
         if (topPos > 150) {
-            $('.sticky-wrapper').addClass('will-sticky')
-            sticky()
+            $(".sticky-wrapper").addClass("will-sticky");
+            sticky();
         } else {
-            $('.sticky-wrapper').removeClass('sticky')
-            $('.sticky-wrapper').removeClass('will-sticky')
+            $(".sticky-wrapper").removeClass("sticky");
+            $(".sticky-wrapper").removeClass("will-sticky");
         }
 
         function sticky() {
             if (topPos > 400) {
-                $('.sticky-wrapper').addClass('sticky')
-                $('.sticky-wrapper').removeClass('will-sticky')
+                $(".sticky-wrapper").addClass("sticky");
+                $(".sticky-wrapper").removeClass("will-sticky");
             }
         }
-    })
+    });
 
-         /*----------- 04.1.  One Page Nav ----------*/
-         function onePageNav(element) {
-            if ($(element).length > 0) {
-                $(element).each(function () {
-                var link = $(this).find('a');
-                $(this).find(link).each(function () {
-                    $(this).on('click', function () {
-                    var target = $(this.getAttribute('href'));
-                    if (target.length) {
-                        event.preventDefault();
-                        $('html, body').stop().animate({
-                        scrollTop: target.offset().top - 10
-                        }, 1000);
-                    };
-
+    /*----------- 04.1.  One Page Nav ----------*/
+    function onePageNav(element) {
+        if ($(element).length > 0) {
+            $(element).each(function () {
+                var link = $(this).find("a");
+                $(this)
+                    .find(link)
+                    .each(function () {
+                        $(this).on("click", function () {
+                            var target = $(this.getAttribute("href"));
+                            if (target.length) {
+                                event.preventDefault();
+                                $("html, body")
+                                    .stop()
+                                    .animate(
+                                        {
+                                            scrollTop: target.offset().top - 10,
+                                        },
+                                        1000
+                                    );
+                            }
+                        });
                     });
-                });
-                })
-            }
-        };
-        onePageNav('.onepage-nav');
-        onePageNav('.scroll-down');
+            });
+        }
+    }
+    onePageNav(".onepage-nav");
+    onePageNav(".scroll-down");
 
     /*---------- 05. Scroll To Top ----------*/
-    if ($('.scroll-top').length > 0) {
-
-        var scrollTopbtn = document.querySelector('.scroll-top');
-        var progressPath = document.querySelector('.scroll-top path');
+    if ($(".scroll-top").length > 0) {
+        var scrollTopbtn = document.querySelector(".scroll-top");
+        var progressPath = document.querySelector(".scroll-top path");
         var pathLength = progressPath.getTotalLength();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-        progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+        progressPath.style.transition = progressPath.style.WebkitTransition =
+            "none";
+        progressPath.style.strokeDasharray = pathLength + " " + pathLength;
         progressPath.style.strokeDashoffset = pathLength;
         progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+        progressPath.style.transition = progressPath.style.WebkitTransition =
+            "stroke-dashoffset 10ms linear";
         var updateProgress = function () {
             var scroll = $(window).scrollTop();
             var height = $(document).height() - $(window).height();
-            var progress = pathLength - (scroll * pathLength / height);
+            var progress = pathLength - (scroll * pathLength) / height;
             progressPath.style.strokeDashoffset = progress;
-        }
+        };
         updateProgress();
         $(window).scroll(updateProgress);
         var offset = 50;
         var duration = 750;
-        jQuery(window).on('scroll', function () {
+        jQuery(window).on("scroll", function () {
             if (jQuery(this).scrollTop() > offset) {
-                jQuery(scrollTopbtn).addClass('show');
+                jQuery(scrollTopbtn).addClass("show");
             } else {
-                jQuery(scrollTopbtn).removeClass('show');
+                jQuery(scrollTopbtn).removeClass("show");
             }
         });
-        jQuery(scrollTopbtn).on('click', function (event) {
+        jQuery(scrollTopbtn).on("click", function (event) {
             event.preventDefault();
-            jQuery('html, body').animate({
-                scrollTop: 0
-            }, duration);
+            jQuery("html, body").animate(
+                {
+                    scrollTop: 0,
+                },
+                duration
+            );
             return false;
-        })
+        });
     }
 
     /*---------- 06. Set Background Image ----------*/
@@ -245,13 +254,13 @@
 
         // Custom Arrow Button
         var prevButton =
-            '<button type="button" class="slick-prev"><i class="' +
-            d("prev-arrow") +
-            '"></i></button>',
+                '<button type="button" class="slick-prev"><i class="' +
+                d("prev-arrow") +
+                '"></i></button>',
             nextButton =
-            '<button type="button" class="slick-next"><i class="' +
-            d("next-arrow") +
-            '"></i></button>';
+                '<button type="button" class="slick-next"><i class="' +
+                d("next-arrow") +
+                '"></i></button>';
 
         // Function For Custom Arrow Btn
         $("[data-slick-next]").each(function () {
@@ -294,18 +303,22 @@
             variableWidth: d("variable-width") ? true : false,
             vertical: d("vertical") ? true : false,
             verticalSwiping: d("vertical") ? true : false,
-            prevArrow: d("prev-arrow") ?
-                prevButton : '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left ms-2"></i></button>',
-            nextArrow: d("next-arrow") ?
-                nextButton : '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right ms-2"></i></button>',
+            prevArrow: d("prev-arrow")
+                ? prevButton
+                : '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left ms-2"></i></button>',
+            nextArrow: d("next-arrow")
+                ? nextButton
+                : '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right ms-2"></i></button>',
             rtl: $("html").attr("dir") == "rtl" ? true : false,
-            responsive: [{
+            responsive: [
+                {
                     breakpoint: 1600,
                     settings: {
                         arrows: d("xl-arrows") ? true : false,
                         dots: d("xl-dots") ? true : false,
-                        slidesToShow: d("xl-slide-show") ?
-                            d("xl-slide-show") : d("slide-show"),
+                        slidesToShow: d("xl-slide-show")
+                            ? d("xl-slide-show")
+                            : d("slide-show"),
                         centerMode: d("xl-center-mode") ? true : false,
                         centerPadding: "0",
                     },
@@ -315,8 +328,9 @@
                     settings: {
                         arrows: d("ml-arrows") ? true : false,
                         dots: d("ml-dots") ? true : false,
-                        slidesToShow: d("ml-slide-show") ?
-                            d("ml-slide-show") : d("slide-show"),
+                        slidesToShow: d("ml-slide-show")
+                            ? d("ml-slide-show")
+                            : d("slide-show"),
                         centerMode: d("ml-center-mode") ? true : false,
                         centerPadding: 0,
                     },
@@ -326,10 +340,12 @@
                     settings: {
                         arrows: d("lg-arrows") ? true : false,
                         dots: d("lg-dots") ? true : false,
-                        slidesToShow: d("lg-slide-show") ?
-                            d("lg-slide-show") : d("slide-show"),
-                        centerMode: d("lg-center-mode") ?
-                            d("lg-center-mode") : false,
+                        slidesToShow: d("lg-slide-show")
+                            ? d("lg-slide-show")
+                            : d("slide-show"),
+                        centerMode: d("lg-center-mode")
+                            ? d("lg-center-mode")
+                            : false,
                         centerPadding: 0,
                     },
                 },
@@ -338,10 +354,12 @@
                     settings: {
                         arrows: d("md-arrows") ? true : false,
                         dots: d("md-dots") ? true : false,
-                        slidesToShow: d("md-slide-show") ?
-                            d("md-slide-show") : 1,
-                        centerMode: d("md-center-mode") ?
-                            d("md-center-mode") : false,
+                        slidesToShow: d("md-slide-show")
+                            ? d("md-slide-show")
+                            : 1,
+                        centerMode: d("md-center-mode")
+                            ? d("md-center-mode")
+                            : false,
                         centerPadding: 0,
                     },
                 },
@@ -350,10 +368,12 @@
                     settings: {
                         arrows: d("sm-arrows") ? true : false,
                         dots: d("sm-dots") ? true : false,
-                        slidesToShow: d("sm-slide-show") ?
-                            d("sm-slide-show") : 1,
-                        centerMode: d("sm-center-mode") ?
-                            d("sm-center-mode") : false,
+                        slidesToShow: d("sm-slide-show")
+                            ? d("sm-slide-show")
+                            : 1,
+                        centerMode: d("sm-center-mode")
+                            ? d("sm-center-mode")
+                            : false,
                         centerPadding: 0,
                     },
                 },
@@ -362,10 +382,12 @@
                     settings: {
                         arrows: d("xs-arrows") ? true : false,
                         dots: d("xs-dots") ? true : false,
-                        slidesToShow: d("xs-slide-show") ?
-                            d("xs-slide-show") : 1,
-                        centerMode: d("xs-center-mode") ?
-                            d("xs-center-mode") : false,
+                        slidesToShow: d("xs-slide-show")
+                            ? d("xs-slide-show")
+                            : 1,
+                        centerMode: d("xs-center-mode")
+                            ? d("xs-center-mode")
+                            : false,
                         centerPadding: 0,
                     },
                 },
@@ -376,174 +398,189 @@
         });
     });
 
-        // hero slider 1
-        var $slider = $('.hero-slider-6');
-        var $progressBar = $('.progress');
-        var $status1 = $('.pagingInfo1');
-        var $progressBarLabel = $('.slider__label');
-        var $status2 = $('.pagingInfo2');
+    // hero slider 1
+    var $slider = $(".hero-slider-6");
+    var $progressBar = $(".progress");
+    var $status1 = $(".pagingInfo1");
+    var $progressBarLabel = $(".slider__label");
+    var $status2 = $(".pagingInfo2");
 
-        $slider.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+    $slider.on(
+        "init reInit afterChange",
+        function (event, slick, currentSlide, nextSlide) {
             //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
             if (!slick.$dots) {
                 return;
             }
 
-
-
             var i = (currentSlide ? currentSlide : 0) + 0;
             $status1.text(i + 1);
             $status2.text(slick.slideCount);
-        });
+        }
+    );
 
-        //   Progress Bar
-        $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-            var calc = ((nextSlide) / (slick.slideCount - 1)) * 100;
+    //   Progress Bar
+    $slider.on(
+        "beforeChange",
+        function (event, slick, currentSlide, nextSlide) {
+            var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
             $progressBar
-                .css('background-size', calc + '% 100%')
-                .attr('aria-valuenow', calc);
+                .css("background-size", calc + "% 100%")
+                .attr("aria-valuenow", calc);
 
-
-            $progressBarLabel.text(calc + '% completed');
-        });
-
-
+            $progressBarLabel.text(calc + "% completed");
+        }
+    );
 
     // Testimonail slider ----------------------
 
-    var slick3d = $('.slick-3d-active');
-    slick3d.on('init', function (event, slick, currentSlide) {
-        var cur = $(slick.$slides[slick.currentSlide]),
-            next = cur.next(),
-            next2 = cur.next().next(),
-            prev = cur.prev(),
-            prev2 = cur.prev().prev();
-        prev.addClass('slick-3d-prev');
-        next.addClass('slick-3d-next');
-        prev2.addClass('slick-3d-prev2');
-        next2.addClass('slick-3d-next2');
-        cur.removeClass('slick-3d-next')
-            .removeClass('slick-3d-prev')
-            .removeClass('slick-3d-next2')
-            .removeClass('slick-3d-prev2');
-        slick.$prev = prev;
-        slick.$next = next;
-    }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        var cur = $(slick.$slides[nextSlide]);
-        slick.$prev.removeClass('slick-3d-prev');
-        slick.$next.removeClass('slick-3d-next');
-        slick.$prev.prev().removeClass('slick-3d-prev2');
-        slick.$next.next().removeClass('slick-3d-next2');
-        var next = cur.next(),
-            prev = cur.prev();
-        prev.addClass('slick-3d-prev');
-        next.addClass('slick-3d-next');
-        prev.prev().addClass('slick-3d-prev2');
-        next.next().addClass('slick-3d-next2');
-        slick.$prev = prev;
-        slick.$next = next;
-        cur.removeClass('slick-next')
-            .removeClass('slick-3d-prev')
-            .removeClass('slick-next2')
-            .removeClass('slick-3d-prev2');
-    });
+    var slick3d = $(".slick-3d-active");
+    slick3d
+        .on("init", function (event, slick, currentSlide) {
+            var cur = $(slick.$slides[slick.currentSlide]),
+                next = cur.next(),
+                next2 = cur.next().next(),
+                prev = cur.prev(),
+                prev2 = cur.prev().prev();
+            prev.addClass("slick-3d-prev");
+            next.addClass("slick-3d-next");
+            prev2.addClass("slick-3d-prev2");
+            next2.addClass("slick-3d-next2");
+            cur.removeClass("slick-3d-next")
+                .removeClass("slick-3d-prev")
+                .removeClass("slick-3d-next2")
+                .removeClass("slick-3d-prev2");
+            slick.$prev = prev;
+            slick.$next = next;
+        })
+        .on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+            var cur = $(slick.$slides[nextSlide]);
+            slick.$prev.removeClass("slick-3d-prev");
+            slick.$next.removeClass("slick-3d-next");
+            slick.$prev.prev().removeClass("slick-3d-prev2");
+            slick.$next.next().removeClass("slick-3d-next2");
+            var next = cur.next(),
+                prev = cur.prev();
+            prev.addClass("slick-3d-prev");
+            next.addClass("slick-3d-next");
+            prev.prev().addClass("slick-3d-prev2");
+            next.next().addClass("slick-3d-next2");
+            slick.$prev = prev;
+            slick.$next = next;
+            cur.removeClass("slick-next")
+                .removeClass("slick-3d-prev")
+                .removeClass("slick-next2")
+                .removeClass("slick-3d-prev2");
+        });
 
     slick3d.slick({
         speed: 1000,
         arrows: false,
         dots: false,
         focusOnSelect: true,
-        prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-arrow-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fal fa-arrow-right"></i></button>',
+        prevArrow:
+            '<button type="button" class="slick-prev"><i class="fal fa-arrow-left"></i></button>',
+        nextArrow:
+            '<button type="button" class="slick-next"><i class="fal fa-arrow-right"></i></button>',
         infinite: true,
         centerMode: true,
         slidesPerRow: 1,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerPadding: '0',
+        centerPadding: "0",
         swipe: true,
         customPaging: function (slider, i) {
-            return '';
+            return "";
         },
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                arrows: false,
-            }
-        }]
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                },
+            },
+        ],
     });
-
-
 
     // hero slider
-    var $slider = $('.heroSlider');
-    var $progressBar = $('.progress');
-    var $status1 = $('.pagingInfo1');
-    var $progressBarLabel = $('.slider__label');
-    var $status2 = $('.pagingInfo2');
+    var $slider = $(".heroSlider");
+    var $progressBar = $(".progress");
+    var $status1 = $(".pagingInfo1");
+    var $progressBarLabel = $(".slider__label");
+    var $status2 = $(".pagingInfo2");
 
-    $slider.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-        if (!slick.$dots) {
-            return;
+    $slider.on(
+        "init reInit afterChange",
+        function (event, slick, currentSlide, nextSlide) {
+            //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+            if (!slick.$dots) {
+                return;
+            }
+
+            var i = (currentSlide ? currentSlide : 0) + 0;
+            $status1.text(i + 1);
+            $status2.text(slick.slideCount);
         }
-
-
-
-        var i = (currentSlide ? currentSlide : 0) + 0;
-        $status1.text(i + 1);
-        $status2.text(slick.slideCount);
-    });
+    );
 
     //   Progress Bar
-    $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        var calc = ((nextSlide) / (slick.slideCount - 1)) * 100;
+    $slider.on(
+        "beforeChange",
+        function (event, slick, currentSlide, nextSlide) {
+            var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
-            .css('background-size', calc + '% 100%')
-            .attr('aria-valuenow', calc);
+            $progressBar
+                .css("background-size", calc + "% 100%")
+                .attr("aria-valuenow", calc);
 
+            $progressBarLabel.text(calc + "% completed");
+        }
+    );
 
-        $progressBarLabel.text(calc + '% completed');
-    });
-
-    $('.heroSlide').slick({
+    $(".heroSlide").slick({
         arrows: false,
         autoplay: true,
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: "<button class='arrowLeft'><i class='fa-solid fa-arrow-left'></i></button>",
-        nextArrow: "<button class='arrowRight'><i class='fa-solid fa-arrow-right ms-2'></i></button>",
+        prevArrow:
+            "<button class='arrowLeft'><i class='fa-solid fa-arrow-left'></i></button>",
+        nextArrow:
+            "<button class='arrowRight'><i class='fa-solid fa-arrow-right ms-2'></i></button>",
     });
 
     /*----------- 08. Custom Animaiton For Slider ----------*/
-    $('[data-ani-duration]').each(function () {
-        var durationTime = $(this).data('ani-duration');
-        $(this).css('animation-duration', durationTime);
+    $("[data-ani-duration]").each(function () {
+        var durationTime = $(this).data("ani-duration");
+        $(this).css("animation-duration", durationTime);
     });
 
-    $('[data-ani-delay]').each(function () {
-        var delayTime = $(this).data('ani-delay');
-        $(this).css('animation-delay', delayTime);
+    $("[data-ani-delay]").each(function () {
+        var delayTime = $(this).data("ani-delay");
+        $(this).css("animation-delay", delayTime);
     });
 
-    $('[data-ani]').each(function () {
-        var animaionName = $(this).data('ani');
+    $("[data-ani]").each(function () {
+        var animaionName = $(this).data("ani");
         $(this).addClass(animaionName);
-        $('.slick-current [data-ani]').addClass('th-animated');
+        $(".slick-current [data-ani]").addClass("th-animated");
     });
 
-    $('.th-carousel').on('afterChange', function (event, slick, currentSlide, nextSlide) {
-        $(slick.$slides).find('[data-ani]').removeClass('th-animated');
-        $(slick.$slides[currentSlide]).find('[data-ani]').addClass('th-animated');
-    })
+    $(".th-carousel").on(
+        "afterChange",
+        function (event, slick, currentSlide, nextSlide) {
+            $(slick.$slides).find("[data-ani]").removeClass("th-animated");
+            $(slick.$slides[currentSlide])
+                .find("[data-ani]")
+                .addClass("th-animated");
+        }
+    );
 
-      /*----------- 09. Flip Slider ----------*/
-      if ($(".flip-gallery").length > 0) {
+    /*----------- 09. Flip Slider ----------*/
+    if ($(".flip-gallery").length > 0) {
         $(".flip-gallery").flipster({
-            style: 'carousel',
+            style: "carousel",
             spacing: -0.5,
             nav: true,
             buttons: true,
@@ -580,9 +617,9 @@
                     // Clear the form.
                     $(
                         form +
-                        ' input:not([type="submit"]),' +
-                        form +
-                        " textarea"
+                            ' input:not([type="submit"]),' +
+                            form +
+                            " textarea"
                     ).val("");
                 })
                 .fail(function (data) {
@@ -623,8 +660,8 @@
         if (
             !$($email).val() ||
             !$($email)
-            .val()
-            .match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)
+                .val()
+                .match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)
         ) {
             $($email).addClass(invalidCls);
             valid = false;
@@ -672,53 +709,65 @@
     /*---------- 12. Popup Sidemenu ----------*/
     function popupSideMenu($sideMenu, $sideMunuOpen, $sideMenuCls, $toggleCls) {
         // Sidebar Popup
-        $($sideMunuOpen).on('click', function (e) {
+        $($sideMunuOpen).on("click", function (e) {
             e.preventDefault();
             $($sideMenu).addClass($toggleCls);
         });
-        $($sideMenu).on('click', function (e) {
+        $($sideMenu).on("click", function (e) {
             e.stopPropagation();
-            $($sideMenu).removeClass($toggleCls)
+            $($sideMenu).removeClass($toggleCls);
         });
-        var sideMenuChild = $sideMenu + ' > div';
-        $(sideMenuChild).on('click', function (e) {
+        var sideMenuChild = $sideMenu + " > div";
+        $(sideMenuChild).on("click", function (e) {
             e.stopPropagation();
-            $($sideMenu).addClass($toggleCls)
+            $($sideMenu).addClass($toggleCls);
         });
-        $($sideMenuCls).on('click', function (e) {
+        $($sideMenuCls).on("click", function (e) {
             e.preventDefault();
             e.stopPropagation();
             $($sideMenu).removeClass($toggleCls);
         });
-    };
-    popupSideMenu('.sidemenu-wrapper', '.sideMenuToggler', '.sideMenuCls', 'show');
+    }
+    popupSideMenu(
+        ".sidemenu-wrapper",
+        ".sideMenuToggler",
+        ".sideMenuCls",
+        "show"
+    );
 
-     /*---------- 12. Popup Sidemenu ----------*/
- function popupSideMenu($sideMenu2, $sideMunuOpen2, $sideMenuCls2, $toggleCls2) {
-    // Sidebar Popup
-    $($sideMunuOpen2).on('click', function (e) {
-        e.preventDefault();
-        $($sideMenu2).addClass($toggleCls2);
-    });
-    $($sideMenu2).on('click', function (e) {
-        e.stopPropagation();
-        $($sideMenu2).removeClass($toggleCls2)
-    });
-    var sideMenuChild = $sideMenu2 + ' > div';
-    $(sideMenuChild).on('click', function (e) {
-        e.stopPropagation();
-        $($sideMenu2).addClass($toggleCls2)
-    });
-    $($sideMenuCls2).on('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        $($sideMenu2).removeClass($toggleCls2);
-    });
-};
-popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
-
-
-
+    /*---------- 12. Popup Sidemenu ----------*/
+    function popupSideMenu(
+        $sideMenu2,
+        $sideMunuOpen2,
+        $sideMenuCls2,
+        $toggleCls2
+    ) {
+        // Sidebar Popup
+        $($sideMunuOpen2).on("click", function (e) {
+            e.preventDefault();
+            $($sideMenu2).addClass($toggleCls2);
+        });
+        $($sideMenu2).on("click", function (e) {
+            e.stopPropagation();
+            $($sideMenu2).removeClass($toggleCls2);
+        });
+        var sideMenuChild = $sideMenu2 + " > div";
+        $(sideMenuChild).on("click", function (e) {
+            e.stopPropagation();
+            $($sideMenu2).addClass($toggleCls2);
+        });
+        $($sideMenuCls2).on("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $($sideMenu2).removeClass($toggleCls2);
+        });
+    }
+    popupSideMenu(
+        ".shopping-cart",
+        ".sideMenuToggler2",
+        ".sideMenuCls",
+        "show"
+    );
 
     /*----------- 13. Magnific Popup ----------*/
     /* magnificPopup img view */
@@ -744,65 +793,71 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         $(".slick-slider").slick("refresh");
     });
 
-      /*----------- 09. tilt ----------*/
-      $('.tilt-active').tilt({
+    /*----------- 09. tilt ----------*/
+    $(".tilt-active").tilt({
         maxTilt: 7,
         perspective: 1000,
-    })
+    });
 
+    /************lettering js***********/
+    function injector(t, splitter, klass, after) {
+        var a = t.text().split(splitter),
+            inject = "";
+        if (a.length) {
+            $(a).each(function (i, item) {
+                inject +=
+                    '<span class="' +
+                    klass +
+                    (i + 1) +
+                    '">' +
+                    item +
+                    "</span>" +
+                    after;
+            });
+            t.empty().append(inject);
+        }
+    }
 
-       /************lettering js***********/
-       function injector(t, splitter, klass, after) {
-		var a = t.text().split(splitter), inject = '';
-		if (a.length) {
-			$(a).each(function(i, item) {
-				inject += '<span class="'+klass+(i+1)+'">'+item+'</span>'+after;
-			});
-			t.empty().append(inject);
-		}
-	}
+    var methods = {
+        init: function () {
+            return this.each(function () {
+                injector($(this), "", "char", "");
+            });
+        },
 
-	var methods = {
-		init : function() {
+        words: function () {
+            return this.each(function () {
+                injector($(this), " ", "word", " ");
+            });
+        },
 
-			return this.each(function() {
-				injector($(this), '', 'char', '');
-			});
+        lines: function () {
+            return this.each(function () {
+                var r = "eefec303079ad17405c889e092e105b0";
+                // Because it's hard to split a <br/> tag consistently across browsers,
+                // (*ahem* IE *ahem*), we replaces all <br/> instances with an md5 hash
+                // (of the word "split").  If you're trying to use this plugin on that
+                // md5 hash string, it will fail because you're being ridiculous.
+                injector(
+                    $(this).children("br").replaceWith(r).end(),
+                    r,
+                    "line",
+                    ""
+                );
+            });
+        },
+    };
 
-		},
-
-		words : function() {
-
-			return this.each(function() {
-				injector($(this), ' ', 'word', ' ');
-			});
-
-		},
-
-		lines : function() {
-
-			return this.each(function() {
-				var r = "eefec303079ad17405c889e092e105b0";
-				// Because it's hard to split a <br/> tag consistently across browsers,
-				// (*ahem* IE *ahem*), we replaces all <br/> instances with an md5 hash
-				// (of the word "split").  If you're trying to use this plugin on that
-				// md5 hash string, it will fail because you're being ridiculous.
-				injector($(this).children("br").replaceWith(r).end(), r, 'line', '');
-			});
-
-		}
-	};
-
-    $.fn.lettering = function( method ) {
-		// Method calling logic
-		if ( method && methods[method] ) {
-			return methods[ method ].apply( this, [].slice.call( arguments, 1 ));
-		} else if ( method === 'letters' || ! method ) {
-			return methods.init.apply( this, [].slice.call( arguments, 0 ) ); // always pass an array
-		}
-		$.error( 'Method ' +  method + ' does not exist on jQuery.lettering' );
-		return this;
-	};
+    $.fn.lettering = function (method) {
+        // Method calling logic
+        if (method && methods[method]) {
+            return methods[method].apply(this, [].slice.call(arguments, 1));
+        } else if (method === "letters" || !method) {
+            return methods.init.apply(this, [].slice.call(arguments, 0)); // always pass an array
+        }
+        $.error("Method " + method + " does not exist on jQuery.lettering");
+        return this;
+    };
 
     $(".about-anime").lettering();
     /*---------- 14. Section Position ----------*/
@@ -898,8 +953,6 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         }
     });
 
-
-
     if ($(".odometer").length) {
         $(".odometer").appear();
         $(document.body).on("appear", ".odometer", function (e) {
@@ -914,244 +967,249 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         });
     }
 
-         /*----------- 14. Date Time Picker ----------*/
-  // Only Date Picker
-  $('.date-pick').datetimepicker({
-    timepicker: false,
-    datepicker: true,
-    format: 'd-m-y',
-    step: 10
-  });
+    /*----------- 14. Date Time Picker ----------*/
+    // Only Date Picker
+    $(".date-pick").datetimepicker({
+        timepicker: false,
+        datepicker: true,
+        format: "d-m-y",
+        step: 10,
+    });
 
-  // Only Time Picker
-  $('.time-pick').datetimepicker({
-    datepicker:false,
-    format:'H:i',
-    step:30
-  });
+    // Only Time Picker
+    $(".time-pick").datetimepicker({
+        datepicker: false,
+        format: "H:i",
+        step: 30,
+    });
 
     /* ==================================================
 			# Wow Init
 		 ===============================================*/
     var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
+        boxClass: "wow",
+        animateClass: "animated",
         offset: 0,
         mobile: true,
-        live: true
+        live: true,
     });
     new WOW().init();
 
-        /*---------- 16. AS Tab ----------*/
-        $.fn.asTab = function (options) {
-            var opt = $.extend(
-                {
-                    sliderTab: false,
-                    tabButton: "button",
-                },
-                options
-            );
-
-            $(this).each(function () {
-                var $menu = $(this);
-                var $button = $menu.find(opt.tabButton);
-
-                // Append indicator
-                $menu.append('<span class="indicator"></span>');
-                var $line = $menu.find(".indicator");
-
-                // On Click Button Class Remove and indecator postion set
-                $button.on("click", function (e) {
-                    e.preventDefault();
-                    var cBtn = $(this);
-                    cBtn.addClass("active").siblings().removeClass("active");
-                    if (opt.sliderTab) {
-                        $(slider).slick("slickGoTo", cBtn.data("slide-go-to"));
-                    } else {
-                        linePos();
-                    }
-                });
-
-                // Work With slider
-                if (opt.sliderTab) {
-                    var slider = $menu.data("asnavfor"); // select slider
-
-                    // Select All button and set attribute
-                    var i = 0;
-                    $button.each(function () {
-                        var slideBtn = $(this);
-                        slideBtn.attr("data-slide-go-to", i);
-                        i++;
-
-                        // Active Slide On load > Actived Button
-                        if (slideBtn.hasClass("active")) {
-                            $(slider).slick(
-                                "slickGoTo",
-                                slideBtn.data("slide-go-to")
-                            );
-                        }
-
-                        // Change Indicator On slide Change
-                        $(slider).on(
-                            "beforeChange",
-                            function (event, slick, currentSlide, nextSlide) {
-                                $menu
-                                    .find(
-                                        opt.tabButton +
-                                            '[data-slide-go-to="' +
-                                            nextSlide +
-                                            '"]'
-                                    )
-                                    .addClass("active")
-                                    .siblings()
-                                    .removeClass("active");
-                                linePos();
-                            }
-                        );
-                    });
-                }
-
-                // Indicator Position
-                function linePos() {
-                    var $btnActive = $menu.find(opt.tabButton + ".active"),
-                        $height = $btnActive.css("height"),
-                        $width = $btnActive.css("width"),
-                        $top = $btnActive.position().top + "px",
-                        $left = $btnActive.position().left + "px";
-
-                    $line.get(0).style.setProperty("--height-set", $height);
-                    $line.get(0).style.setProperty("--width-set", $width);
-                    $line.get(0).style.setProperty("--pos-y", $top);
-                    $line.get(0).style.setProperty("--pos-x", $left);
-
-                    if (
-                        $($button).first().position().left ==
-                        $btnActive.position().left
-                    ) {
-                        $line
-                            .addClass("start")
-                            .removeClass("center")
-                            .removeClass("end");
-                    } else if (
-                        $($button).last().position().left ==
-                        $btnActive.position().left
-                    ) {
-                        $line
-                            .addClass("end")
-                            .removeClass("center")
-                            .removeClass("start");
-                    } else {
-                        $line
-                            .addClass("center")
-                            .removeClass("start")
-                            .removeClass("end");
-                    }
-                }
-                linePos();
-            });
-        };
-
-
-
-        // Call On Load
-        if ($('.testi-box-tab').length) {
-            $('.testi-box-tab').asTab({
-              sliderTab: true,
-              tabButton: '.tab-btn'
-            });
-          }
-
-          if ($('.testi-block-tab').length) {
-            $('.testi-block-tab').asTab({
-              sliderTab: true,
-              tabButton: '.tab-btn'
-            });
-          }
-
-
-        if ($(".hero-indicator").length) {
-            $(".hero-indicator").asTab({
-                sliderTab: true,
-                tabButton: ".indicatior-btn",
-            });
-        }
-
-            if ($(".hero-indicator3").length) {
-            $(".hero-indicator3").asTab({
-                sliderTab: true,
-                tabButton: ".indicatior-btn",
-            });
-        }
-        if ($(".hero-indicator.style2").length) {
-            $(".hero-indicator.style2").asTab({
-                sliderTab: true,
-                tabButton: ".indicatior-btn",
-            });
-        }
-
-
-        ($.fn.vsTab = function (t) {
-            var a = $.extend({
-                sliderTab: !1,
+    /*---------- 16. AS Tab ----------*/
+    $.fn.asTab = function (options) {
+        var opt = $.extend(
+            {
+                sliderTab: false,
                 tabButton: "button",
-                indicator: !1
-            }, t);
-            $(this).each(function () {
-                var t = $(this),
-                    s = t.find(a.tabButton);
-                if (
-                    (s.on("click", function (t) {
-                            t.preventDefault();
-                            var s = $(this);
-                            s.addClass("active").siblings().removeClass("active"), a.sliderTab && $(o).slick("slickGoTo", s.data("slide-go-to"));
-                        }),
-                        a.sliderTab)
-                ) {
-                    var o = t.data("asnavfor"),
-                        n = 0;
-                    s.each(function () {
-                        var s = $(this);
-                        s.attr("data-slide-go-to", n),
-                            n++,
-                            s.hasClass("active") && $(o).slick("slickGoTo", s.data("slide-go-to")),
-                            $(o).on("beforeChange", function (e, s, o, n) {
-                                t.find(a.tabButton + '[data-slide-go-to="' + n + '"]')
-                                    .addClass("active")
-                                    .siblings()
-                                    .removeClass("active");
-                            });
-                    });
+            },
+            options
+        );
+
+        $(this).each(function () {
+            var $menu = $(this);
+            var $button = $menu.find(opt.tabButton);
+
+            // Append indicator
+            $menu.append('<span class="indicator"></span>');
+            var $line = $menu.find(".indicator");
+
+            // On Click Button Class Remove and indecator postion set
+            $button.on("click", function (e) {
+                e.preventDefault();
+                var cBtn = $(this);
+                cBtn.addClass("active").siblings().removeClass("active");
+                if (opt.sliderTab) {
+                    $(slider).slick("slickGoTo", cBtn.data("slide-go-to"));
+                } else {
+                    linePos();
                 }
             });
-        }),
-        $(".th-custom-dots").length && $(".th-custom-dots").vsTab({
-                sliderTab: !0,
-                tabButton: ".dot-btn"
-            }),
-    /*----------- 18. Shape Mockup ----------*/
-    $.fn.shapeMockup = function () {
-        var $shape = $(this);
-        $shape.each(function () {
-            var $currentShape = $(this),
-                shapeTop = $currentShape.data("top"),
-                shapeRight = $currentShape.data("right"),
-                shapeBottom = $currentShape.data("bottom"),
-                shapeLeft = $currentShape.data("left");
-            $currentShape
-                .css({
-                    top: shapeTop,
-                    right: shapeRight,
-                    bottom: shapeBottom,
-                    left: shapeLeft,
-                })
-                .removeAttr("data-top")
-                .removeAttr("data-right")
-                .removeAttr("data-bottom")
-                .removeAttr("data-left")
-                .parent()
-                .addClass("shape-mockup-wrap");
+
+            // Work With slider
+            if (opt.sliderTab) {
+                var slider = $menu.data("asnavfor"); // select slider
+
+                // Select All button and set attribute
+                var i = 0;
+                $button.each(function () {
+                    var slideBtn = $(this);
+                    slideBtn.attr("data-slide-go-to", i);
+                    i++;
+
+                    // Active Slide On load > Actived Button
+                    if (slideBtn.hasClass("active")) {
+                        $(slider).slick(
+                            "slickGoTo",
+                            slideBtn.data("slide-go-to")
+                        );
+                    }
+
+                    // Change Indicator On slide Change
+                    $(slider).on(
+                        "beforeChange",
+                        function (event, slick, currentSlide, nextSlide) {
+                            $menu
+                                .find(
+                                    opt.tabButton +
+                                        '[data-slide-go-to="' +
+                                        nextSlide +
+                                        '"]'
+                                )
+                                .addClass("active")
+                                .siblings()
+                                .removeClass("active");
+                            linePos();
+                        }
+                    );
+                });
+            }
+
+            // Indicator Position
+            function linePos() {
+                var $btnActive = $menu.find(opt.tabButton + ".active"),
+                    $height = $btnActive.css("height"),
+                    $width = $btnActive.css("width"),
+                    $top = $btnActive.position().top + "px",
+                    $left = $btnActive.position().left + "px";
+
+                $line.get(0).style.setProperty("--height-set", $height);
+                $line.get(0).style.setProperty("--width-set", $width);
+                $line.get(0).style.setProperty("--pos-y", $top);
+                $line.get(0).style.setProperty("--pos-x", $left);
+
+                if (
+                    $($button).first().position().left ==
+                    $btnActive.position().left
+                ) {
+                    $line
+                        .addClass("start")
+                        .removeClass("center")
+                        .removeClass("end");
+                } else if (
+                    $($button).last().position().left ==
+                    $btnActive.position().left
+                ) {
+                    $line
+                        .addClass("end")
+                        .removeClass("center")
+                        .removeClass("start");
+                } else {
+                    $line
+                        .addClass("center")
+                        .removeClass("start")
+                        .removeClass("end");
+                }
+            }
+            linePos();
         });
     };
+
+    // Call On Load
+    if ($(".testi-box-tab").length) {
+        $(".testi-box-tab").asTab({
+            sliderTab: true,
+            tabButton: ".tab-btn",
+        });
+    }
+
+    if ($(".testi-block-tab").length) {
+        $(".testi-block-tab").asTab({
+            sliderTab: true,
+            tabButton: ".tab-btn",
+        });
+    }
+
+    if ($(".hero-indicator").length) {
+        $(".hero-indicator").asTab({
+            sliderTab: true,
+            tabButton: ".indicatior-btn",
+        });
+    }
+
+    if ($(".hero-indicator3").length) {
+        $(".hero-indicator3").asTab({
+            sliderTab: true,
+            tabButton: ".indicatior-btn",
+        });
+    }
+    if ($(".hero-indicator.style2").length) {
+        $(".hero-indicator.style2").asTab({
+            sliderTab: true,
+            tabButton: ".indicatior-btn",
+        });
+    }
+
+    ($.fn.vsTab = function (t) {
+        var a = $.extend(
+            {
+                sliderTab: !1,
+                tabButton: "button",
+                indicator: !1,
+            },
+            t
+        );
+        $(this).each(function () {
+            var t = $(this),
+                s = t.find(a.tabButton);
+            if (
+                (s.on("click", function (t) {
+                    t.preventDefault();
+                    var s = $(this);
+                    s.addClass("active").siblings().removeClass("active"),
+                        a.sliderTab &&
+                            $(o).slick("slickGoTo", s.data("slide-go-to"));
+                }),
+                a.sliderTab)
+            ) {
+                var o = t.data("asnavfor"),
+                    n = 0;
+                s.each(function () {
+                    var s = $(this);
+                    s.attr("data-slide-go-to", n),
+                        n++,
+                        s.hasClass("active") &&
+                            $(o).slick("slickGoTo", s.data("slide-go-to")),
+                        $(o).on("beforeChange", function (e, s, o, n) {
+                            t.find(
+                                a.tabButton + '[data-slide-go-to="' + n + '"]'
+                            )
+                                .addClass("active")
+                                .siblings()
+                                .removeClass("active");
+                        });
+                });
+            }
+        });
+    }),
+        $(".th-custom-dots").length &&
+            $(".th-custom-dots").vsTab({
+                sliderTab: !0,
+                tabButton: ".dot-btn",
+            }),
+        /*----------- 18. Shape Mockup ----------*/
+        ($.fn.shapeMockup = function () {
+            var $shape = $(this);
+            $shape.each(function () {
+                var $currentShape = $(this),
+                    shapeTop = $currentShape.data("top"),
+                    shapeRight = $currentShape.data("right"),
+                    shapeBottom = $currentShape.data("bottom"),
+                    shapeLeft = $currentShape.data("left");
+                $currentShape
+                    .css({
+                        top: shapeTop,
+                        right: shapeRight,
+                        bottom: shapeBottom,
+                        left: shapeLeft,
+                    })
+                    .removeAttr("data-top")
+                    .removeAttr("data-right")
+                    .removeAttr("data-bottom")
+                    .removeAttr("data-left")
+                    .parent()
+                    .addClass("shape-mockup-wrap");
+            });
+        });
 
     if ($(".shape-mockup")) {
         $(".shape-mockup").shapeMockup();
@@ -1214,16 +1272,14 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         $(".counter-list").countdown();
     }
 
-    $('#priceSlide').slick({
+    $("#priceSlide").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         dots: false,
         vertical: true,
         verticalSwiping: true,
-
-        });
-
+    });
 
     /*----------- 21. Price Slider ----------*/
     $(".price_slider").slider({
@@ -1234,76 +1290,79 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         slide: function (event, ui) {
             $(".from").text("$" + ui.values[0]);
             $(".to").text("$" + ui.values[1]);
-        }
+        },
     });
     $(".from").text("$" + $(".price_slider").slider("values", 0));
     $(".to").text("$" + $(".price_slider").slider("values", 1));
 
-
-
-
-   /*----------- 21. image Slider ----------*/
-    $("#slider").on("input change", (e)=>{
+    /*----------- 21. image Slider ----------*/
+    $("#slider").on("input change", (e) => {
         const sliderPos = e.target.value;
         // Update the width of the foreground image
-        $('.foreground-img').css('width', `${sliderPos}%`)
+        $(".foreground-img").css("width", `${sliderPos}%`);
         // Update the position of the slider button
-        $('.slider-button').css('left', `calc(${sliderPos}% - 18px)`)
-      });
+        $(".slider-button").css("left", `calc(${sliderPos}% - 18px)`);
+    });
 
     /* ----------------------------  */
 
-    $('#productSlide').slick({
+    $("#productSlide").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         dots: false,
         vertical: true,
         verticalSwiping: true,
+    });
 
-        });
-
-        $('#productSlide2').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false,
-            vertical: true,
-            verticalSwiping: true,
-
-            });
-
-
-
+    $("#productSlide2").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        vertical: true,
+        verticalSwiping: true,
+    });
 
     $(function () {
+        $(".progress-bar").each(function () {
+            $(this)
+                .find(".progress-content")
+                .animate(
+                    {
+                        width: $(this).attr("data-percentage"),
+                    },
+                    2000
+                );
 
-        $('.progress-bar').each(function () {
-            $(this).find('.progress-content').animate({
-                width: $(this).attr('data-percentage')
-            }, 2000);
-
-            $(this).find('.progress-number-mark').animate({
-                left: $(this).attr('data-percentage')
-            }, {
-                duration: 2000,
-                step: function (now, fx) {
-                    var data = Math.round(now);
-                    $(this).find('.percent').html(data + '%');
-                }
-            });
+            $(this)
+                .find(".progress-number-mark")
+                .animate(
+                    {
+                        left: $(this).attr("data-percentage"),
+                    },
+                    {
+                        duration: 2000,
+                        step: function (now, fx) {
+                            var data = Math.round(now);
+                            $(this)
+                                .find(".percent")
+                                .html(data + "%");
+                        },
+                    }
+                );
         });
     });
 
     //one page sticky menu
-    $(window).on('scroll', function () {
-        if ($('.onepage').length > 0) {
+    $(window).on("scroll", function () {
+        if ($(".onepage").length > 0) {
             if ($(window).scrollTop() > 0) {
-                $('.th-header .sticky-active').addClass('sticky');
+                $(".th-header .sticky-active").addClass("sticky");
             } else {
-                $('.th-header .sticky-active').removeClass('sticky');
+                $(".th-header .sticky-active").removeClass("sticky");
             }
-        };
+        }
     });
 
     /*----------- 23. Indicator ----------*/
@@ -1336,16 +1395,15 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
                 $top = $btnActive.position().top + "px",
                 $left = $btnActive.position().left + "px";
 
-            $(window).on('resize', function () {
-                $top = $btnActive.position().top + "px",
-                    $left = $btnActive.position().left + "px";
+            $(window).on("resize", function () {
+                ($top = $btnActive.position().top + "px"),
+                    ($left = $btnActive.position().left + "px");
             });
 
             $line.get(0).style.setProperty("--height-set", $height);
             $line.get(0).style.setProperty("--width-set", $width);
             $line.get(0).style.setProperty("--pos-y", $top);
             $line.get(0).style.setProperty("--pos-x", $left);
-
         }
         linePos();
     };
@@ -1355,12 +1413,11 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
         $(".indicator-active").indicator();
     }
 
-
     /* ==================================================
 #  Load More
 ===============================================*/
 
-$(function () {
+    $(function () {
         $(".project-sec").slice(0, 4).show();
         $("#loadMore").on("click", function (e) {
             e.preventDefault();
@@ -1369,8 +1426,7 @@ $(function () {
                 $("#loadMore").text("No Content").addClass("noContent");
             }
         });
-
-    })
+    });
 
     /*----------- 00. Woocommerce Toggle ----------*/
     // Ship To Different Address
@@ -1447,8 +1503,6 @@ $(function () {
         });
     });
 
-
-
     /*----------- 00. Right Click Disable ----------*/
     //   window.addEventListener('contextmenu', function (e) {
     //     // do something here...
@@ -1473,5 +1527,4 @@ $(function () {
     //       return false;
     //     }
     //   }
-
 })(jQuery);
