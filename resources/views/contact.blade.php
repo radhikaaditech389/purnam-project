@@ -3,6 +3,9 @@
 
 @include('layouts.head')
 
+<!-- Toastr CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+
 <body>
     <div class="preloader ">
         <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
@@ -95,7 +98,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="contact-form-wrapper">
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <form action="{{ route('contact.send') }}" method="POST" class="contact-form">
+                            @csrf
+
                             <h2 class="form-title text-center">Get In Touch</h2>
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -117,10 +122,11 @@
                                     <i class="fa-regular fa-tag"></i>
                                     <select name="subject" id="subject" class="form-select nice-select">
                                         <option value="" disabled selected hidden>Select</option>
-                                        <option value="Electrical System">Electrical System</option>
-                                        <option value="Auto Car Repair">Auto Car Repair</option>
-                                        <option value="Engine Diagnostics">Engine Diagnostics</option>
-                                        <option value="Car & Engine Clean">Car & Engine Clean</option>
+                                        <option value="Spa & Massage">Spa & Massage</option>
+                                        <option value="Facial & Massage">Facial & Massage</option>
+                                        <option value="Head Massage">Head Massage</option>
+                                        <option value="Sports Massage">Sports Massage</option>
+                                        <option value="Stone Massage">Stone Massage</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-12">
@@ -128,7 +134,7 @@
                                     <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-btn col-12">
-                                    <button class="th-btn fw-btn">Send Messages<i
+                                    <button type="submit" class="th-btn fw-btn">Send Messages<i
                                             class="fa-solid fa-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
@@ -156,3 +162,35 @@
 </body>
 
 </html>
+
+<!-- jQuery (required for Toastr) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<script>
+    toastr.options = {
+        "closeButton": true,
+        "progressBar": true,
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "positionClass": "toast-top-right"
+    };
+
+    @if (session('success'))
+        toastr.success("{{ session('success') }}");
+    @endif
+
+    @if (session('error'))
+        toastr.error("{{ session('error') }}");
+    @endif
+
+    @if (session('warning'))
+        toastr.warning("{{ session('warning') }}");
+    @endif
+
+    @if (session('info'))
+        toastr.info("{{ session('info') }}");
+    @endif
+</script>

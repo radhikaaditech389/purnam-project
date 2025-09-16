@@ -3,6 +3,9 @@
 
 @include('layouts.head')
 
+<!-- Toastr CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+
 <body>
     <div class="preloader ">
         <button class="th-btn style3 preloaderCls">Cancel Preloader </button>
@@ -34,7 +37,9 @@
 
     <div class="position-relative space">
         <div class="container">
-            <form action="#" method="POST" class="booking-form-area ajax-booking">
+            <form action="{{ route('appointment.store') }}" method="POST" class="booking-form-area ajax-booking">
+                @csrf
+
                 <div class="booking-title-area">
                     <div class="title-area mb-40 text-center wow fadeInUp">
                         <span class="sub-title style2">Make An Appointment</span>
@@ -44,27 +49,27 @@
                 <div class="row">
                     <div class="form-group col-md-6">
                         <i class="fa-light fa-user"></i>
-                        <input type="text" placeholder="First Name" class="form-control">
+                        <input type="text" name="first_name" placeholder="First Name" class="form-control">
                     </div>
                     <div class="form-group col-md-6">
                         <i class="fa-light fa-user"></i>
-                        <input type="text" placeholder="Last Name" class="form-control">
+                        <input type="text" name="last_name" placeholder="Last Name" class="form-control">
                     </div>
                     <div class="form-group col-md-6">
                         <i class="fa-light fa-envelope"></i>
-                        <input type="text" placeholder="Email" class="form-control">
+                        <input type="text" name="email" placeholder="Email" class="form-control">
                     </div>
                     <div class="col-md-6 form-group">
                         <i class="fa-light fa-phone"></i>
-                        <input type="text" placeholder="phone" class="form-control">
+                        <input type="text" name="phone" placeholder="phone" class="form-control">
                     </div>
                     <div class="form-group col-12">
                         <i class="fa-regular fa-tag"></i>
                         <select name="subject" id="subject" class="form-select nice-select">
                             <option value="" disabled selected hidden>Select Subject</option>
-                            <option value="Engine Diagnostics">Spa & Massage</option>
+                            <option value="Spa & Massage">Spa & Massage</option>
                             <option value="Facial & Massage">Facial & Massage</option>
-                            <option value="Engine Diagnostics">Head Massage</option>
+                            <option value="Head Massage">Head Massage</option>
                             <option value="Sports Massage">Sports Massage</option>
                             <option value="Stone Massage">Stone Massage</option>
                         </select>
@@ -80,7 +85,7 @@
                         <i class="fa-light fa-clock"></i>
                     </div>
                     <div class="btn-group justify-content-center justify-content-lg-start">
-                        <button class="th-btn fw-btn">Make An Appointment <i
+                        <button type="submit" class="th-btn fw-btn">Make An Appointment <i
                                 class="fa-solid fa-arrow-right ms-2"></i></button>
                     </div>
                 </div>
@@ -208,3 +213,35 @@
 </body>
 
 </html>
+
+<!-- jQuery (required for Toastr) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<script>
+    toastr.options = {
+        "closeButton": true,
+        "progressBar": true,
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "positionClass": "toast-top-right"
+    };
+
+    @if (session('success'))
+        toastr.success("{{ session('success') }}");
+    @endif
+
+    @if (session('error'))
+        toastr.error("{{ session('error') }}");
+    @endif
+
+    @if (session('warning'))
+        toastr.warning("{{ session('warning') }}");
+    @endif
+
+    @if (session('info'))
+        toastr.info("{{ session('info') }}");
+    @endif
+</script>

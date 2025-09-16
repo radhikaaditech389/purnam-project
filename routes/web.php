@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -9,6 +11,9 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -32,6 +37,8 @@ Route::get('/faq', function () {
 Route::get('/appointment', function () {
     return view('appointment');
 });
+
+Route::post('/appointment', [AppointmentController::class, 'store'])->name('appointment.store');
 
 Route::get('/hair-problems', function () {
     return view('hair_care_service.hair_problems');
