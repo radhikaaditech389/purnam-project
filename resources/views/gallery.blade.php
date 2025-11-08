@@ -47,6 +47,20 @@
                 <button data-filter=".cat9" class="tab-btn" type="button">Nail Art</button>
                 <button data-filter=".cat10" class="tab-btn" type="button">Nail Cut</button>
             </div> --}}
+
+            <div class="row gallery-row">
+                <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <video width="100%" height="auto" autoplay muted loop playsinline controls>
+                                <source src="{{ asset('purnam/videos/purnam_video.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row gallery-row filter-active">
                 <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
                     <div class="gallery-card wow fadeInUp">

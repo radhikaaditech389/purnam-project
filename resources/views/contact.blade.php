@@ -62,11 +62,18 @@
                                 <h3 class="box-title">Phone Number</h3>
                                 <span class="contact-info_text">
                                     Mobile:
-                                    <a href="tel:+256214203215"> +91 74051 21122 </a>
+                                    <a style="margin-left:3px;" href="tel:+917405121122"> +91 74051 21122 </a>
+                                </span>
+                                <span class="contact-info_text">
+                                    <a style="margin-left:55px;" href="tel:+917949242596"> 079 49242596 </a>
+                                </span>
+                                <span class="contact-info_text">
+                                    <a style="margin-left:55px;" href="tel:+917927500909"> 079 27500909 </a>
                                 </span>
                                 <span class="contact-info_text">
                                     Email:
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@purnam.com"
+                                    <a style="margin-left:3px;"
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=info@purnam.com"
                                         target="_blank">
                                         info@purnam.com
                                     </a>

@@ -13,7 +13,7 @@
                             </div>
                             <div class="media-body">
                                 <span class="header-info_label">Call us any time:</span>
-                                <p class="header-info_link"><a href="tel:+256214203215">+91 74051 21122</a></p>
+                                <p class="header-info_link"><a href="tel:+917405121122">+91 74051 21122</a></p>
                             </div>
                         </div>
                         <div class="header-info">
