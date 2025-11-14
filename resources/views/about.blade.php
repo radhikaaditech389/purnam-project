@@ -185,8 +185,7 @@
                             </a>
                             <div class="about-profile">
                                 <div class="about-avater">
-                                    <img src="{{ asset('purnam/img/bg/dr.kirti_shah.jpg') }}" alt="Dr. Kirti Shah"
-                                        style="height: 100px; width: 100px; border-radius: 50%;">
+                                    <img src="{{ asset('purnam/img/bg/dr.kirti_shah.jpg') }}" alt="Dr. Kirti Shah">
                                 </div>
                                 <div class="media-body">
                                     <h5 class="title">Dr. Kirti Shah</h5>
