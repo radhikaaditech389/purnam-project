@@ -118,7 +118,7 @@
                                         <img src="{{ asset('purnam/img/icon/counter_1_1.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="26">00</span>
+                                        <h3 class="counter"><span class="odometer" data-count="25">00</span>
                                             <span class="counter-number">+</span>
                                         </h3>
                                         <p class="counter-card_text">Years of Experience</p>
@@ -180,7 +180,7 @@
                                     Cosmetic
                                     Enhancements</strong>, we deliver treatments that are safe, personalized, and
                                 results-driven.
-                                With <strong>26+ years of experience</strong> our focus is on long-term skin and hair
+                                With <strong>25+ years of experience</strong> our focus is on long-term skin and hair
                                 health,
                                 rejuvenation, and confidence.
                             </p>

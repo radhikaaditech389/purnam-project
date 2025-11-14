@@ -68,18 +68,17 @@
                                     <a href="/">Home</a>
                                 </li>
 
-                                {{-- <li class="menu-item">
-                                    <a href="/about_clinic">About us</a>
-                                </li> --}}
+                                <li class="menu-item">
+                                    <a href="/about">About us</a>
+                                </li>
 
-                                <li class="menu-item-has-children">
+                                {{-- <li class="menu-item-has-children">
                                     <a href="#">About us</a>
                                     <ul class="sub-menu">
                                         <li><a href="/about_clinic">About Clinic</a></li>
                                         <li><a href="/about">About</a></li>
-                                        {{-- <li><a href="#">Awards and Achievements</a></li> --}}
                                     </ul>
-                                </li>
+                                </li> --}}
 
                                 <li class="menu-item-has-children">
                                     <a href="#">Treatments</a>

@@ -202,7 +202,7 @@
                                         <img src="assets/img/icon/counter_1_1.svg" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="26">00</span>
+                                        <h3 class="counter"><span class="odometer" data-count="25">00</span>
                                             <span class="counter-number">+</span>
                                         </h3>
                                         <p class="counter-card_text">Years of Experience</p>

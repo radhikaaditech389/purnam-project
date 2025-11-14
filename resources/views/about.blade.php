@@ -68,7 +68,7 @@
                                     <img src="{{ asset('purnam/img/icon/counter_2_1.svg') }}" alt="">
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter"><span class="odometer" data-count="26">00</span>
+                                    <h3 class="counter"><span class="odometer" data-count="25">00</span>
                                         <span class="counter-number">+</span>
                                     </h3>
                                     <p class="counter-card_text">Years of Experience</p>
@@ -124,6 +124,80 @@
         <div class="shape-mockup d-none d-lg-block jump" data-bottom="0%" data-right="0%"><img
                 src="{{ asset('purnam/img/shape/leaves_2.png') }}" alt="shape">
         </div>
+
+        <div class="container" style="margin-top: 80px;">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="img-box6">
+                        <div class="img1 wow fadeInLeft">
+                            <img class="tilt-active" src="{{ asset('purnam/img/bg/purnam-about-bg.jpg') }}"
+                                alt="About" style="height: 600px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="ps-xl-5 wow fadeInRight">
+                        <div class="title-area mb-25">
+                            <h2 class="sec-title mb-20">Your Trusted Destination for Complete Skin, Hair & Aesthetic
+                                Care</h2>
+                            <p>
+                                At <strong>Purnam – The Complete Skin Care Clinic</strong>, we believe that everyone
+                                deserves
+                                healthy, radiant skin and confident beauty. Guided by
+                                <strong>Dr. Kirti Shah (M.D., D.V.D.)</strong>, our clinic combines medical expertise
+                                with
+                                advanced technology to provide comprehensive solutions in
+                                <em>Dermatology, Hair Care, Lasers, and Aesthetic Treatments</em>.
+                            </p>
+                            <p>
+                                From solving concerns like dandruff, acne, pigmentation, or hair fall to performing
+                                advanced
+                                procedures such as <strong>Vitiligo Surgery, Hair Transplant, Laser Therapies, and
+                                    Cosmetic
+                                    Enhancements</strong>, we deliver treatments that are safe, personalized, and
+                                results-driven.
+                                With <strong>25+ years of experience</strong> our focus is on long-term skin and hair
+                                health,
+                                rejuvenation, and confidence.
+                            </p>
+                        </div>
+                        <div class="journey-wrap style2">
+                            <div class="checklist">
+                                <ul>
+                                    <li>Advanced Hair Care & Hair Transplant</li>
+                                    <li>Comprehensive Skin Disease Treatments</li>
+                                    <li>Vitiligo Management & Surgery</li>
+                                    <li>Laser & Cosmetic Dermatology</li>
+                                    <li>Daily Skin Care & Anti-Aging Solutions</li>
+                                </ul>
+                            </div>
+                            <div class="journey-image style2">
+                                <img src="{{ asset('purnam/img/bg/about_clinic_video_img.jpg') }}" alt="Skin Care"
+                                    style="height: 180px; width: 250px; margin-top: -15px;">
+                                <a href="https://www.youtube.com/watch?v=ADmQTw4qqTY" class="play-btn popup-video">
+                                    <i class="fa-sharp fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="btn-group mt-25">
+                            <a href="{{ url('about') }}" class="th-btn">
+                                Discover More <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                            <div class="about-profile">
+                                <div class="about-avater">
+                                    <img src="{{ asset('purnam/img/bg/dr.kirti_shah.jpg') }}" alt="Dr. Kirti Shah"
+                                        style="height: 100px; width: 100px; border-radius: 50%;">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="title">Dr. Kirti Shah</h5>
+                                    <span class="desig">M.D., D.V.D.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="sec-shape">
@@ -138,7 +212,7 @@
                         <div class="title-area mt-60 mb-25 wow fadeInLeft">
                             <span class="sub-title">Why Choose Purnam Clinic?<img
                                     src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
-                            <h2 class="sec-title">We Have 26 Years Of Experience.</h2>
+                            <h2 class="sec-title">We Have 25 Years Of Experience.</h2>
                             <p class="mt-n2 mb-35">At Purnam, we are dedicated to providing comprehensive and
                                 professional care for all your skin and hair needs. We prioritize the cleanliness and
                                 comfort of our clients, ensuring a hygienic and relaxing environment throughout your
@@ -517,6 +591,56 @@
                                 alt=""></div>
                         <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
                                 alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="appointment-area space" data-bg-src="{{ asset('purnam/img/bg/about_video_bg.jpg') }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="appointment-video style2">
+                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                            class="video-play-btn play-btn popup-video">
+                            <i class="fa-sharp fa-solid fa-play"></i></a>
+                    </div>
+                    <div class="appointment-content style3">
+                        <div class="title-area mb-25 text-center text-lg-start wow fadeInLeft">
+                            <span class="sub-title">For Appointment<img
+                                    src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
+                            <h2 class="sec-title">Meet Dr. Kirti Shah (M.D., D.V.D.)</h2>
+                            <p>
+                                Visit us at <strong>Purnam – The Complete Skin Care Clinic</strong>, where your
+                                well-being is our priority.
+                                We provide trusted care in dermatology, hair restoration, laser, and aesthetics – backed
+                                by decades of expertise.
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-location-dot me-2"></i>
+                                201-202-203, Central by Sangath IPL, B/h. 4D Mall/PVR, Motera, Ahmedabad 05
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-clock me-2"></i>
+                                Time: 10 AM to 8 PM
+                            </p>
+                        </div>
+                        <div class="btn-group mt-45">
+                            <a href="{{ url('about') }}" class="th-btn">
+                                Discover More <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                            <div class="feature-wrapper">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="media-body">
+                                    <a class="box-title d-block" href="tel:+917949242596">079 49242596</a>
+                                    <a class="box-title d-block" href="tel:+917927500909">079 27500909</a>
+                                    <a class="box-title d-block" href="tel:+917405121122">+91 7405121122</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
