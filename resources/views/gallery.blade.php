@@ -35,16 +35,6 @@
     <div class="overflow-hidden space" id="gallery-sec">
         <div class="container">
             <div class="row gallery-row filter-active">
-                <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
-                    <div class="gallery-card wow fadeInUp">
-                        <div class="gallery-img">
-                            <img src="{{ asset('purnam/img/gallery/8.jpg') }}" alt="gallery image">
-                        </div>
-                        <div class="gallery-content">
-                            <h2 class="gallery-title box-title">Mole Removal</h2>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-6 col-xl-auto filter-item cat5 cat9 cat8 cat10">
                     <div class="gallery-card wow fadeInUp">
                         <div class="gallery-img">
@@ -52,6 +42,16 @@
                                 <source src="{{ asset('purnam/videos/purnam_video.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/8.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Mole Removal</h2>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,91 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="container">
+            <div class="row gallery-row filter-active">
+                <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5 cat4 cat3">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/10.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Acne Scar Treatment</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat6 cat8 cat10">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/16.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Mole Removal</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat7 cat6">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/11.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Hair Growth/PRP/GFC/QR678</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat9 cat7 cat4">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/17.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Tattoo Removal</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat1 cat3 cat4 cat5">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/9.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Vitiligo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat6 cat8 cat10">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/15.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Melasma/Chemical Peeling</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat2 cat10">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/14.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Laser Hair Reduction</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto filter-item cat10 cat5">
+                    <div class="gallery-card wow fadeInUp">
+                        <div class="gallery-img">
+                            <img src="{{ asset('purnam/img/gallery/12.jpg') }}" alt="gallery image">
+                        </div>
+                        <div class="gallery-content">
+                            <h2 class="gallery-title box-title">Non Sergical Face Lift</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
