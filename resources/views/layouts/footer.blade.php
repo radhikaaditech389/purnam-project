@@ -115,8 +115,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <p class="copyright-text">© 2025 All Rights Reserved. | Crafted with Code & Creativity by <a
-                            class="text-theme" href="https://adicreations.tech/" target="blank">AdiTech</a></p>
+                    <p class="copyright-text">© 2025 All Rights Reserved. | Crafted with Code & Creativity by <a
+                            class="text-theme" href="https://theaditech.in/" target="blank">The AdiTech</a></p>
                 </div>
                 <div class="col-lg-6">
                     <div class="footer-links">

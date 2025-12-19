@@ -128,7 +128,7 @@
                                     style="height: 70px;;">
                             </div>
                             <div class="about-tag">
-                                <span class="about-anime">Company Since 1996</span>
+                                <span class="about-anime">Company Since 2000</span>
                             </div>
                         </div>
                     </div>
@@ -581,7 +581,7 @@
         </div>
     </div>
 
-    <div class="brand-area overflow-hidden">
+    {{-- <div class="brand-area overflow-hidden">
         <div class="container th-container">
             <div class="row th-carousel" id="brandSlide1" data-slide-show="7" data-lg-slide-show="4"
                 data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
@@ -667,7 +667,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <section class="team-area-two overflow-hidden space">
         {{-- <div class="container">

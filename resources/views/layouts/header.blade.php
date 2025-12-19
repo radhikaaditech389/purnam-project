@@ -177,7 +177,8 @@
                                                 <li><a href="/microdermabrasion">Microdermabrasion</a></li>
                                                 <li><a href="/microneedling">Microneedling / MNRF</a></li>
                                                 <li><a href="/prp">PRP</a></li>
-                                                <li><a href="/laser_resurfacing">CO₂ Fractional Laser Resurfacing</a></li>
+                                                <li><a href="/laser_resurfacing">CO₂ Fractional Laser Resurfacing</a>
+                                                </li>
                                             </ul>
                                         </li>
 
@@ -185,10 +186,14 @@
                                             <a href="#">Pigmentation Treatments</a>
                                             <ul class="sub-menu">
                                                 <li><a href="/glow_treatment">Pigmentation / Glow Treatment</a></li>
-                                                <li><a href="/dark_circle_clear">Dark Circle Clearance / Melasma</a></li>
-                                                <li><a href="/chemical_peeling">Chemical Peeling (Face, Neck, Body)</a></li>
-                                                <li><a href="/carbon_peeling">Carbon Peeling (Hollywood / Black Peel)</a></li>
-                                                <li><a href="/laser_toning">Laser Toning / Q-Switch / Tattoo Removal</a></li>
+                                                <li><a href="/dark_circle_clear">Dark Circle Clearance / Melasma</a>
+                                                </li>
+                                                <li><a href="/chemical_peeling">Chemical Peeling (Face, Neck, Body)</a>
+                                                </li>
+                                                <li><a href="/carbon_peeling">Carbon Peeling (Hollywood / Black
+                                                        Peel)</a></li>
+                                                <li><a href="/laser_toning">Laser Toning / Q-Switch / Tattoo
+                                                        Removal</a></li>
                                             </ul>
                                         </li>
 
@@ -217,7 +222,7 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Medifacials (Facial Glow & Rejuvenation)</a>
                                             <ul class="sub-menu">
-                                                <li><a  href="/hydra_facial">Hydra Facial</a></li>
+                                                <li><a href="/hydra_facial">Hydra Facial</a></li>
                                                 <li><a href="/photo_facial">Photo Facial</a></li>
                                                 <li><a href="/carbon_facial">Carbon Facial (Hollywood Facial)</a></li>
                                                 <li><a href="/laser_facial">Laser Facial</a></li>
@@ -239,7 +244,7 @@
                                 </li>
                             </ul>
                         </nav>
-                        <button class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                        <button class="th-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
                     </div>
                     <div class="col-auto d-none d-xl-block">
                         <div class="header-button">
