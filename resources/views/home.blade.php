@@ -793,8 +793,10 @@
         <div class="container">
             <div class="video-content-box text-center wow fadeInUp"
                 data-bg-src="{{ asset('purnam/img/bg/bg-1.jpg') }}">
-                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-play-btn play-btn popup-video"><i
-                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                <a href="{{ asset('purnam/videos/purnam_video.mp4') }}" class="video-play-btn play-btn popup-video">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </a>
             </div>
         </div>
     </div>
