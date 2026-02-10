@@ -31,7 +31,7 @@
                             </div>
                             <div class="media-body">
                                 <span class="header-info_label">Opening hours:</span>
-                                <p class="header-info_link">Mon - Fri: 10:00am - 8:00pm</p>
+                                <p class="header-info_link">Mon - Sat: 10:00am - 8:00pm</p>
                             </div>
                         </div>
                     </div>

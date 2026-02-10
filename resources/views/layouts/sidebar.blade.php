@@ -81,8 +81,8 @@
                     your transformation with compassion and care.</p>
                 <div class="working-time">
                     <span class="title">We Are Available:</span>
-                    <p class="desc">Mon-Thu: 10.00 am to 8.00 pm</p>
-                    <p class="desc">Fri-Sat: 10.00 am to 6.00 pm</p>
+                    <p class="desc">Mon-Sat: 10.00 am to 8.00 pm</p>
+                    {{-- <p class="desc">Fri-Sat: 10.00 am to 6.00 pm</p> --}}
                 </div>
                 <div class="th-social  footer-social">
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>

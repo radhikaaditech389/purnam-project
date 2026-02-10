@@ -61,11 +61,11 @@
                     <div class="widget footer-widget footer-widget">
                         <h4 class="widget_title">Opening Hours</h4>
                         <div class="th-widget-schedule">
-                            <p class="footer-info">Monday: <span>10am - 8pm</span></p>
-                            <p class="footer-info">Tuesday: <span>10am - 8pm</span></p>
+                            <p class="footer-info">Monday - Saturday: <span>10am - 8pm</span></p>
+                            {{-- <p class="footer-info">Tuesday: <span>10am - 8pm</span></p>
                             <p class="footer-info">Wednesday: <span>10am - 8pm</span></p>
                             <p class="footer-info">Thursday: <span>10am - 8pm</span></p>
-                            <p class="footer-info">Fri - Sat: <span>10am - 6pm</span></p>
+                            <p class="footer-info">Fri - Sat: <span>10am - 6pm</span></p> --}}
                             <p class="footer-info">Sunday: <span>Closed</span></p>
                         </div>
                     </div>
@@ -118,14 +118,14 @@
                     <p class="copyright-text">© 2025 All Rights Reserved. | Crafted with Code & Creativity by <a
                             class="text-theme" href="https://theaditech.in/" target="blank">The AdiTech</a></p>
                 </div>
-                <div class="col-lg-6">
+                {{-- <div class="col-lg-6">
                     <div class="footer-links">
                         <ul>
                             <li><a href="#">Terms & Conditions</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

@@ -94,182 +94,193 @@
                 <div class="col-xl-7">
                     <div class="accordion-area accordion" id="faqAccordion">
 
-
+                        <!-- FAQ 1 -->
                         <div class="accordion-card active">
                             <div class="accordion-header" id="collapse-item-1">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">How to
-                                    experience the magic of internet?</button>
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                    What skin problems are treated at Purnam Skin Care Clinic?
+                                </button>
                             </div>
                             <div id="collapse-1" class="accordion-collapse collapse show"
                                 aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The internet offers an incredible array of content, from
-                                        educational resources and informative articles to entertaining videos and
-                                        inspiring stories. Take the time to explore different websites, blogs, forums,
-                                        and social media platforms to discover content that resonates with your
-                                        interests.</p>
+                                    <p class="faq-text">
+                                        Purnam Skin Care Clinic treats acne, pigmentation, dark spots, skin allergies,
+                                        fungal infections, hair fall, dandruff, and various chronic skin conditions.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="accordion-card ">
+                        <!-- FAQ 2 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">How
-                                    to watch online movies?</button>
+                                    data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                    Do I need an appointment before visiting the clinic?
+                                </button>
                             </div>
-                            <div id="collapse-2" class="accordion-collapse collapse "
+                            <div id="collapse-2" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">To watch online movies, youll need a few basic things, such as
-                                        a stable internet connection, a device (computer, tablet, smartphone, or smart
-                                        TV), and access to streaming platforms.Ensure you have a reliable and reasonably
-                                        fast internet connection. Streaming movies require a stable internet connection
-                                        to avoid interruptions or buffering. </p>
+                                    <p class="faq-text">
+                                        Yes, prior appointment is recommended to ensure proper consultation time and
+                                        minimal waiting.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="accordion-card ">
+                        <!-- FAQ 3 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">How
-                                    to connect your phone with wifi?</button>
+                                    data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                    Who will examine and treat me at the clinic?
+                                </button>
                             </div>
-                            <div id="collapse-3" class="accordion-collapse collapse "
+                            <div id="collapse-3" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">To connect your phone to Wi-Fi, follow these general steps.
-                                        Please note that the exact steps may vary slightly depending on your phones make
-                                        and model, as well as the version of its operating system (e.g., Android or
-                                        iOS). However, the basic process remains similar for most smartphones:</p>
+                                    <p class="faq-text">
+                                        All consultations and treatments are handled by an experienced dermatologist
+                                        with personalized care for each patient.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="accordion-card ">
+                        <!-- FAQ 4 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">How
-                                    long do the treatment last?</button>
+                                    data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                                    Are treatments customized for each patient?
+                                </button>
                             </div>
-                            <div id="collapse-4" class="accordion-collapse collapse "
+                            <div id="collapse-4" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">The duration of a treatment depends on several factors,
-                                        including the type of condition being treated, the individuals response to
-                                        treatment, and the recommended treatment plan by the healthcare provider. For
-                                        short-term or acute conditions, the treatment duration may be relatively brief.
-                                        It could range from a few days to a few weeks, and the treatment</p>
+                                    <p class="faq-text">
+                                        Yes, every patient receives a customized treatment plan based on their skin
+                                        type,
+                                        condition, and medical history.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="accordion-card ">
+                        <!-- FAQ 5 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Are
-                                    gifts refundable or exchangeable?</button>
+                                    data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                                    How long does it take to see results from treatment?
+                                </button>
                             </div>
-                            <div id="collapse-5" class="accordion-collapse collapse "
+                            <div id="collapse-5" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">If the gift recipient has the original receipt or proof of
-                                        purchase and the item is in unused, sellable condition, some stores may offer a
-                                        refund to the original payment method used by the purchaser. However, the refund
-                                        is typically processed back to the original purchaser rather than the recipient.
+                                    <p class="faq-text">
+                                        Some skin concerns show improvement within a few weeks, while others may require
+                                        multiple sessions for best results.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-card ">
+                        <!-- FAQ 6 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Do
-                                    you have gift cards?</button>
+                                    data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                                    Are the treatments safe?
+                                </button>
                             </div>
-                            <div id="collapse-6" class="accordion-collapse collapse "
+                            <div id="collapse-6" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">If youre looking for gift cards, you might find them available
-                                        for purchase at various retail stores, online marketplaces, or directly from
-                                        specific brands and businesses. Gift cards can be a thoughtful and flexible gift
-                                        option, allowing the recipient to choose what theyd like to purchase within the
-                                        designated value</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-card ">
-                            <div class="accordion-header" id="collapse-item-7">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">How
-                                    do you price your services?</button>
-                            </div>
-                            <div id="collapse-7" class="accordion-collapse collapse "
-                                aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    <p class="faq-text">Its important to research and compare different AI service
-                                        providers to find the one that best fits your needs and budget. Always read and
-                                        understand the pricing details and terms before committing to any service.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-card ">
-                            <div class="accordion-header" id="collapse-item-8">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Do
-                                    You Allow Children in the Spa?</button>
-                            </div>
-                            <div id="collapse-8" class="accordion-collapse collapse "
-                                aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    <p class="faq-text">The policies regarding children in spas vary depending on the
-                                        specific spa and its rules. Some spas may have age restrictions and only allow
-                                        adults or teenagers, while others might be family-friendly and permit children.
+                                    <p class="faq-text">
+                                        Yes, all treatments are dermatologist-approved and performed using safe,
+                                        clinically tested medical procedures.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-card ">
-                            <div class="accordion-header" id="collapse-item-9">
+                        <!-- FAQ 7 -->
+                        <div class="accordion-card">
+                            <div class="accordion-header" id="collapse-item-7">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Do
-                                    I Need to Make an Appointment at the Spa?</button>
+                                    data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+                                    Do treatments have any side effects?
+                                </button>
                             </div>
-                            <div id="collapse-9" class="accordion-collapse collapse "
-                                aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion">
+                            <div id="collapse-7" class="accordion-collapse collapse"
+                                aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">Whether or not you need to make an appointment at a spa can
-                                        vary depending on the spas policies and the services you wish to receive. In
-                                        many cases, especially for popular or high-demand services, making an
-                                        appointment in advance is advisable to ensure that you secure a spot and receive
-                                        the treatment at your preferred time.</p>
+                                    <p class="faq-text">
+                                        Most treatments have minimal or temporary side effects such as mild redness or
+                                        sensitivity, which usually subside quickly.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-card ">
+                        <!-- FAQ 8 -->
+                        <div class="accordion-card">
+                            <div class="accordion-header" id="collapse-item-8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
+                                    Does the clinic treat both men and women?
+                                </button>
+                            </div>
+                            <div id="collapse-8" class="accordion-collapse collapse"
+                                aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">
+                                        Yes, skin and hair treatments are available for both men and women of all age
+                                        groups.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 9 -->
+                        <div class="accordion-card">
+                            <div class="accordion-header" id="collapse-item-9">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
+                                    Will I need follow-up visits?
+                                </button>
+                            </div>
+                            <div id="collapse-9" class="accordion-collapse collapse"
+                                aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">
+                                        Follow-up visits may be required depending on the condition to monitor progress
+                                        and ensure effective results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 10 -->
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-10">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-10" aria-expanded="false"
-                                    aria-controls="collapse-10">How Did You Find Out About Our Salon?</button>
+                                    data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
+                                    Is skincare advice provided after treatment?
+                                </button>
                             </div>
-                            <div id="collapse-10" class="accordion-collapse collapse "
+                            <div id="collapse-10" class="accordion-collapse collapse"
                                 aria-labelledby="collapse-item-10" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">As an AI language model, I don’t have access to personal data
-                                        about individuals unless it has been shared with me in the course of our
-                                        conversation. I am designed to respect user privacy and confidentiality.
-                                        Therefore, I am unaware of how I found out about your salon.</p>
+                                    <p class="faq-text">
+                                        Yes, patients receive complete guidance on skincare routines, medications,
+                                        and lifestyle tips to maintain healthy skin.
+                                    </p>
                                 </div>
                             </div>
                         </div>

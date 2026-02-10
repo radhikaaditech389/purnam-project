@@ -68,7 +68,7 @@
                                     <img src="{{ asset('purnam/img/icon/counter_2_1.svg') }}" alt="">
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter"><span class="odometer" data-count="25">00</span>
+                                    <h3 class="counter"><span class="odometer" data-count="24">00</span>
                                         <span class="counter-number">+</span>
                                     </h3>
                                     <p class="counter-card_text">Years of Experience</p>
@@ -84,7 +84,7 @@
                                     <h3 class="counter"><span class="odometer" data-count="100">00</span>
                                         <span class="counter-number">%</span>
                                     </h3>
-                                    <p class="counter-card_text">Natural Products</p>
+                                    <p class="counter-card_text">Premium Quality Products</p>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                     <img src="{{ asset('purnam/img/icon/counter_2_4.svg') }}" alt="">
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter"><span class="odometer" data-count="36">00</span>
+                                    <h3 class="counter"><span class="odometer" data-count="16">00</span>
                                         <span class="counter-number">+</span>
                                     </h3>
                                     <p class="counter-card_text">Specialists Team</p>
@@ -156,7 +156,7 @@
                                     Cosmetic
                                     Enhancements</strong>, we deliver treatments that are safe, personalized, and
                                 results-driven.
-                                With <strong>25+ years of experience</strong> our focus is on long-term skin and hair
+                                With <strong>24+ years of experience</strong> our focus is on long-term skin and hair
                                 health,
                                 rejuvenation, and confidence.
                             </p>
@@ -211,7 +211,7 @@
                         <div class="title-area mt-60 mb-25 wow fadeInLeft">
                             <span class="sub-title">Why Choose Purnam Clinic?<img
                                     src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
-                            <h2 class="sec-title">We Have 25 Years Of Experience.</h2>
+                            <h2 class="sec-title">We Have 24 Years Of Experience.</h2>
                             <p class="mt-n2 mb-35">At Purnam, we are dedicated to providing comprehensive and
                                 professional care for all your skin and hair needs. We prioritize the cleanliness and
                                 comfort of our clients, ensuring a hygienic and relaxing environment throughout your
