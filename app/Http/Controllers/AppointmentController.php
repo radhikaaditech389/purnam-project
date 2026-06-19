@@ -21,7 +21,7 @@ class AppointmentController extends Controller
         ]);
 
         try {
-            Mail::to('info@purnam.com')
+            Mail::to('info@purnamskinclinic.com')
                 ->send(new AppointmentMail($validated, $request->email));
 
             return back()->with('success', 'Your appointment has been sent successfully!');

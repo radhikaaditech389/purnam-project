@@ -22,7 +22,7 @@
                             </div>
                             <div class="media-body">
                                 <span class="header-info_label">Email us:</span>
-                                <p class="header-info_link"><a href="mailto:info@rasm.com">info@purnam.com</a></p>
+                                <p class="header-info_link"><a href="mailto:info@purnamskinclinic.com">info@purnamskinclinic.com</a></p>
                             </div>
                         </div>
                         <div class="header-info">
@@ -255,8 +255,7 @@
                             <!-- <a href="#" class="icon-btn sideMenuToggler2"><i class="fa-light fa-cart-shopping"></i>
                                 <span class="badge">5</span></a> -->
                             <a href="#" class="icon-btn sideMenuToggler"><i class="fa-light fa-grid"></i></a>
-                            <a href="/appointment" class="th-btn style3">Appointment Now<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <a href="/appointment" class="th-btn style3">Appointment Now<i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>

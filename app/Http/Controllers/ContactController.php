@@ -19,7 +19,7 @@ class ContactController extends Controller
         ]);
 
         try {
-            Mail::to('info@purnam.com')
+            Mail::to('info@purnamskinclinic.com')
                 ->send(new ContactMail($validated, $request->email));
 
             return back()->with('success', 'Your message has been sent successfully!');

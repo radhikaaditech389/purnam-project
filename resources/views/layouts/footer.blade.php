@@ -9,16 +9,13 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="{{ asset('purnam/img/Punam_ben Logo.png') }}"
-                                        alt="Purnam"></a>
+                                <a href="#"><img src="{{ asset('purnam/img/Punam_ben Logo.png') }}" alt="Purnam"></a>
                             </div>
                             <p class="about-text">Centric applications productize front end portals visualize front end.
                             </p>
                             <div class="th-widget-about">
-                                <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i><a class="text-inherit"
-                                        href="tel:+917405121122">+91 74051 21122</a></p>
-                                <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit"
-                                        href="mailto:info@Purnam.com">info@Purnam.com</a></p>
+                                <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i><a class="text-inherit" href="tel:+917405121122">+91 74051 21122</a></p>
+                                <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit" href="mailto:info@purnamskinclinic.com">info@purnamskinclinic.com</a></p>
                             </div>
                             <div class="th-social footer-social mt-40">
                                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -76,34 +73,28 @@
                         <h3 class="widget_title">Photos Gallery</h3>
                         <div class="sidebar-gallery">
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-1.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-1.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g1.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/1.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-2.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-2.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g2.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/2.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-3.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-3.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g3.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/3.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-4.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-4.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g4.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/7.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-5.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-5.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g5.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/11.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                             <div class="gallery-thumb">
-                                <img src="{{ asset('purnam/img/bg/gallery-6.jpg') }}" alt="Gallery Image">
-                                <a href="{{ asset('purnam/img/bg/gallery-6.jpg') }}" class="gallery-btn popup-image"
-                                    target="blank"><i class="fab fa-instagram"></i></a>
+                                <img src="{{ asset('purnam/img/bg/g6.jpg') }}" alt="Gallery Image">
+                                <a href="{{ asset('purnam/img/gallery/16.jpg') }}" class="gallery-btn popup-image" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -115,8 +106,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <p class="copyright-text">© 2025 All Rights Reserved. | Crafted with Code & Creativity by <a
-                            class="text-theme" href="https://theaditech.in/" target="blank">The AdiTech</a></p>
+                    <p class="copyright-text">© 2025 All Rights Reserved. | Crafted with Code & Creativity by <a class="text-theme" href="https://theaditech.com/" target="blank">The AdiTech</a></p>
                 </div>
                 {{-- <div class="col-lg-6">
                     <div class="footer-links">
@@ -132,8 +122,7 @@
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
     </div>

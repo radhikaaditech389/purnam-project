@@ -263,7 +263,7 @@
                                 </div>
                                 <div class="media-body">
                                     <a class="box-title d-block" href="tel:+917949242596">079 49242596</a>
-                                    <a class="box-title d-block" href="tel:+917927500909">079 27500909</a>
+                                    {{-- <a class="box-title d-block" href="tel:+917927500909">079 27500909</a> --}}
                                     <a class="box-title d-block" href="tel:+917405121122">+91 7405121122</a>
                                 </div>
                             </div>

@@ -55,8 +55,7 @@
                 <div class="col-xl-6 col-xxl-8">
                     <div class="video-box1 wow fadeInDown" data-bg-src="{{ asset('purnam/img/normal/video_1.jpg') }}">
                         <img src="{{ asset('purnam/img/bg/803 _ 412.jpg') }}" alt="video">
-                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                            class="video-play-btn play-btn popup-video">
+                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-play-btn play-btn popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i></a>
                     </div>
                 </div>
@@ -118,11 +117,9 @@
                 </div>
             </div>
         </div>
-        <div class="shape-mockup d-none d-lg-block jump" data-top="0%" data-left="0%"><img
-                src="{{ asset('purnam/img/shape/flower_1_5.png') }}" alt="shape">
+        <div class="shape-mockup d-none d-lg-block jump" data-top="0%" data-left="0%"><img src="{{ asset('purnam/img/shape/flower_1_5.png') }}" alt="shape">
         </div>
-        <div class="shape-mockup d-none d-lg-block jump" data-bottom="0%" data-right="0%"><img
-                src="{{ asset('purnam/img/shape/leaves_2.png') }}" alt="shape">
+        <div class="shape-mockup d-none d-lg-block jump" data-bottom="0%" data-right="0%"><img src="{{ asset('purnam/img/shape/leaves_2.png') }}" alt="shape">
         </div>
 
         <div class="container" style="margin-top: 80px;">
@@ -130,8 +127,7 @@
                 <div class="col-xl-5">
                     <div class="img-box6">
                         <div class="img1 wow fadeInLeft">
-                            <img class="tilt-active" src="{{ asset('purnam/img/bg/purnam-about-bg.jpg') }}"
-                                alt="About" style="height: 600px;">
+                            <img class="tilt-active" src="{{ asset('purnam/img/bg/purnam-about-bg.jpg') }}" alt="About" style="height: 600px;">
                         </div>
                     </div>
                 </div>
@@ -172,9 +168,9 @@
                                 </ul>
                             </div>
                             <div class="journey-image style2">
-                                <img src="{{ asset('purnam/img/bg/about_clinic_video_img.jpg') }}" alt="Skin Care"
-                                    style="height: 180px; width: 250px; margin-top: -15px;">
-                                <a href="https://www.youtube.com/watch?v=ADmQTw4qqTY" class="play-btn popup-video">
+                                <img src="{{ asset('purnam/img/bg/about_clinic_video_img.jpg') }}" alt="Skin Care" style="height: 180px; width: 250px; margin-top: -15px;">
+
+                                <a href="{{ asset('purnam/videos/purnam_video.mp4') }}" class="play-btn popup-video">
                                     <i class="fa-sharp fa-solid fa-play"></i>
                                 </a>
                             </div>
@@ -209,8 +205,7 @@
                 <div class="col-lg-7">
                     <div class="pe-xl-5 me-xl-3">
                         <div class="title-area mt-60 mb-25 wow fadeInLeft">
-                            <span class="sub-title">Why Choose Purnam Clinic?<img
-                                    src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
+                            <span class="sub-title">Why Choose Purnam Clinic?<img src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
                             <h2 class="sec-title">We Have 24 Years Of Experience.</h2>
                             <p class="mt-n2 mb-35">At Purnam, we are dedicated to providing comprehensive and
                                 professional care for all your skin and hair needs. We prioritize the cleanliness and
@@ -283,64 +278,64 @@
     </div>
 
     {{-- <section class="space" data-bg-src="{{ asset('purnam/img/bg/price_bg_1.jpg') }}">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="price-box_area">
-                    <div class="price-box-wrapper">
-                        <div class="title-area text-center">
-                            <span class="sub-title">Nail & Hand Care</span>
-                            <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
-                            <h2 class="sec-title">Our Nails Treatments & Prices</h2>
-                        </div>
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-box_wrapp">
-                                <div class="price-box_content">
-                                    <h4 class="box-title"><a href="price.html">Manicure</a> </h4>
-                                    <p class="price-box_desc">Elemental tempus getas</p>
-                                </div>
-                                <span class="price-box_price">$26</span>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="price-box_area">
+                <div class="price-box-wrapper">
+                    <div class="title-area text-center">
+                        <span class="sub-title">Nail & Hand Care</span>
+                        <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
+                        <h2 class="sec-title">Our Nails Treatments & Prices</h2>
+                    </div>
+                    <div class="price-box wow fadeInUp">
+                        <div class="price-box_wrapp">
+                            <div class="price-box_content">
+                                <h4 class="box-title"><a href="price.html">Manicure</a> </h4>
+                                <p class="price-box_desc">Elemental tempus getas</p>
                             </div>
+                            <span class="price-box_price">$26</span>
                         </div>
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-box_wrapp">
-                                <div class="price-box_content">
-                                    <h4 class="box-title"><a href="price.html">Nail Clippers</a> </h4>
-                                    <p class="price-box_desc">Quality products, customized services</p>
-                                </div>
-                                <span class="price-box_price">$15</span>
+                    </div>
+                    <div class="price-box wow fadeInUp">
+                        <div class="price-box_wrapp">
+                            <div class="price-box_content">
+                                <h4 class="box-title"><a href="price.html">Nail Clippers</a> </h4>
+                                <p class="price-box_desc">Quality products, customized services</p>
                             </div>
+                            <span class="price-box_price">$15</span>
                         </div>
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-box_wrapp">
-                                <div class="price-box_content">
-                                    <h4 class="box-title"><a href="price.html">Manicure & Pedicure</a> </h4>
-                                    <p class="price-box_desc">Premium quality nail polishes</p>
-                                </div>
-                                <span class="price-box_price">$34</span>
+                    </div>
+                    <div class="price-box wow fadeInUp">
+                        <div class="price-box_wrapp">
+                            <div class="price-box_content">
+                                <h4 class="box-title"><a href="price.html">Manicure & Pedicure</a> </h4>
+                                <p class="price-box_desc">Premium quality nail polishes</p>
                             </div>
+                            <span class="price-box_price">$34</span>
                         </div>
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-box_wrapp">
-                                <div class="price-box_content">
-                                    <h4 class="box-title"><a href="price.html">Hand/nail Moisturizer</a> </h4>
-                                    <p class="price-box_desc">Rejuvenating hand or foot massage</p>
-                                </div>
-                                <span class="price-box_price">$60</span>
+                    </div>
+                    <div class="price-box wow fadeInUp">
+                        <div class="price-box_wrapp">
+                            <div class="price-box_content">
+                                <h4 class="box-title"><a href="price.html">Hand/nail Moisturizer</a> </h4>
+                                <p class="price-box_desc">Rejuvenating hand or foot massage</p>
                             </div>
+                            <span class="price-box_price">$60</span>
                         </div>
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-box_wrapp">
-                                <div class="price-box_content">
-                                    <h4 class="box-title"><a href="price.html">Nail Art</a> </h4>
-                                    <p class="price-box_desc">Vibrant colors, finishes</p>
-                                </div>
-                                <span class="price-box_price">$46</span>
+                    </div>
+                    <div class="price-box wow fadeInUp">
+                        <div class="price-box_wrapp">
+                            <div class="price-box_content">
+                                <h4 class="box-title"><a href="price.html">Nail Art</a> </h4>
+                                <p class="price-box_desc">Vibrant colors, finishes</p>
                             </div>
+                            <span class="price-box_price">$46</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <section class="overflow-hidden space" id="shop-sec">
@@ -350,22 +345,17 @@
                 <img src="{{ asset('purnam/img/theme-img/title_shape_1.svg') }}" alt="">
                 <h2 class="sec-title">Our Latest Nail Products</h2>
             </div>
-            <div class="row th-carousel" id="productCarousel" data-slide-show="3" data-lg-slide-show="2"
-                data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
+            <div class="row th-carousel" id="productCarousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="th-product product-grid">
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_1.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span
-                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
-                                        class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span
-                                        class="action-text">Compare</span><span class="icon"><i
-                                            class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
@@ -378,8 +368,7 @@
                             <div class="product-grid_content">
                                 <span class="price">$99</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
-                                            class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -393,14 +382,10 @@
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_2.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span
-                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
-                                        class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span
-                                        class="action-text">Compare</span><span class="icon"><i
-                                            class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
@@ -413,8 +398,7 @@
                             <div class="product-grid_content">
                                 <span class="price">$98</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
-                                            class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -428,14 +412,10 @@
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_3.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span
-                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
-                                        class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span
-                                        class="action-text">Compare</span><span class="icon"><i
-                                            class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
@@ -448,8 +428,7 @@
                             <div class="product-grid_content">
                                 <span class="price">$96</span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
-                                            class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -463,14 +442,10 @@
                         <div class="product-img">
                             <img src="{{ asset('purnam/img/product/product_1_4.jpg') }}" alt="Product Image">
                             <div class="product-action style1">
-                                <a href="cart.html"><span class="action-text">Add To cart</span><span
-                                        class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
-                                <a href="wishlist.html"><span class="action-text">wishlist</span><span
-                                        class="icon"><i class="fal fa-heart"></i></span></a>
+                                <a href="cart.html"><span class="action-text">Add To cart</span><span class="icon"><i class="fa-regular fa-cart-shopping"></i></span></a>
+                                <a href="wishlist.html"><span class="action-text">wishlist</span><span class="icon"><i class="fal fa-heart"></i></span></a>
 
-                                <a class="popup-content" href="#QuickView"><span
-                                        class="action-text">Compare</span><span class="icon"><i
-                                            class="fa-regular fa-eye"></i></span></a>
+                                <a class="popup-content" href="#QuickView"><span class="action-text">Compare</span><span class="icon"><i class="fa-regular fa-eye"></i></span></a>
                             </div>
                         </div>
                         <div class="product-grid_wrapper">
@@ -483,8 +458,7 @@
                             <div class="product-grid_content">
                                 <span class="price">$85<del>$98</del></span>
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span
-                                            class="rating">1</span>
+                                    <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span>
                                         customer rating</span>
                                 </div>
                             </div>
@@ -493,10 +467,8 @@
                 </div>
             </div>
         </div>
-        <div class="shape-mockup jump d-none d-xl-block" data-top="0%" data-left="0%"><img
-                src="{{ asset('purnam/img/shape/leaves_3.png') }}" alt="shape"></div>
-        <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img
-                src="{{ asset('purnam/img/shape/flower_1_6.png') }}" alt="shape"></div>
+        <div class="shape-mockup jump d-none d-xl-block" data-top="0%" data-left="0%"><img src="{{ asset('purnam/img/shape/leaves_3.png') }}" alt="shape"></div>
+        <div class="shape-mockup jump d-none d-xl-block" data-top="5%" data-right="0%"><img src="{{ asset('purnam/img/shape/flower_1_6.png') }}" alt="shape"></div>
     </section> --}}
 
     <div class="overflow-hidden space">
@@ -508,12 +480,10 @@
                     <h2 class="sec-title">Our Customer Feedback</h2>
                 </div>
             </div>
-            <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2"
-                data-sm-slide-show="1" data-xs-slide-show="1">
+            <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1">
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
-                                alt=""></div>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}" alt=""></div>
                         <h3 class="box-title">My skin would always feel dry and itchy and flaky from the psoriasis. Now
                             doctor prescribed right medicine and cream for me. My skin is smooth now, and I feel so much
                             better. Thank you, doctor your premises of skin clinic is very beautiful.</h3>
@@ -523,18 +493,14 @@
                                 <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
-                                alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
-                                alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
-                                alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
-                                alt=""></div>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}" alt=""></div>
                         <h3 class="box-title">I had many pimples on my face, used many creams but no help. Doctor
                             prescribed medicines and treatment for Lesar for Acne & follow up acne scar treatment is
                             good & nature of satff is fully co operative and now my face is clean.</h3>
@@ -544,18 +510,14 @@
                                 <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
-                                alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
-                                alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
-                                alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInUp">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
-                                alt=""></div>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}" alt=""></div>
                         <h3 class="box-title">The treatment is really good and doctor is also fantastic provide good
                             medicine without steroines and result are just seen in one and half month.</h3>
                         <div class="testi-grid_profile">
@@ -564,18 +526,14 @@
                                 <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
-                                alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
-                                alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
-                                alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="testi-grid wow fadeInDown">
-                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}"
-                                alt=""></div>
+                        <div class="testi-grid_img"><img src="{{ asset('purnam/img/testimonial/default_img.jpg') }}" alt=""></div>
                         <h3 class="box-title">Doctor is very good and treatment for hair fall really helped me. My hair
                             is stronger, and I see less hair on my pillow now.</h3>
                         <div class="testi-grid_profile">
@@ -584,12 +542,9 @@
                                 <p class="testi-grid_desig">Patient</p>
                             </div>
                         </div>
-                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}"
-                                alt=""></div>
-                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}"
-                                alt=""></div>
-                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}"
-                                alt=""></div>
+                        <div class="testi-quote"><img src="{{ asset('purnam/img/shape/quote_2.png') }}" alt=""></div>
+                        <div class="testi-shape1"><img src="{{ asset('purnam/img/shape/leaf_2.svg') }}" alt=""></div>
+                        <div class="testi-shape2"><img src="{{ asset('purnam/img/shape/flower_1_6.svg') }}" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -601,14 +556,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="appointment-video style2">
-                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                            class="video-play-btn play-btn popup-video">
+                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-play-btn play-btn popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i></a>
                     </div>
                     <div class="appointment-content style3">
                         <div class="title-area mb-25 text-center text-lg-start wow fadeInLeft">
-                            <span class="sub-title">For Appointment<img
-                                    src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
+                            <span class="sub-title">For Appointment<img src="{{ asset('purnam/img/theme-img/title_right.svg') }}" alt=""></span>
                             <h2 class="sec-title">Meet Dr. Kirti Shah (M.D., D.V.D.)</h2>
                             <p>
                                 Visit us at <strong>Purnam – The Complete Skin Care Clinic</strong>, where your
@@ -635,7 +588,7 @@
                                 </div>
                                 <div class="media-body">
                                     <a class="box-title d-block" href="tel:+917949242596">079 49242596</a>
-                                    <a class="box-title d-block" href="tel:+917927500909">079 27500909</a>
+                                    {{-- <a class="box-title d-block" href="tel:+917927500909">079 27500909</a> --}}
                                     <a class="box-title d-block" href="tel:+917405121122">+91 7405121122</a>
                                 </div>
                             </div>
@@ -651,8 +604,7 @@
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
     </div>
